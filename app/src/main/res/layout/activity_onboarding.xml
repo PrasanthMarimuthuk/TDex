@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- ViewPager2 for Full-Screen Sliding Images -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Overlay Text on Image -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="50dp"
+        android:background="@color/black_transparent"
+        android:gravity="top"
+        android:padding="10dp"
+        android:text="Welcome to Soul Society"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Explore Now Button at Bottom -->
+    <Button
+        android:id="@+id/btnExplore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/purple_500"
+        android:padding="12dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="EXPLORE NOW"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</FrameLayout>
