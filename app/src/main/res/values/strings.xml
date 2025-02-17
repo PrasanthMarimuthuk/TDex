@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TDexv01</string>
+    <string name="app_logo">App Logo</string>
+    <string name="t_dex">T-Dex</string>
+    <string name="logo">Logo</string>
+    <string name="default_web_client_id">948195832271-j3m83kfekbj4iesvfhr9qtskr8688egp.apps.googleusercontent.com</string>
+    <string name="or">OR</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+</resources>
