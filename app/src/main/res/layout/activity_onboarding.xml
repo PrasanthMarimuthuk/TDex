@@ -49,17 +49,20 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="10dp" />
+
         <TextView
             android:id="@+id/or"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="26dp"
             android:layout_gravity="top|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
             android:gravity="center"
+
             android:text="@string/or"
-            android:textColor="@color/black"
-            android:textSize="26sp"
-            android:textStyle="bold"
-            android:background="@android:color/transparent" />
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnSignUp"
@@ -67,6 +70,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_button"
             android:padding="12dp"
+            android:paddingTop="10dp"
             android:text="@string/sign_up"
             android:textColor="@color/black"
             android:textSize="16sp"
