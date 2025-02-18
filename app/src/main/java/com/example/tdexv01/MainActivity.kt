@@ -166,7 +166,7 @@ class MainActivity : AppCompatActivity() {
                             val locality = address.locality ?: address.subAdminArea ?: address.adminArea
 
                             if(locality!=null){
-                                greetingTextView.text = "$locality"
+                                greetingTextView.text = "You are in $locality"
                             }else{
                                 greetingTextView.text = "Cannot get the current location"
                             }
