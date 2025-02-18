@@ -1,10 +1,16 @@
 package com.example.tdexv01
 
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
+import android.widget.ListView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -25,11 +31,68 @@ class MainActivity : AppCompatActivity() {
         val category15kmButton: Button = findViewById(R.id.category15kmButton)
         val category20kmButton: Button = findViewById(R.id.category20kmButton)
         val homeButton: Button = findViewById(R.id.homeButton)
-        val popularPlacesCarousel: LinearLayout = findViewById(R.id.popularPlacesCarousel)
+        findViewById<LinearLayout>(R.id.popularPlacesCarousel)
+        val locationListView: ListView = findViewById(R.id.locationListView)
+
+        val coimbatorePlaces = listOf(
+            "Marudamalai Temple",
+            "Adiyogi Shiva Statue",
+            "VOC Park and Zoo",
+            "Brookefields Mall",
+            "Kovai Kondattam",
+            "Black Thunder",
+            "Gedee Car Museum",
+            "Isha Yoga Center",
+            "Siruvani Waterfalls",
+            "Monkey Falls",
+            "Dhyanalinga",
+            "Perur Pateeswarar Temple",
+            "Eachanari Vinayagar Temple",
+            "Kasthuri Sreenivasan Art Gallery and Textile Museum"
+        )
+
+        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, ArrayList<String>())
+        locationListView.adapter = adapter
+        locationListView.visibility = View.GONE
+
+        searchEditText.setOnFocusChangeListener { _, hasFocus ->
+            if (hasFocus) {
+                if (searchEditText.text.toString().isNotEmpty()){
+                    locationListView.visibility = View.VISIBLE
+                }
+
+            } else {
+                locationListView.visibility = View.GONE
+            }
+        }
+
+
+        searchEditText.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                val searchText = s.toString().trim()
+                adapter.clear()
+                if (searchText.isNotEmpty()) {
+                    val filteredPlaces = coimbatorePlaces.filter { it.contains(searchText, ignoreCase = true) }
+                    adapter.addAll(filteredPlaces)
+                    if(searchEditText.hasFocus()){
+                        locationListView.visibility = View.VISIBLE
+                    }
+
+                } else {
+                    locationListView.visibility = View.GONE
+                }
+                adapter.notifyDataSetChanged()
+            }
+
+            override fun afterTextChanged(s: Editable?) {}
+        })
 
         searchButton.setOnClickListener {
-            val searchText = searchEditText.text.toString()
-            Toast.makeText(this, "Search for: $searchText", Toast.LENGTH_SHORT).show()
+            val searchText = searchEditText.text.toString().trim()
+            if (searchText.isNotEmpty()) {
+            }
             // Implement search functionality here
         }
 
@@ -54,16 +117,18 @@ class MainActivity : AppCompatActivity() {
         }
         category20kmButton.setOnClickListener {
             selectCategoryButton(category20kmButton, arrayOf(categoryAllButton, category5kmButton, category10kmButton, category15kmButton))
-            Toast.makeText(this, "Category: 20 Km", Toast.LENGTH_SHORT).show()
         }
 
         homeButton.setOnClickListener {
-            Toast.makeText(this, "Home button clicked", Toast.LENGTH_SHORT).show()
             // Implement home action
         }
 
-        // You can dynamically add more popular place items to the carousel here if needed.
-        // For example, using data from an API or local data source.
+        locationListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
+            val selectedPlace = adapter.getItem(position) ?: ""
+            searchEditText.setText(selectedPlace)
+            locationListView.visibility = View.GONE
+
+        }
     }
 
     private fun selectCategoryButton(selectedButton: Button, otherButtons: Array<Button>) {
