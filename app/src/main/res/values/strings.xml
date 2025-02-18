@@ -13,4 +13,25 @@
     <string name="continue_with_google">Continue with Google</string>
     <string name="default_web_client_id">948195832271-j3m83kfekbj4iesvfhr9qtskr8688egp.apps.googleusercontent.com</string>
     <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="greetings">Greetings!</string>
+    <string name="search_destination">Search Destination</string>
+    <string name="popular">Popular</string>
+    <string name="brihadeeshwarar_temple">Brihadeeshwarar Temple</string>
+    <string name="tanjore_tamilnadu">Tanjore, TamilNadu</string>
+    <string name="meenakshi_temple">Meenakshi Temple</string>
+    <string name="madurai_tamilnadu">Madurai, TamilNadu</string>
+    <string name="mahabalipuram">Mahabalipuram</string>
+    <string name="mamallapuram_tamilnadu">Mamallapuram, TamilNadu</string>
+    <string name="vellore_fort">Vellore Fort</string>
+    <string name="vellore_tamilnadu">Vellore, TamilNadu</string>
+    <string name="search_by_category">Search by Category</string>
+    <string name="all">All</string>
+    <string name="_5_km">5 Km</string>
+    <string name="_10_km">10 Km</string>
+    <string name="_15_km">15 Km</string>
+    <string name="_20_km">20 Km</string>
+    <string name="home">Home</string>
+    <string name="visited">Visited</string>
+    <string name="map">Map</string>
+    <string name="profile">Profile</string>
 </resources>
