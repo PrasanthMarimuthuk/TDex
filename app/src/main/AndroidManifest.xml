@@ -34,7 +34,15 @@
 
         <!-- ✅ MAIN SCREEN (Third Page) -->
         <activity android:name=".SignInActivity"
-            android:exported="true"/>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="com.googleusercontent.apps.948195832271-j3m83kfekbj4iesvfhr9qtskr8688egp.apps.googleusercontent.com"/>
+            </intent-filter>
+        </activity>
+
         <activity android:name="com.example.tdexv01.SignUpActivity"
             android:exported="true"/>
 
