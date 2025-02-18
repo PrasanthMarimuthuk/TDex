@@ -20,6 +20,7 @@ class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
+        supportActionBar?.hide()
 
         auth = FirebaseAuth.getInstance()
 
@@ -36,6 +37,7 @@ class SignInActivity : AppCompatActivity() {
         val passwordField = findViewById<EditText>(R.id.edtPassword)
         val btnSignIn = findViewById<Button>(R.id.btnSignIn)
         val btnGoogleSignIn = findViewById<Button>(R.id.btnGoogleSignIn)
+        val tvSignUp = findViewById<TextView>(R.id.tvSignUp)
         val progressBar = findViewById<ProgressBar>(R.id.progressBar)
 
         // Email/Password Sign-In
@@ -67,6 +69,12 @@ class SignInActivity : AppCompatActivity() {
         btnGoogleSignIn.setOnClickListener {
             val signInIntent = googleSignInClient.signInIntent
             startActivityForResult(signInIntent, RC_SIGN_IN)
+        }
+
+        // Navigate to Sign-Up Page
+        tvSignUp.setOnClickListener {
+            startActivity(Intent(this, SignUpActivity::class.java))
+            finish()
         }
     }
 
