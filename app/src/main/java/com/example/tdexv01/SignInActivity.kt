@@ -3,10 +3,7 @@ package com.example.tdexv01
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ProgressBar
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -16,7 +13,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 
 class SignInActivity : AppCompatActivity() {
-
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
     private val RC_SIGN_IN = 9001 // Google Sign-In Request Code
@@ -32,11 +28,12 @@ class SignInActivity : AppCompatActivity() {
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
             .build()
+
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
         // UI Elements
-        val emailField = findViewById<EditText>(R.id.emailField)
-        val passwordField = findViewById<EditText>(R.id.passwordField)
+        val emailField = findViewById<EditText>(R.id.edtEmail)
+        val passwordField = findViewById<EditText>(R.id.edtPassword)
         val btnSignIn = findViewById<Button>(R.id.btnSignIn)
         val btnGoogleSignIn = findViewById<Button>(R.id.btnGoogleSignIn)
         val progressBar = findViewById<ProgressBar>(R.id.progressBar)
@@ -84,6 +81,7 @@ class SignInActivity : AppCompatActivity() {
                 firebaseAuthWithGoogle(account.idToken!!)
             } catch (e: ApiException) {
                 Log.w("GoogleSignIn", "Google sign in failed", e)
+                Toast.makeText(this, "Google Sign-In Failed", Toast.LENGTH_SHORT).show()
             }
         }
     }

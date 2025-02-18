@@ -6,4 +6,10 @@
     <string name="logo">Logo</string>
     <string name="t_dex">T-Dex</string>
     <string name="sign_up">SIGN UP</string>
+    <string name="new_user_sign_up">New User? Sign up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
 </resources>
