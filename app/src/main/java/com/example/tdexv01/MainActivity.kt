@@ -1,22 +1,34 @@
 package com.example.tdexv01
 
+import android.Manifest
+import android.content.pm.PackageManager
+import android.location.Geocoder
+import android.location.Location
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.ListView
-import android.widget.Toast
+import android.widget.*
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationServices
+import java.util.Locale
 
 
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var fusedLocationClient: FusedLocationProviderClient
+    private val LOCATION_PERMISSION_REQUEST_CODE = 1001
+    private lateinit var greetingTextView: TextView
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == LOCATION_PERMISSION_REQUEST_CODE && grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            getLastLocation()
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         supportActionBar?.hide()
@@ -24,6 +36,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val searchEditText: EditText = findViewById(R.id.searchEditText)
+        greetingTextView = findViewById(R.id.greetingTextView)
+
         val searchButton: ImageView = findViewById(R.id.searchButton)
         val categoryAllButton: Button = findViewById(R.id.categoryAllButton)
         val category5kmButton: Button = findViewById(R.id.category5kmButton)
@@ -33,6 +47,9 @@ class MainActivity : AppCompatActivity() {
         val homeButton: Button = findViewById(R.id.homeButton)
         findViewById<LinearLayout>(R.id.popularPlacesCarousel)
         val locationListView: ListView = findViewById(R.id.locationListView)
+
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
+
 
         val coimbatorePlaces = listOf(
             "Marudamalai Temple",
@@ -53,6 +70,12 @@ class MainActivity : AppCompatActivity() {
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, ArrayList<String>())
         locationListView.adapter = adapter
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.ACCESS_FINE_LOCATION), LOCATION_PERMISSION_REQUEST_CODE)
+        } else {
+            getLastLocation()
+        }
         locationListView.visibility = View.GONE
 
         searchEditText.setOnFocusChangeListener { _, hasFocus ->
@@ -131,6 +154,34 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun getLastLocation() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            fusedLocationClient.lastLocation.addOnSuccessListener { location: Location? ->
+                location?.let {
+                    val geocoder = Geocoder(this, Locale.getDefault())
+                    try {
+                        val addresses = geocoder.getFromLocation(it.latitude, it.longitude, 1)
+                        if (addresses != null && addresses.isNotEmpty()) {
+                            val address = addresses[0]
+                            val locality = address.locality ?: address.subAdminArea ?: address.adminArea
+
+                            if(locality!=null){
+                                greetingTextView.text = "$locality"
+                            }else{
+                                greetingTextView.text = "Cannot get the current location"
+                            }
+
+                        } else {
+                            greetingTextView.text = "Cannot get the current location"
+                        }
+                    } catch (e: Exception) {
+                        greetingTextView.text = "Cannot get the current location"
+                        e.printStackTrace()
+                    }
+                }
+            }
+        }
+    }
     private fun selectCategoryButton(selectedButton: Button, otherButtons: Array<Button>) {
         selectedButton.setBackgroundResource(R.drawable.category_button_selected)
         selectedButton.setTextColor(getColor(R.color.white)) // or R.color.white if color resource is defined
