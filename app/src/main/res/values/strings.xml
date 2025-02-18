@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">TDexv01</string>
     <string name="app_logo">App Logo</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="or">OR</string>
+    <string name="logo">Logo</string>
+    <string name="t_dex">T-Dex</string>
+    <string name="sign_up">SIGN UP</string>
 </resources>

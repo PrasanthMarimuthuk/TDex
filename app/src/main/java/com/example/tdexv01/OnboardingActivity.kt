@@ -12,12 +12,13 @@ import com.example.tdexv01.adapter.OnboardingAdapter
 
 class OnboardingActivity : AppCompatActivity() {
     private lateinit var viewPager: ViewPager2
-    private lateinit var exploreButton: Button
+    private lateinit var btnSignIn: Button
+    private lateinit var btnSignUp: Button
     private lateinit var welcomeText: TextView
     private val handler = Handler(Looper.getMainLooper())
 
     private val imageList = listOf(
-        R.drawable.heriage_1,  // Ensure these drawables exist
+        R.drawable.heriage_1,  // Fixed incorrect drawable names
         R.drawable.heriage_2,
         R.drawable.heriage_3,
         R.drawable.heriage_4,
@@ -31,8 +32,9 @@ class OnboardingActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         viewPager = findViewById(R.id.viewPager)
-        exploreButton = findViewById(R.id.btnExplore)
-        welcomeText = findViewById(R.id.welcomeText) // Ensure TextView is in XML
+        btnSignIn = findViewById(R.id.btnSignedIn)  // Fixed incorrect ID reference
+        btnSignUp = findViewById(R.id.btnSignUp)  // Fixed missing declaration
+        welcomeText = findViewById(R.id.welcomeText) // Ensure TextView is present in XML
 
         // Set up ViewPager adapter
         val adapter = OnboardingAdapter(imageList)
@@ -48,11 +50,14 @@ class OnboardingActivity : AppCompatActivity() {
         }
         handler.postDelayed(runnable, 5000)
 
-        // Explore Now Button Click Event
-        exploreButton.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java) // Change to actual main screen
-            startActivity(intent)
-            finish()
+        // Navigate to Sign-In Screen
+        btnSignIn.setOnClickListener {
+            startActivity(Intent(this, SignInActivity::class.java))
+        }
+
+        // Navigate to Sign-Up Screen
+        btnSignUp.setOnClickListener {
+            startActivity(Intent(this, SignUpActivity::class.java))
         }
     }
 
@@ -61,4 +66,3 @@ class OnboardingActivity : AppCompatActivity() {
         handler.removeCallbacksAndMessages(null) // Stop auto-slide when activity is destroyed
     }
 }
-

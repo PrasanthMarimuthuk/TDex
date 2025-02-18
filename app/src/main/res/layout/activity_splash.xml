@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="@color/white"
+    android:gravity="center"
     android:orientation="vertical">
 
     <!-- App Logo -->
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/app_logo"
-        android:contentDescription="@string/app_logo" />
+        android:id="@+id/gifImageView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:contentDescription="@string/logo"
+        android:scaleType="fitXY" />
 
 
     <!-- Loading Animation -->
+
     <TextView
         android:layout_width="395dp"
-        android:layout_height="135dp"
+        android:layout_height="wrap_content"
         android:background="#002B9254"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/aldrich"
         android:gravity="bottom|center|fill_vertical"
         android:padding="16dp"
-        android:text="T-Dex"
+        android:text="@string/t_dex"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -34,14 +35,13 @@
         style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="200dp"
         android:layout_marginRight="40dp"
         android:max="100"
+        android:minHeight="4dp"
         android:paddingLeft="10dip"
         android:paddingRight="10dip"
-        android:minHeight="4dp"
         android:progress="0"
         android:progressDrawable="@drawable/custom_progress_bar" />
 

@@ -5,15 +5,25 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.animation.DecelerateInterpolator
+import android.widget.ImageView
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
-import com.example.tdexv01.OnboardingActivity
-import com.example.tdexv01.R
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
+
+        val gifImageView = findViewById<ImageView>(R.id.gifImageView)
+
+        // Load GIF using Glide
+        Glide.with(this)
+            .asGif()  // Ensure it's loaded as a GIF
+            .load(R.drawable.app_logo)  // Replace 'your_gif' with actual GIF file name in 'res/drawable'
+            .diskCacheStrategy(DiskCacheStrategy.NONE) // Prevent caching issues
+            .into(gifImageView)
 
         // Animate the progress bar
         val progressBar = findViewById<ProgressBar>(R.id.progressBar)
