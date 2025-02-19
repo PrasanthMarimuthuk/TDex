@@ -68,7 +68,7 @@
         android:id="@+id/popularPlacesTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Popular"
+        android:text="@string/popular"
         android:textSize="16sp"
         android:textColor="#000"
         android:paddingStart="16dp"
@@ -78,22 +78,24 @@
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="8dp"
-        android:paddingEnd="8dp"
-        android:clipToPadding="false">
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
 
         <LinearLayout
             android:id="@+id/popularPlacesCarousel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                app:cardCornerRadius="8dp">
+                app:cardCornerRadius="8dp"
+                >
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -107,19 +109,19 @@
                         android:scaleType="centerCrop"
                         android:src="@drawable/brihadeeshwarar_temple" />
                     <TextView
-                    android:id="@+id/popularPlaceName"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Brihadeeshwarar Temple"
-                    android:textSize="14sp"
-                    android:textColor="#000"
-                    android:padding="8dp"/>
+                        android:id="@+id/popularPlaceName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brihadeeshwarar_temple"
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:padding="8dp"/>
 
                     <TextView
                         android:id="@+id/popularPlaceLocation"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Tanjore, TamilNadu"
+                        android:text="@string/tanjore_tamilnadu"
                         android:textSize="12sp"
                         android:textColor="#757575"
                         android:paddingStart="8dp"
@@ -128,7 +130,7 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-             <androidx.cardview.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
@@ -144,14 +146,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/meenakshi_temple" /> <TextView
-                    android:id="@+id/popularPlaceName2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Meenakshi Temple"
-                    android:textSize="14sp"
-                    android:textColor="#000"
-                    android:padding="8dp"/>
+                        android:src="@drawable/meenakshi_temple" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/meenakshi_temple"
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:padding="8dp"/>
 
                     <TextView
                         android:id="@+id/popularPlaceLocation2"
@@ -160,13 +164,13 @@
                         android:paddingStart="8dp"
                         android:paddingEnd="8dp"
                         android:paddingBottom="8dp"
-                        android:text="Madurai, TamilNadu"
+                        android:text="@string/madurai_tamilnadu"
                         android:textColor="#757575"
                         android:textSize="12sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-              <androidx.cardview.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
@@ -186,7 +190,7 @@
                     android:id="@+id/popularPlaceName3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mahabalipuram"
+                    android:text="@string/mahabalipuram"
                     android:textSize="14sp"
                     android:textColor="#000"
                     android:padding="8dp"/>
@@ -195,7 +199,7 @@
                         android:id="@+id/popularPlaceLocation3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Mamallapuram, TamilNadu"
+                        android:text="@string/mamallapuram_tamilnadu"
                         android:textSize="12sp"
                         android:textColor="#757575"
                         android:paddingStart="8dp"
@@ -220,18 +224,18 @@
                         android:scaleType="centerCrop"
                         android:src="@drawable/vellore_fort" />
                     <TextView
-                    android:id="@+id/popularPlaceName4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Vellore Fort"
-                    android:textSize="14sp"
-                    android:textColor="#000"
-                    android:padding="8dp"/>
+                        android:id="@+id/popularPlaceName4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vellore_fort"
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:padding="8dp"/>
                     <TextView
                         android:id="@+id/popularPlaceLocation4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Vellore, TamilNadu"
+                        android:text="@string/vellore_tamilnadu"
                         android:textSize="12sp"
                         android:textColor="#757575"
                         android:paddingStart="8dp"
@@ -242,18 +246,6 @@
 
         </LinearLayout>
     </HorizontalScrollView>
-
-    <TextView
-        android:id="@+id/searchByCategoryTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search by Category"
-        android:textSize="16sp"
-        android:textColor="#000"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp"
-        android:paddingTop="16dp"
-        android:paddingBottom="8dp"/>
 
     <TextView
         android:id="@+id/searchByCategoryTitle"
