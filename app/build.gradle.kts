@@ -59,6 +59,8 @@ dependencies {
     implementation(libs.glide)
     implementation(libs.firebase.auth)
     implementation(libs.play.services.auth)
+    implementation(libs.material)
+    implementation(libs.androidx.gridlayout)
     annotationProcessor(libs.glide.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -68,4 +70,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.cardview)
+    implementation(libs.circleindicator)
+    implementation(libs.recyclerview)
 }

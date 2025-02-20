@@ -16,6 +16,11 @@ glide = "4.15.1"
 googleGmsGoogleServices = "4.4.2"
 firebaseAuth = "23.2.0"
 play-services-auth = "21.3.0"
+material = "1.12.0"
+circleindicator = "2.1.6"
+recyclerview = "1.3.2"
+gridlayout = "1.0.0"
+
 
 [libraries]
 androidx-cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
@@ -40,6 +45,10 @@ glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "play-services-auth" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+circleindicator = { module = "me.relex:circleindicator", version.ref = "circleindicator" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+androidx-gridlayout = { group = "androidx.gridlayout", name = "gridlayout", version.ref = "gridlayout" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
