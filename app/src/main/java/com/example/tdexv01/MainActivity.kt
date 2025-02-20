@@ -1,14 +1,12 @@
 package com.example.tdexv01
 
 import android.Manifest
-import android.content.Context
 import android.content.pm.PackageManager
 import android.location.Geocoder
 import android.location.Location
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.util.Log // Import Log
 import android.view.View
 import android.widget.*
 import androidx.core.app.ActivityCompat
@@ -16,23 +14,14 @@ import androidx.core.content.ContextCompat
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
-import org.json.JSONArray
-import java.io.IOException
-import java.io.InputStream
-
-import java.util.ArrayList
-
-import java.util.HashMap
 import java.util.Locale
-import kotlin.concurrent.read
+
+
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private val LOCATION_PERMISSION_REQUEST_CODE = 1001
-    private lateinit var locationTextView: TextView
-    private lateinit var places: ArrayList<HashMap<String, String>>
-    private lateinit var coimbatorePlaces: List<String> // Changed to lateinit and will be initialized from JSON
+    private lateinit var greetingTextView: TextView
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
@@ -47,8 +36,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val searchEditText: EditText = findViewById(R.id.searchEditText)
-        //val popularPlaces: ListView = findViewById(R.id.popularPlaces)
-        locationTextView = findViewById(R.id.locationTextView)
+        greetingTextView = findViewById(R.id.greetingTextView)
 
         val searchButton: ImageView = findViewById(R.id.searchButton)
         val categoryAllButton: Button = findViewById(R.id.categoryAllButton)
@@ -56,16 +44,13 @@ class MainActivity : AppCompatActivity() {
         val category10kmButton: Button = findViewById(R.id.category10kmButton)
         val category15kmButton: Button = findViewById(R.id.category15kmButton)
         val category20kmButton: Button = findViewById(R.id.category20kmButton)
-        val popularPlacesCarousel: LinearLayout = findViewById(R.id.popularPlacesCarousel)
+        val homeButton: Button = findViewById(R.id.homeButton)
+        findViewById<LinearLayout>(R.id.popularPlacesCarousel)
         val locationListView: ListView = findViewById(R.id.locationListView)
 
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
 
 
-        // Load location names from JSON file
-        //coimbatorePlaces = loadLocationsFromJson()
-        //places =  loadPlacesFromJson()
-        //Log.d("MainActivity", "coimbatorePlaces after loading: $coimbatorePlaces") // Log after loading JSON
         val coimbatorePlaces = listOf(
             "Marudamalai Temple",
             "Adiyogi Shiva Statue",
@@ -82,6 +67,7 @@ class MainActivity : AppCompatActivity() {
             "Eachanari Vinayagar Temple",
             "Kasthuri Sreenivasan Art Gallery and Textile Museum"
         )
+
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, ArrayList<String>())
         locationListView.adapter = adapter
 
@@ -92,24 +78,9 @@ class MainActivity : AppCompatActivity() {
         }
         locationListView.visibility = View.GONE
 
-
-//        val from = arrayOf("name")
-//        val to = intArrayOf(android.R.id.text1)
-
-        //val placesAdapter = SimpleAdapter(this,places, android.R.layout.simple_list_item_1,from,to)
-
-
-        //popularPlaces.adapter = placesAdapter
-
-//        popularPlaces.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
-//            val selectedPlace = places[position]
-//            val placeName = selectedPlace["name"]
-//            searchEditText.setText(placeName)
-//        }
-
         searchEditText.setOnFocusChangeListener { _, hasFocus ->
             if (hasFocus) {
-                if (searchEditText.text.toString().isNotEmpty()) {
+                if (searchEditText.text.toString().isNotEmpty()){
                     locationListView.visibility = View.VISIBLE
                 }
 
@@ -118,19 +89,17 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+
         searchEditText.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
 
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                 val searchText = s.toString().trim()
-                Log.d("MainActivity", "Search text changed: $searchText") // Log search text
-
                 adapter.clear()
                 if (searchText.isNotEmpty()) {
                     val filteredPlaces = coimbatorePlaces.filter { it.contains(searchText, ignoreCase = true) }
-                    Log.d("MainActivity", "Filtered places: $filteredPlaces") // Log filtered places
                     adapter.addAll(filteredPlaces)
-                    if (searchEditText.hasFocus()) {
+                    if(searchEditText.hasFocus()){
                         locationListView.visibility = View.VISIBLE
                     }
 
@@ -173,6 +142,10 @@ class MainActivity : AppCompatActivity() {
             selectCategoryButton(category20kmButton, arrayOf(categoryAllButton, category5kmButton, category10kmButton, category15kmButton))
         }
 
+        homeButton.setOnClickListener {
+            // Implement home action
+        }
+
         locationListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
             val selectedPlace = adapter.getItem(position) ?: ""
             searchEditText.setText(selectedPlace)
@@ -192,17 +165,17 @@ class MainActivity : AppCompatActivity() {
                             val address = addresses[0]
                             val locality = address.locality ?: address.subAdminArea ?: address.adminArea
 
-                            if (locality != null) {
-                                locationTextView.text = "You are in $locality"
-                            } else {
-                                locationTextView.text = "Cannot get the current location"
+                            if(locality!=null){
+                                greetingTextView.text = "You are in $locality"
+                            }else{
+                                greetingTextView.text = "Cannot get the current location"
                             }
 
                         } else {
-                            locationTextView.text = "Cannot get the current location"
+                            greetingTextView.text = "Cannot get the current location"
                         }
                     } catch (e: Exception) {
-                        locationTextView.text = "Cannot get the current location"
+                        greetingTextView.text = "Cannot get the current location"
                         e.printStackTrace()
                     }
                 }
@@ -218,8 +191,4 @@ class MainActivity : AppCompatActivity() {
             button.setTextColor(getColor(R.color.black)) // or R.color.black if color resource is defined
         }
     }
-
-
-
-
 }
