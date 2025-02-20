@@ -34,4 +34,5 @@
     <string name="visited">Visited</string>
     <string name="map">Map</string>
     <string name="profile">Profile</string>
+    <string name="send_otp">Send OTP</string>
 </resources>

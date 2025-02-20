@@ -38,6 +38,7 @@ class SignInActivity : AppCompatActivity() {
         val btnSignIn = findViewById<Button>(R.id.btnSignIn)
         val btnGoogleSignIn = findViewById<Button>(R.id.btnGoogleSignIn)
         val tvSignUp = findViewById<TextView>(R.id.tvSignUp)
+        val tvForgotPassword = findViewById<TextView>(R.id.tvForgotPassword)
         val progressBar = findViewById<ProgressBar>(R.id.progressBar)
 
         // Email/Password Sign-In
@@ -75,6 +76,11 @@ class SignInActivity : AppCompatActivity() {
         tvSignUp.setOnClickListener {
             startActivity(Intent(this, SignUpActivity::class.java))
             finish()
+        }
+
+        // Navigate to Reset Password Page
+        tvForgotPassword.setOnClickListener {
+            startActivity(Intent(this, ResetPasswordActivity::class.java))
         }
     }
 
