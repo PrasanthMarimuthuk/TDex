@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import android.widget.Toast
 import androidx.fragment.app.DialogFragment
 
 class TempleDetailActivity : AppCompatActivity() {
@@ -19,6 +20,7 @@ class TempleDetailActivity : AppCompatActivity() {
     private lateinit var templeDescription: TextView
     private lateinit var btnAdd: Button
     private lateinit var btnDirection: Button
+    private lateinit var bottomNavigationView: com.google.android.material.bottomnavigation.BottomNavigationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +40,7 @@ class TempleDetailActivity : AppCompatActivity() {
         templeDescription = findViewById(R.id.templeDescription)
         btnAdd = findViewById(R.id.btnAdd)
         btnDirection = findViewById(R.id.btnDirection)
+        bottomNavigationView = findViewById(R.id.bottomNavigationView)
 
         // Get Data from Intent
         val intent = intent
@@ -74,6 +77,29 @@ class TempleDetailActivity : AppCompatActivity() {
                 val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
                 mapIntent.setPackage("com.google.android.apps.maps")
                 startActivity(mapIntent)
+            }
+        }
+
+        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.home -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.visited -> {
+                    Toast.makeText(this, "Visited Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.map -> {
+                    Toast.makeText(this, "Map Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.profile -> {
+                    Toast.makeText(this, "Profile Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> false
             }
         }
     }
@@ -130,4 +156,5 @@ class FullScreenImageDialogFragment : DialogFragment() {
 
         return dialog
     }
+    
 }

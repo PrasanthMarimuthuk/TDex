@@ -59,7 +59,6 @@ dependencies {
     implementation(libs.glide)
     implementation(libs.firebase.auth)
     implementation(libs.play.services.auth)
-    implementation(libs.play.services.maps)
     implementation(libs.play.services.location)
     annotationProcessor(libs.glide.compiler)
     testImplementation(libs.junit)
@@ -70,4 +69,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.cardview)
+    implementation("com.google.android.material:material:1.9.0")
 }

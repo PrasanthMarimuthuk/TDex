@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="#F8F8F8"
-    android:weightSum="1">
+    android:layout_height="match_parent"
+    android:background="#F8F8F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <TextView
         android:id="@+id/greetingTextView"
@@ -76,175 +79,319 @@
         android:paddingBottom="8dp"/>
 
     <HorizontalScrollView
+
         android:layout_width="match_parent"
+
         android:layout_height="wrap_content"
+
         android:fillViewport="true"
+
         android:scrollbars="none"
+
         >
 
+
+
         <LinearLayout
+
             android:id="@+id/popularPlacesCarousel"
+
             android:layout_width="wrap_content"
+
             android:layout_height="wrap_content"
+
             android:orientation="horizontal"
+
             android:paddingStart="5dp"
+
             android:paddingEnd="5dp">
 
+
+
             <androidx.cardview.widget.CardView
+
+                android:id="@+id/maruthamalaiCard"
                 android:layout_width="180dp"
+
                 android:layout_height="wrap_content"
+
                 android:layout_marginEnd="8dp"
+
                 app:cardCornerRadius="8dp"
+
                 >
 
+
+
                 <LinearLayout
+
                     android:layout_width="wrap_content"
+
                     android:layout_height="wrap_content"
+
                     android:orientation="vertical">
 
+
+
                     <ImageView
-                        android:id="@+id/popularPlaceImage"
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/brihadeeshwarar_temple" />
+                        android:scaleType="centerCrop" android:src="@drawable/maruthamalai" />
+
                     <TextView
-                        android:id="@+id/popularPlaceName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/brihadeeshwarar_temple"
+                        android:text="@string/Maruthamalai_temple"
                         android:textSize="14sp"
                         android:textColor="#000"
                         android:padding="8dp"/>
 
                     <TextView
-                        android:id="@+id/popularPlaceLocation"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/tanjore_tamilnadu"
+                        android:text="@string/Coimbatore"
                         android:textSize="12sp"
                         android:textColor="#757575"
                         android:paddingStart="8dp"
                         android:paddingEnd="8dp"
                         android:paddingBottom="8dp"/>
+
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
+
+
             <androidx.cardview.widget.CardView
+
                 android:layout_width="180dp"
+
                 android:layout_height="wrap_content"
+
                 android:layout_marginEnd="8dp"
+
                 app:cardCornerRadius="8dp">
 
+
+
                 <LinearLayout
+
                     android:layout_width="wrap_content"
+
                     android:layout_height="wrap_content"
+
                     android:orientation="vertical">
 
+
+
                     <ImageView
+
                         android:id="@+id/popularPlaceImage2"
+
                         android:layout_width="match_parent"
+
                         android:layout_height="120dp"
+
                         android:scaleType="centerCrop"
-                        android:src="@drawable/meenakshi_temple" />
+
+                        android:src="@drawable/gdnaidu" />
+
+
 
                     <TextView
+
                         android:id="@+id/popularPlaceName2"
+
                         android:layout_width="match_parent"
+
                         android:layout_height="wrap_content"
-                        android:text="@string/meenakshi_temple"
+
+                        android:text="@string/g_d_naidu_car_museum"
+
                         android:textSize="14sp"
+
                         android:textColor="#000"
+
                         android:padding="8dp"/>
 
+
+
                     <TextView
+
                         android:id="@+id/popularPlaceLocation2"
+
                         android:layout_width="match_parent"
+
                         android:layout_height="wrap_content"
+
                         android:paddingStart="8dp"
+
                         android:paddingEnd="8dp"
+
                         android:paddingBottom="8dp"
-                        android:text="@string/madurai_tamilnadu"
+
+                        android:text="@string/avinashi_road_coimbatore"
+
                         android:textColor="#757575"
+
                         android:textSize="12sp" />
+
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
+
+
             <androidx.cardview.widget.CardView
+
                 android:layout_width="180dp"
+
                 android:layout_height="wrap_content"
+
                 android:layout_marginEnd="8dp"
+
                 app:cardCornerRadius="8dp">
 
+
+
                 <LinearLayout
+
                     android:layout_width="wrap_content"
+
                     android:layout_height="wrap_content"
+
                     android:orientation="vertical">
 
+
+
                     <ImageView
+
                         android:id="@+id/popularPlaceImage3"
+
                         android:layout_width="match_parent"
+
                         android:layout_height="120dp"
+
                         android:scaleType="centerCrop"
-                        android:src="@drawable/mahabalipuram" /> <TextView
+
+                        android:src="@drawable/siruvani_falls" /> <TextView
+
                     android:id="@+id/popularPlaceName3"
+
                     android:layout_width="match_parent"
+
                     android:layout_height="wrap_content"
-                    android:text="@string/mahabalipuram"
+
+                    android:text="@string/siruvani_waterfalls"
+
                     android:textSize="14sp"
+
                     android:textColor="#000"
+
                     android:padding="8dp"/>
 
+
+
                     <TextView
+
                         android:id="@+id/popularPlaceLocation3"
+
                         android:layout_width="match_parent"
+
                         android:layout_height="wrap_content"
-                        android:text="@string/mamallapuram_tamilnadu"
+
+                        android:text="@string/siruvani_waterfalls"
+
                         android:textSize="12sp"
+
                         android:textColor="#757575"
+
                         android:paddingStart="8dp"
+
                         android:paddingEnd="8dp"
+
                         android:paddingBottom="8dp"/>
+
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
+
                 android:layout_width="180dp"
+
                 android:layout_height="wrap_content"
+
                 app:cardCornerRadius="8dp">
 
+
+
                 <LinearLayout
+
                     android:layout_width="wrap_content"
+
                     android:layout_height="wrap_content"
+
                     android:orientation="vertical">
 
+
+
                     <ImageView
+
                         android:id="@+id/popularPlaceImage4"
+
                         android:layout_width="match_parent"
+
                         android:layout_height="120dp"
+
                         android:scaleType="centerCrop"
+
                         android:src="@drawable/vellore_fort" />
+
                     <TextView
+
                         android:id="@+id/popularPlaceName4"
+
                         android:layout_width="match_parent"
+
                         android:layout_height="wrap_content"
+
                         android:text="@string/vellore_fort"
+
                         android:textSize="14sp"
+
                         android:textColor="#000"
+
                         android:padding="8dp"/>
+
                     <TextView
+
                         android:id="@+id/popularPlaceLocation4"
+
                         android:layout_width="match_parent"
+
                         android:layout_height="wrap_content"
+
                         android:text="@string/vellore_tamilnadu"
+
                         android:textSize="12sp"
+
                         android:textColor="#757575"
+
                         android:paddingStart="8dp"
+
                         android:paddingEnd="8dp"
+
                         android:paddingBottom="8dp"/>
+
                 </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
+
+
         </LinearLayout>
+
     </HorizontalScrollView>
 
     <TextView
@@ -321,65 +468,188 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-     <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-         android:layout_weight="1"
-         >
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center"
-            android:background="#FFF"
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
-            android:layout_alignParentBottom="true">
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/maruthamalai" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Maruthamalai_temple"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Coimbatore"
+                    android:textColor="#757575"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12.0 Km"
+                    android:textColor="#757575"
+                    android:textSize="12sp" />
+            </LinearLayout>
 
             <Button
-                android:id="@+id/homeButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Home"
-                android:textSize="14sp"
-                android:textColor="#000"
-                android:background="?android:attr/selectableItemBackground"
-                android:drawableTop="@drawable/ic_home_black_24dp"
-                android:layout_marginEnd="32dp"
-                style="?android:buttonBarButtonStyle"/>
-
-            <Button
-                android:id="@+id/option2Button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Visited"
-                android:textSize="14sp"
-                android:textColor="#000"
-                android:background="?android:attr/selectableItemBackground"
-                android:drawableTop="@drawable/ic_history_black_24dp" android:layout_marginEnd="32dp"
-                style="?android:buttonBarButtonStyle"/>
-
-            <Button
-                android:id="@+id/option3Button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Map"
-                android:textSize="14sp"
-                android:textColor="#000"
-                android:background="?android:attr/selectableItemBackground"
-                android:drawableTop="@drawable/ic_location_on_black_24dp" android:layout_marginEnd="32dp"
-                style="?android:buttonBarButtonStyle"/>
-
-            <Button
-                android:id="@+id/option4Button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Profile"
-                android:textSize="14sp"
-                android:textColor="#000"
-                android:background="?android:attr/selectableItemBackground"
-                android:drawableTop="@drawable/ic_person_black_24dp" style="?android:buttonBarButtonStyle"/>
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/add_button_background"
+                android:text="+"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
         </LinearLayout>
-    </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0" />
 
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gdnaidu" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/g_d_naidu_car_museum"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/avinashi_road_coimbatore"
+                    android:textColor="#757575"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_12_0_km"
+                    android:textColor="#757575"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/add_button_background"
+                android:text="+"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/siruvani_falls" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/siruvani_waterfalls"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/western_ghats_coimbatore"
+                    android:textColor="#757575"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_45_0_km" android:textColor="#757575"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/add_button_background"
+                android:text="+"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

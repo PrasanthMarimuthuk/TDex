@@ -12,9 +12,17 @@ import android.widget.*
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import java.util.Locale
+import android.content.Intent
+import android.widget.Button
+import android.widget.EditText
+import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.Toast
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 
@@ -44,7 +52,6 @@ class MainActivity : AppCompatActivity() {
         val category10kmButton: Button = findViewById(R.id.category10kmButton)
         val category15kmButton: Button = findViewById(R.id.category15kmButton)
         val category20kmButton: Button = findViewById(R.id.category20kmButton)
-        val homeButton: Button = findViewById(R.id.homeButton)
         findViewById<LinearLayout>(R.id.popularPlacesCarousel)
         val locationListView: ListView = findViewById(R.id.locationListView)
 
@@ -142,9 +149,7 @@ class MainActivity : AppCompatActivity() {
             selectCategoryButton(category20kmButton, arrayOf(categoryAllButton, category5kmButton, category10kmButton, category15kmButton))
         }
 
-        homeButton.setOnClickListener {
-            // Implement home action
-        }
+
 
         locationListView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
             val selectedPlace = adapter.getItem(position) ?: ""
@@ -152,6 +157,7 @@ class MainActivity : AppCompatActivity() {
             locationListView.visibility = View.GONE
 
         }
+
     }
 
     private fun getLastLocation() {
@@ -182,13 +188,60 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+    override fun onStart() {
+        super.onStart()
+        val templeCard: CardView = findViewById(R.id.maruthamalaiCard) // Replace with actual ID
+        templeCard.setOnClickListener {
+            val intent = Intent(this, TempleDetailActivity::class.java)
+            intent.putExtra("temple_name", "Maruthamalai Temple")
+            intent.putExtra("temple_location", "Maruthamalai, Tamil Nadu")
+            intent.putExtra("temple_distance", "20 Km")
+            intent.putExtra("temple_description", "Maruthamalai temple is Nestled on a serene hill in Coimbatore, the Maruthamalai Murugan Temple is a divine 12th-century marvel dedicated to Lord Murugan. Ascend 837 steps to witness the stunning 180-meter tall gopuram adorned with intricate carvings. This pilgrimage site is famed for its self-manifested idol, medicinal springs, and the vibrant annual Thaipoosam festival. The temple’s breathtaking views and serene atmosphere make it an unmissable spiritual haven for travelers.")
+
+            // Assuming drawable resources exist for these images
+            intent.putExtra("temple_image1", R.drawable.maruthamalai_1)
+            intent.putExtra("temple_image2", R.drawable.maruthamalai_2) // Use different image if available
+            intent.putExtra("temple_image3", R.drawable.maruthamalai_3) // Use different image if available
+            intent.putExtra("temple_image4", R.drawable.marudhamalai_4) // Use different image if available
+            startActivity(intent)
+
+
+        }
+
+        // Bottom NavigationView Setup
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.home -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.visited -> {
+                    Toast.makeText(this, "Visited Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.map -> {
+                    Toast.makeText(this, "Map Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.profile -> {
+                    Toast.makeText(this, "Profile Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> false
+            }
+        }
+    }
+
     private fun selectCategoryButton(selectedButton: Button, otherButtons: Array<Button>) {
         selectedButton.setBackgroundResource(R.drawable.category_button_selected)
-        selectedButton.setTextColor(getColor(R.color.white)) // or R.color.white if color resource is defined
+        selectedButton.setTextColor(ContextCompat.getColor(this, R.color.white)) // or R.color.white if color resource is defined
 
         for (button in otherButtons) {
             button.setBackgroundResource(R.drawable.category_button_background)
-            button.setTextColor(getColor(R.color.black)) // or R.color.black if color resource is defined
+            button.setTextColor(ContextCompat.getColor(this, R.color.black)) // or R.color.black if color resource is defined
         }
     }
 }
