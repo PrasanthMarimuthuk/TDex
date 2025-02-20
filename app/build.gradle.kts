@@ -61,6 +61,7 @@ dependencies {
     implementation(libs.play.services.auth)
     implementation(libs.material)
     implementation(libs.androidx.gridlayout)
+    implementation(libs.play.services.places)
     annotationProcessor(libs.glide.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -72,4 +73,9 @@ dependencies {
     implementation(libs.androidx.cardview)
     implementation(libs.circleindicator)
     implementation(libs.recyclerview)
+    implementation(platform(libs.firebase.bom)) // Firebase BOM (Manages versions)
+    implementation(libs.firebase.analytics)
+    implementation(libs.play.services.maps)
+    implementation(libs.play.services.location)
+    implementation(libs.gson)
 }

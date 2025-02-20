@@ -8,9 +8,9 @@
         android:icon="@drawable/ic_history_black_24dp"
         android:title="Visited" />
     <item
-        android:id="@+id/map"
-        android:icon="@drawable/ic_location_on_black_24dp"
-        android:title="Map" />
+        android:id="@+id/tovisit"
+        android:icon="@drawable/ic_menu_myplaces_black"
+        android:title="To Visit" />
     <item
         android:id="@+id/profile"
         android:icon="@drawable/ic_person_black_24dp"

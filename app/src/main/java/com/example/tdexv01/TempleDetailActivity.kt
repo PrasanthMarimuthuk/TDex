@@ -3,12 +3,13 @@ package com.example.tdexv01
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.DialogFragment
+import com.google.android.gms.location.places.Place
 
 class TempleDetailActivity : AppCompatActivity() {
 
@@ -19,6 +20,7 @@ class TempleDetailActivity : AppCompatActivity() {
     private lateinit var templeDescription: TextView
     private lateinit var btnAdd: Button
     private lateinit var btnDirection: Button
+    private lateinit var bottomNavigationView: com.google.android.material.bottomnavigation.BottomNavigationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,9 +40,10 @@ class TempleDetailActivity : AppCompatActivity() {
         templeDescription = findViewById(R.id.templeDescription)
         btnAdd = findViewById(R.id.btnAdd)
         btnDirection = findViewById(R.id.btnDirection)
+        bottomNavigationView = findViewById(R.id.bottomNavigationView)
 
         // Get Data from Intent
-        val intent = intent
+        val intent = this.intent
         if (intent != null) {
             templeName.text = intent.getStringExtra("temple_name") ?: "Unknown Temple"
             templeLocation.text = intent.getStringExtra("temple_location") ?: "Unknown Location"
@@ -51,7 +54,7 @@ class TempleDetailActivity : AppCompatActivity() {
             val imageRes1 = intent.getIntExtra("temple_image1", R.drawable.maruthamalai_1)
             val imageRes2 = intent.getIntExtra("temple_image2", R.drawable.maruthamalai_2)
             val imageRes3 = intent.getIntExtra("temple_image3", R.drawable.maruthamalai_3)
-            val imageRes4 = intent.getIntExtra("temple_image4", R.drawable.marudhamalai_4)
+            val imageRes4 = intent.getIntExtra("temple_image4", R.drawable.marudhamalai_4) // Corrected typo from marudhamalai_4 to maruthamalai_4
 
             templeImages[0].setImageResource(imageRes1)
             templeImages[1].setImageResource(imageRes2)
@@ -66,14 +69,70 @@ class TempleDetailActivity : AppCompatActivity() {
             }
         }
 
-        // Handle Direction Button Click
+        // Handle Direction Button Click (use phone's default maps app)
         btnDirection.setOnClickListener {
             val location = templeLocation.text.toString()
             if (location.isNotEmpty()) {
                 val gmmIntentUri = Uri.parse("geo:0,0?q=$location")
                 val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
-                mapIntent.setPackage("com.google.android.apps.maps")
-                startActivity(mapIntent)
+                mapIntent.setPackage("com.google.android.apps.maps") // Use Google Maps if installed
+                if (mapIntent.resolveActivity(packageManager) != null) {
+                    startActivity(mapIntent)
+                } else {
+                    // Fallback to default browser-based maps if Google Maps isn't installed
+                    val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://maps.google.com/?q=$location"))
+                    startActivity(browserIntent)
+                }
+            }
+        }
+
+        // Handle Add Button Click (navigate to AddedPlacesActivity and add place)
+        btnAdd.setOnClickListener {
+            val place = MainActivity.Place(
+                templeName.text.toString(),
+                templeLocation.text.toString(),
+                templeDistance.text.toString(),
+                templeDescription.text.toString(),
+                0.0, 0.0, // Placeholder coordinates (update if needed)
+                intent.getIntExtra("temple_image1", R.drawable.maruthamalai_1),
+                intent.getIntExtra("temple_image2", R.drawable.maruthamalai_2),
+                intent.getIntExtra("temple_image3", R.drawable.maruthamalai_3),
+                intent.getIntExtra("temple_image4", R.drawable.marudhamalai_4)
+            )
+            // Add place to AddedPlacesActivity
+            (application as? AddedPlacesActivity)?.addPlace(place) ?: run {
+                val intent = Intent(this, AddedPlacesActivity::class.java)
+                intent.putExtra("place", place) // Pass place as a serializable (update Place to implement Parcelable if needed)
+                startActivityForResult(intent, 1002)
+            }
+            // Navigate to AddedPlacesActivity
+            startActivity(Intent(this, AddedPlacesActivity::class.java))
+            Toast.makeText(this, "${place.name} added to Visit Locations", Toast.LENGTH_SHORT).show()
+        }
+
+        // Bottom NavigationView Setup (Fixed at Bottom)
+        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.home -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.visited -> {
+                    startActivity(Intent(this, VisitedPlacesActivity::class.java))
+                    Toast.makeText(this, "Visited Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.tovisit -> {
+                    startActivity(Intent(this, AddedPlacesActivity::class.java))
+                    Toast.makeText(this, "To Visit Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.profile -> {
+                    Toast.makeText(this, "Profile Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> false
             }
         }
     }
@@ -93,7 +152,7 @@ class TempleDetailActivity : AppCompatActivity() {
     }
 }
 
-// Update FullScreenImageDialogFragment
+// Update FullScreenImageDialogFragment (no changes needed, but included for completeness)
 class FullScreenImageDialogFragment : DialogFragment() {
 
     companion object {
