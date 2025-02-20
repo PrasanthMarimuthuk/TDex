@@ -34,4 +34,12 @@
     <string name="visited">Visited</string>
     <string name="map">Map</string>
     <string name="profile">Profile</string>
+    <string name="Maruthamalai_temple">Maruthamalai Temple</string>
+    <string name="Coimbatore">Coimbatore</string>
+    <string name="g_d_naidu_car_museum">G D Naidu Car Museum</string>
+    <string name="avinashi_road_coimbatore">Avinashi Road, Coimbatore</string>
+    <string name="_12_0_km">12.0 Km</string>
+    <string name="siruvani_waterfalls">Siruvani Waterfalls</string>
+    <string name="western_ghats_coimbatore">Western Ghats, Coimbatore</string>
+    <string name="_45_0_km">45.0 Km</string>
 </resources>
