@@ -1,23 +1,26 @@
 package com.example.tdexv01
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.os.Parcel
 import android.os.Parcelable
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.example.tdexv01.MainActivity.Place
+import java.util.Locale
 
-class AddedPlacesActivity : AppCompatActivity() {
+class AddedPlacesActivity : BaseActivity() {
 
     private lateinit var recyclerView: RecyclerView
     private val addedPlaces = mutableListOf<Place>()
-    private val visitedPlaces = mutableListOf<VisitedPlace>() // Store visited places with dates
+    private val visitedPlaces = mutableListOf<VisitedPlace>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,20 +48,21 @@ class AddedPlacesActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.home -> {
                     startActivity(Intent(this, MainActivity::class.java))
-                    Toast.makeText(this, "Home Clicked", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.home_clicked), Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.visited -> {
                     startActivity(Intent(this, VisitedPlacesActivity::class.java))
-                    Toast.makeText(this, "Visited Clicked", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.visited_clicked), Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.tovisit -> {
-                    Toast.makeText(this, "To Visit Clicked", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.to_visit_clicked), Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.profile -> {
-                    Toast.makeText(this, "Profile Clicked", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.profile_clicked), Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this, ProfileActivity::class.java))
                     true
                 }
                 else -> false
@@ -77,24 +81,24 @@ class AddedPlacesActivity : AppCompatActivity() {
     private fun showActionDialog(position: Int) {
         val place = addedPlaces[position]
         val dialog = android.app.AlertDialog.Builder(this)
-            .setTitle("Choose Action")
-            .setItems(arrayOf("Mark as Visited", "Delete")) { _, which ->
+            .setTitle(getString(R.string.choose_action))
+            .setItems(arrayOf(getString(R.string.mark_as_visited), getString(R.string.delete))) { _, which ->
                 when (which) {
                     0 -> markAsVisited(position, place) // Mark as Visited
                     1 -> deletePlace(position) // Delete
                 }
             }
-            .setNegativeButton("Cancel", null)
+            .setNegativeButton(getString(R.string.cancel), null)
             .create()
         dialog.show()
     }
 
-    private fun markAsVisited(position: Int, place: MainActivity.Place) {
+    private fun markAsVisited(position: Int, place: Place) {
         val dialog = VisitedPlaceDialogFragment.newInstance(place) { date ->
             val visitedPlace = VisitedPlace(place.name, place.location, place.image1, date)
             visitedPlaces.add(visitedPlace)
             saveVisitedPlaces()
-            Toast.makeText(this, "${place.name} marked as visited on $date", Toast.LENGTH_SHORT).show()
+            Log.d("AddedPlacesActivity", "Mark as Visited: ${place.name}, Date: $date, Locale: ${Locale.getDefault().language}")
         }
         dialog.show(supportFragmentManager, "VisitedPlaceDialog")
     }
@@ -104,7 +108,7 @@ class AddedPlacesActivity : AppCompatActivity() {
             val place = addedPlaces.removeAt(position)
             saveAddedPlaces()
             updateAddedPlacesList()
-            Toast.makeText(this, "${place.name} removed from Visit Locations", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.place_removed_from_visit_locations, place.name), Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -113,15 +117,20 @@ class AddedPlacesActivity : AppCompatActivity() {
         val json = prefs.getString("added_places", null)
         if (json != null) {
             val type = object : TypeToken<MutableList<Place>>() {}.type
+            val rawPlaces = Gson().fromJson<MutableList<Place>>(json, type) ?: emptyList()
             addedPlaces.clear()
-            addedPlaces.addAll(Gson().fromJson(json, type) ?: emptyList())
+            // Re-localize each place using the current context
+            rawPlaces.forEach { rawPlace ->
+                val localizedPlace = MainActivity.Place.getAllPlaces(this).find { it.latitude == rawPlace.latitude && it.longitude == rawPlace.longitude }
+                localizedPlace?.let { addedPlaces.add(it) }
+            }
         }
     }
 
     private fun saveAddedPlaces() {
         val prefs = getSharedPreferences("AppPrefs", MODE_PRIVATE)
         val editor = prefs.edit()
-        val json = Gson().toJson(addedPlaces)
+        val json = Gson().toJson(addedPlaces.map { Place(it.name, it.location, it.staticDistance, it.description, it.latitude, it.longitude, it.image1, it.image2, it.image3, it.image4, it.openingHours, it.closingHours, it.operatingWeekdays) })
         editor.putString("added_places", json)
         editor.apply()
     }
@@ -148,8 +157,8 @@ class AddedPlacesActivity : AppCompatActivity() {
         if (!addedPlaces.contains(place)) {
             addedPlaces.add(place)
             saveAddedPlaces()
-            Toast.makeText(this, "${place.name} added to Visit Locations", Toast.LENGTH_SHORT).show()
             updateAddedPlacesList()
+            Toast.makeText(this, getString(R.string.place_added_to_visit_locations, place.name), Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -162,7 +171,7 @@ class AddedPlacesActivity : AppCompatActivity() {
         }
     }
 
-    // Data class for visited places
+    // Data class for visited places, using localized strings
     data class VisitedPlace(
         val name: String,
         val location: String,

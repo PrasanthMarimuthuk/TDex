@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TDexv01</string>
+    <string name="app_name">T-Dex</string>
     <string name="app_logo">App Logo</string>
     <string name="sign_in">SIGN IN</string>
     <string name="or">OR</string>
@@ -12,6 +12,7 @@
     <string name="email">Email</string>
     <string name="continue_with_google">Continue with Google</string>
     <string name="default_web_client_id">948195832271-j3m83kfekbj4iesvfhr9qtskr8688egp.apps.googleusercontent.com</string>
+    <string name="secondary_web_client_id" translatable="false">748141285379-fr4acct3ueavuqr6n4rd7in0ep64nmju.apps.googleusercontent.com</string>
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="greetings">Greetings!</string>
     <string name="search_destination">Search Destination</string>
@@ -21,7 +22,7 @@
     <string name="meenakshi_temple">Meenakshi Temple</string>
     <string name="madurai_tamilnadu">Madurai, TamilNadu</string>
     <string name="mahabalipuram">Mahabalipuram</string>
-    <string name="mamallapuram_tamilnadu">Mamallapuram, TamilNadu</string>
+    <string name="mamallapuram_tamilnadu">Mamallapuram, TamilNadu </string>
     <string name="vellore_fort">Vellore Fort</string>
     <string name="vellore_tamilnadu">Vellore, TamilNadu</string>
     <string name="search_by_category">Search by Category</string>
@@ -59,4 +60,224 @@
     <string name="select_visit_date">Select Visit Date</string>
     <string name="visited_places">Visited Places</string>
     <string name="clear_history">Clear History</string>
+    <string name="no_places_found_humorous">Sorry, Alien… There are no places in the selected range</string>
+    <string name="search_by_photo">Search by Photo</string>
+    <string name="open_chatbot">Open Chatbot</string>
+    <string name="to_visit">To Visit</string>
+    <string name="type_your_message">Type your message…</string>
+    <string name="send_message">Send Message</string>
+    <string name="voice_input">Voice Input</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="save">Save</string>
+    <string name="enter_date_of_birth_yyyy_mm_dd">Enter Date of Birth (YYYY-MM-DD)</string>
+    <string name="change_profile_image">Change Profile Image</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_country">Enter Country</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="welcome_to_nt_dex">Welcome to \nT-Dex</string>
+    <string name="prasanth_m">Prasanth M</string>
+    <string name="andrew_domainname_com">andrew@domainname.com</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="navigate">Navigate</string>
+    <string name="settings">Settings</string>
+    <string name="app_settings">App Settings</string>
+    <string name="support">Support</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="log_out">Log Out</string>
+    <string name="select_language">Select Language</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup">Signup</string>
+    <string name="already_an_user_sign_in">Already an User? Sign-in</string>
+    <string name="brahadeeshwarar_temple">Brahadeeshwarar Temple</string>
+    <string name="tanjore_tamil_nadu">Tanjore, Tamil Nadu</string>
+    <string name="_19_km">19 Km</string>
+    <string name="add">Add</string>
+    <string name="voice_interaction">Voice Interaction</string>
+    <string name="direction">Direction</string>
+    <string name="nestled_on_a_serene">Nestled on a serene hill in Coimbatore, the Maruthamalai Murugan Temple is a divine 12th-century marvel dedicated to Lord Murugan. Ascend 837 steps to witness the stunning 180-meter tall gopuram adorned with intricate carvings. This pilgrimage site is famed for its self-manifested idol, medicinal springs, and the vibrant annual Thaipoosam festival. The temple’s breathtaking views and serene atmosphere make it an unmissable spiritual haven for travelers.</string>
+    <string name="opening_hours">Opening Hours:</string>
+    <string name="closing_hours">Closing Hours:</string>
+    <string name="operating_days">Operating Days:</string>
+    <string name="close">Close</string>
+    <string name="plus">+</string>
+    <!-- Existing strings... -->
+
+    <string name="mark_as_visited">Mark as Visited</string>
+    <string name="delete">Delete</string>
+
+    <string name="place_marked_as_visited">%s marked as visited on %s</string>
+    <string name="place_removed_from_visit_locations">%s removed from Visit Locations</string>
+
+    <!-- Existing strings... -->
+    <string name="maruthamalai_temple_name">Maruthamalai Temple</string>
+    <string name="maruthamalai_temple_location">Maruthamalai, Tamil Nadu</string>
+    <string name="maruthamalai_temple_distance">20 Km</string>
+    <string name="maruthamalai_temple_description">Nestled on a serene hill in Coimbatore, the Maruthamalai Murugan Temple is a divine 12th-century marvel dedicated to Lord Murugan. Ascend 837 steps to witness the stunning 180-meter tall gopuram adorned with intricate carvings. This pilgrimage site is famed for its self-manifested idol, medicinal springs, and the vibrant annual Thaipoosam festival. The temple’s breathtaking views and serene atmosphere make it an unmissable spiritual haven for travelers.</string>
+    <string name="maruthamalai_temple_opening_hours">6:00 AM</string>
+    <string name="maruthamalai_temple_closing_hours">9:00 PM</string>
+    <string name="maruthamalai_temple_operating_days">All days</string>
+
+    <string name="isha_yoga_centre_name">Isha Yoga Centre</string>
+    <string name="isha_yoga_centre_location">Coimbatore, Tamil Nadu</string>
+    <string name="isha_yoga_centre_distance">35 Km</string>
+    <string name="isha_yoga_centre_description">The Isha Yoga Center situated at the foothills of Velliangiri, on the outskirts of Coimbatore, is the headquarters for Isha Foundation. Isha is a sacred space for self-transformation, where you can come dedicate time towards your inner growth. The center offers all four major paths of yoga – kriya (energy), gnana (knowledge), karma (action), and bhakti (devotion), drawing people from all over the world.\n\nThe Center is dedicated to fostering inner transformation and creating an established state of wellbeing in individuals. The large residential facility houses an active international community of brahmacharis, full-time volunteers and visitors. Isha Yoga Center provides a supportive environment for you to shift to healthier lifestyles, seek a higher level of self-fulfillment and realize your full potential.</string>
+    <string name="isha_yoga_centre_opening_hours">6:00 AM</string>
+    <string name="isha_yoga_centre_closing_hours">8:00 PM</string>
+    <string name="isha_yoga_centre_operating_days">Monday to Sunday</string>
+
+    <string name="velliangiri_hills_name">Velliangiri Hills</string>
+    <string name="velliangiri_hills_location">Coimbatore, Tamil Nadu</string>
+    <string name="velliangiri_hills_distance">40 Km</string>
+    <string name="velliangiri_hills_description">The Velliangiri Mountains, a part of the Nilgiri Biosphere Reserve, are situated in the Western Ghats of Coimbatore district, Tamil Nadu. Known as the \"Sapthagiri, 7 Hills - Seven Mountains,\" these mountains are revered on par with Mount Kailash, the legendary abode of Shiva, considered one of the most spiritually powerful places on the planet. At the top of the Velliangiri Mountains, Shiva is worshipped as Swayambhu, one who is self-created, and in this form, he graces the devotees.</string>
+    <string name="velliangiri_hills_opening_hours">5:00 AM</string>
+    <string name="velliangiri_hills_closing_hours">6:00 PM</string>
+    <string name="velliangiri_hills_operating_days">All days</string>
+
+    <string name="gass_forest_museum_name">Gass Forest Museum</string>
+    <string name="gass_forest_museum_location">R.S.Puram, Coimbatore</string>
+    <string name="gass_forest_museum_distance">20 Km</string>
+    <string name="gass_forest_museum_description">The Gass Forest Museum, located in Coimbatore, Tamil Nadu, is a captivating natural history museum that was established in 1902. It is named in honor of Horace Archibald Gass, a prominent figure in forestry during that era. The museum serves as a window into the rich biodiversity of the Western Ghats, showcasing an impressive and diverse collection of preserved specimens.\n\nVisitors can explore a variety of exhibits that include plants, animals, and insects native to the region. The museum also offers insightful displays on forestry practices and conservation efforts, highlighting the importance of preserving our natural heritage. For those with a passion for nature, the Gass Forest Museum provides an enriching experience that combines education with admiration for the environment.\n\nWhether you are a nature enthusiast, a student, or simply curious about the natural world, the Gass Forest Museum is a must-visit destination.</string>
+    <string name="gass_forest_museum_opening_hours">9:00 AM</string>
+    <string name="gass_forest_museum_closing_hours">5:00 PM</string>
+    <string name="gass_forest_museum_operating_days">Tuesday to Sunday</string>
+
+    <string name="kaviyaruvi_waterfalls_name">Kaviyaruvi Waterfalls</string>
+    <string name="kaviyaruvi_waterfalls_location">Aalliyar Reserve Forest, Coimbatore</string>
+    <string name="kaviyaruvi_waterfalls_distance">20 Km</string>
+    <string name="kaviyaruvi_waterfalls_description">Monkey Falls, located near Pollachi in Tamil Nadu, is a natural waterfall nestled in the Anaimalai Hills. The falls are part of the Indira Gandhi Wildlife Sanctuary and National Park. Historically, the area around Monkey Falls was a significant center for tea and coffee plantations during the British colonial era. The falls are named due to the large presence of bonnet macaques in the vicinity. Over time, Monkey Falls has become a popular tourist destination, known for its scenic beauty and refreshing waters. The falls are also referred to as \"Kaviyaruvi,\" a name rooted in ancient Sangam literature.</string>
+    <string name="kaviyaruvi_waterfalls_opening_hours">6:00 AM</string>
+    <string name="kaviyaruvi_waterfalls_closing_hours">6:00 PM</string>
+    <string name="kaviyaruvi_waterfalls_operating_days">All days</string>
+
+    <string name="gedee_museum_name">Gedee Museum</string>
+    <string name="gedee_museum_location">Race Course, Coimbatore</string>
+    <string name="gedee_museum_distance">20 Km</string>
+    <string name="gedee_museum_description">The Gedee Car Museum in Coimbatore, Tamil Nadu, is a unique attraction showcasing a remarkable collection of vintage and classic cars. Established by the G D Naidu Charities, the museum features rare automobiles from around the world, highlighting the evolution of automotive engineering. Visitors can marvel at the meticulously restored vehicles and learn about the history and innovation behind each model. It is a must-visit for car enthusiasts and history buffs alike.</string>
+    <string name="gedee_museum_opening_hours">10:00 AM</string>
+    <string name="gedee_museum_closing_hours">5:30 PM</string>
+    <string name="gedee_museum_operating_days">Tuesday to Sunday</string>
+
+    <string name="sathyamangalam_wildlife_sanctuary_name">Sathyamangalam Wildlife Sanctuary</string>
+    <string name="sathyamangalam_wildlife_sanctuary_location">Near Coimbatore</string>
+    <string name="sathyamangalam_wildlife_sanctuary_distance">20 Km</string>
+    <string name="sathyamangalam_wildlife_sanctuary_description">Located at the confluence of the Western and Eastern Ghats in Tamil Nadu, the Sathyamangalam Wildlife Sanctuary is a sprawling wilderness known for its rich biodiversity and stunning landscapes. Spread over 1,411 square kilometers, it is a vital tiger reserve and part of the Nilgiri Biosphere Reserve. The sanctuary is home to a wide variety of flora and fauna, including tigers, elephants, leopards, gaurs, and over 200 species of birds. Its dense forests, rivers, and grasslands make it a paradise for nature enthusiasts, wildlife photographers, and eco-tourists. The sanctuary also holds historical significance, as it was once a route used by the legendary Tipu Sultan.</string>
+    <string name="sathyamangalam_wildlife_sanctuary_opening_hours">6:00 AM</string>
+    <string name="sathyamangalam_wildlife_sanctuary_closing_hours">6:00 PM</string>
+    <string name="sathyamangalam_wildlife_sanctuary_operating_days">All days</string>
+
+    <string name="government_museum_name">Government Museum of Coimbatore</string>
+    <string name="government_museum_location">Gopalapuram, Coimbatore</string>
+    <string name="government_museum_distance">20 Km</string>
+    <string name="government_museum_description">The Government Museum of Coimbatore, located in the heart of the city, is a treasure trove of art, history, and culture. Established in 1975, this museum showcases a diverse collection of artifacts, including ancient sculptures, coins, inscriptions, and traditional handicrafts. It also features exhibits on anthropology, botany, and geology, offering visitors a fascinating insight into Tamil Nadu`s rich heritage and natural history. The museum`s highlight is its gallery of bronze statues, which reflect the exquisite craftsmanship of the Chola period. A visit to this museum is a journey through time, perfect for history buffs, students, and curious travelers.</string>
+    <string name="government_museum_opening_hours">10:00 AM</string>
+    <string name="government_museum_closing_hours">5:00 PM</string>
+    <string name="government_museum_operating_days">Tuesday to Sunday</string>
+
+    <string name="valparai_hill_station_name">Valparai Hill Station</string>
+    <string name="valparai_hill_station_location">Valparai, Coimbatore</string>
+    <string name="valparai_hill_station_distance">20 Km</string>
+    <string name="valparai_hill_station_description">Nestled in the lush Anamalai Hills of Tamil Nadu, Valparai is a tranquil hill station known for its breathtaking landscapes, dense tea and coffee plantations, and rich biodiversity. Situated at an altitude of 3,500 feet, it offers a cool climate and stunning views of mist-covered valleys, waterfalls, and wildlife. Valparai is part of the Anamalai Tiger Reserve and is home to rare species like the Nilgiri tahr, lion-tailed macaque, and elephants. Popular attractions include the Sholayar Dam, Aliyar Dam, and the serene Nallamudi Poonjolai viewpoint. Away from the hustle and bustle of city life, Valparai is a perfect retreat for nature lovers and those seeking peace amidst pristine surroundings.</string>
+    <string name="valparai_hill_station_opening_hours">6:00 AM</string>
+    <string name="valparai_hill_station_closing_hours">6:00 PM</string>
+    <string name="valparai_hill_station_operating_days">All days</string>
+
+    <string name="perur_pateeswarar_temple_name">Perur Pateeswarar Temple</string>
+    <string name="perur_pateeswarar_temple_location">Perur, Coimbatore</string>
+    <string name="perur_pateeswarar_temple_distance">20 Km</string>
+    <string name="perur_pateeswarar_temple_description">Perur Pateeswarar Temple is a Hindu temple dedicated to Lord Shiva located at Perur, in the western part of Coimbatore in the state of Tamil Nadu in India. The temple was built by Karikala Chola in the 2nd century CE. The temple is located on the bank of the Noyyal River and has been patronized by poets like Arunagirinathar and Kachiappa Munivar. Patteeswarar (Shiva) is the presiding deity of this temple together with his consort Pachainayaki (Parvati). The main deity is a Swayambu Lingam.</string>
+    <string name="perur_pateeswarar_temple_opening_hours">6:00 AM</string>
+    <string name="perur_pateeswarar_temple_closing_hours">12:00 PM and 4:00 PM - 8:00 PM</string>
+    <string name="perur_pateeswarar_temple_operating_days">All days</string>
+
+    <!-- Existing strings... -->
+    <string name="please_enter_a_place_name">Please enter a place name</string>
+    <string name="place_not_found">Place not found: %s</string>
+    <string name="category_all">Category: All</string>
+    <string name="category_5_km">Category: 5 Km</string>
+    <string name="category_10_km">Category: 10 Km</string>
+    <string name="category_15_km">Category: 15 Km</string>
+    <string name="category_20_km">Category: 20 Km</string>
+    <string name="showing_all_places_near_coimbatore">Showing all places near Coimbatore.</string>
+    <string name="showing_places_within_5_kilometers">Showing places within 5 kilometers of your location.</string>
+    <string name="showing_places_within_10_kilometers">Showing places within 10 kilometers of your location.</string>
+    <string name="showing_places_within_15_kilometers">Showing places within 15 kilometers of your location.</string>
+    <string name="showing_places_within_20_kilometers">Showing places within 20 kilometers of your location.</string>
+    <string name="found_place">Found %1$s at %2$s, %3$s kilometers away.</string>
+    <string name="couldnt_find_place">Sorry, I couldn’t find a place matching \'%s\'.</string>
+    <string name="no_voice_input_detected">No voice input detected</string>
+    <string name="location_permission_denied">Location permission denied. Distances will be static.</string>
+    <string name="microphone_permission_required">Microphone permission required for voice search</string>
+    <string name="speak_to_search">Speak to search…</string>
+    <string name="home_clicked">Home Clicked</string>
+    <string name="visited_clicked">Visited Clicked</string>
+    <string name="to_visit_clicked">To Visit Clicked</string>
+    <string name="profile_clicked">Profile Clicked</string>
+    <string name="place_added_to_visit_locations">%1$s added to Visit Locations</string>
+    <string name="choose_action">Choose Action</string>
+    <string name="km">Km</string>
+
+    <!-- Existing strings... -->
+    <!-- Existing strings... -->
+    <string name="unknown_temple">Unknown Temple</string>
+    <string name="unknown_location">Unknown Location</string>
+    <string name="distance_unavailable">Distance Unavailable</string>
+    <string name="no_description">No Description</string>
+    <string name="unknown">Unknown</string>
+    <string name="no_place_data_available">No place data available for audio description</string>
+    <string name="language_not_supported_using_english">Language not supported, using English</string>
+    <string name="tts_initialization_failed">Text-to-speech initialization failed</string>
+    <string name="gemini_could_not_process">Sorry, I couldn’t process your request.</string>
+    <string name="gemini_error_processing">Error processing your request. Please try again.</string>
+    <string name="network_error">Network error. Please check your internet connection.</string>
+    <string name="no_name">No name\n</string>
+    <string name="no_email">No Email</string>
+
+    <string name="ble_device_detected">BLE device detected</string>
+    <string name="please_enable_bluetooth">Please enable Bluetooth</string>
+    <string name="ble_permissions_denied">BLE permissions denied</string>
+    <string name="scanning">Scanning…</string>
+    <string name="scan_stopped">Scan stopped</string>
+    <string name="smartwatch_out_of_range">out of range</string>
+    <string name="ble_want_to_know">Do you want to know about Maruthamalai Pambatti Siddhar Temple? (Distance: %.2f meters)</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_info">Maruthamalai Pambatti Siddhar Temple Info</string>
+    <string name="distance_from_user">Distance from you: %s meters</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <!-- Existing strings... -->
+    <string name="maruthamalai_pambatti_siddhar_temple_description">Maruthamalai Pambatti Siddhar Temple is a sacred shrine dedicated to Lord Murugan, located on a serene hill in Coimbatore, Tamil Nadu. It is believed to be the abode of Pambatti Siddhar, a revered saint known for his spiritual powers and medicinal knowledge. The temple, nestled amidst lush greenery, offers breathtaking views and a peaceful atmosphere, attracting devotees and tourists alike. The annual Thaipoosam festival is a major event here, featuring vibrant rituals and processions.</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_image">Maruthamalai Pambatti Siddhar Temple Image</string>
+
+    <!-- Existing strings... -->
+    <string name="how_can_we_help">How can we help?</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="support_email">Email: %s</string>
+    <string name="support_phone">Phone: %s</string>
+    <string name="support_location">Location: %s</string>
+    <string name="submit_a_query">Submit a Query</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="submit">Submit</string>
+    <string name="all_fields_required">All fields are required!</string>
+    <string name="query_submitted">Query submitted successfully, %s!</string>
+    <string name="our_team">Our Team</string>
+    <string name="meet_the_faces_behind_tdexv01">Meet the faces behind Tdex</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="mission_description">At T-Dex, we’re dedicated to revolutionizing the way people interact with their vehicles. Our mission is to provide innovative, user-friendly solutions that enhance the driving experience, improve vehicle management, and promote safer, more efficient transportation for all.</string>
+    <string name="our_commitment">Our Commitment</string>
+    <string name="commitment_description">We strive to respond to all queries within 24 hours. Your satisfaction is our top priority, and we’re committed to providing you with the best possible support experience.</string>
+    <string name="copyright">© %s All rights reserved.</string>
+    <string name="about_us">About Us</string>
+    <string name="ragul_r">Ragul R</string>
+    <string name="sivapprakash_c">Sivapprakash C</string>
+    <string name="navaneeth_t">Navaneeth T</string>
+    <string name="lead_developer">Lead and Developer</string>
+    <string name="co_lead_and_content_creator">Content Creator</string>
+    <string name="developer">Developer</string>
+    <string name="about_us_header_image">About Us Header Image</string>
+    <string name="user_not_signed_in">User not signed in</string>
+    <string name="logged_out_successfully">Logout Succussful</string>
+    <string name="ble_device_lost">BLE device lost</string>
+
+
 </resources>

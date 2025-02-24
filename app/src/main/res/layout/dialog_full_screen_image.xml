@@ -17,7 +17,7 @@
             android:id="@+id/btnClose"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Close"
+            android:text="@string/close"
             android:textColor="@android:color/white"
             android:background="@drawable/button_background"
             android:textSize="14sp"

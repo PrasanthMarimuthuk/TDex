@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.android.gms.common.ConnectionResult
+import com.google.android.gms.common.GoogleApiAvailability
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.common.api.CommonStatusCodes
 import com.google.firebase.auth.FirebaseAuth
@@ -18,6 +20,7 @@ class SignInActivity : AppCompatActivity() {
     private lateinit var googleSignInClient: GoogleSignInClient
     private val RC_SIGN_IN = 9001 // Google Sign-In Request Code
     private val TAG = "SignInActivity"
+    private val prefs by lazy { getSharedPreferences("OnboardingPrefs", MODE_PRIVATE) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +33,12 @@ class SignInActivity : AppCompatActivity() {
         val currentUser = auth.currentUser
         if (currentUser != null) {
             Log.d(TAG, "User already signed in: ${currentUser.email}")
-            startActivity(Intent(this, MainActivity::class.java))
+            val hasSeenOnboarding = prefs.getBoolean("has_seen_onboarding", false)
+            if (hasSeenOnboarding) {
+                startActivity(Intent(this, MainActivity::class.java))
+            } else {
+                startActivity(Intent(this, OnboardingActivity::class.java))
+            }
             finish()
             return
         }
@@ -39,7 +47,7 @@ class SignInActivity : AppCompatActivity() {
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
-            .requestProfile() // Optional: Request profile info for debugging
+            .requestProfile()
             .build()
 
         googleSignInClient = GoogleSignIn.getClient(this, gso)
@@ -70,7 +78,12 @@ class SignInActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         Log.d(TAG, "Email/Password Sign-In Successful")
                         Toast.makeText(this, "Sign-In Successful!", Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this, MainActivity::class.java))
+                        val hasSeenOnboarding = prefs.getBoolean("has_seen_onboarding", false)
+                        if (hasSeenOnboarding) {
+                            startActivity(Intent(this, MainActivity::class.java))
+                        } else {
+                            startActivity(Intent(this, OnboardingActivity::class.java))
+                        }
                         finish()
                     } else {
                         Log.e(TAG, "Email/Password Sign-In Failed", task.exception)
@@ -79,10 +92,23 @@ class SignInActivity : AppCompatActivity() {
                 }
         }
 
-        // Google Sign-In
+        // Google Sign-In with account picker
         btnGoogleSignIn.setOnClickListener {
-            val signInIntent = googleSignInClient.signInIntent
-            startActivityForResult(signInIntent, RC_SIGN_IN)
+            // Check if Google Play Services is available
+            val googleApiAvailability = GoogleApiAvailability.getInstance()
+            val resultCode = googleApiAvailability.isGooglePlayServicesAvailable(this)
+            if (resultCode != ConnectionResult.SUCCESS) {
+                Toast.makeText(this, "Google Play Services unavailable", Toast.LENGTH_LONG).show()
+                return@setOnClickListener
+            }
+
+            progressBar.visibility = ProgressBar.VISIBLE
+            // Sign out to force account selection
+            googleSignInClient.signOut().addOnCompleteListener {
+                Log.d(TAG, "Signed out from previous Google account")
+                val signInIntent = googleSignInClient.signInIntent
+                startActivityForResult(signInIntent, RC_SIGN_IN)
+            }
         }
 
         // Navigate to Sign-Up Page
@@ -103,6 +129,7 @@ class SignInActivity : AppCompatActivity() {
                 Log.d(TAG, "Google Sign-In Successful: ${account.email}")
                 firebaseAuthWithGoogle(account.idToken!!)
             } catch (e: ApiException) {
+
                 Log.e(TAG, "Google Sign-In Failed", e)
                 Toast.makeText(this, "Google Sign-In Failed: ${e.statusCode} - ${e.message}", Toast.LENGTH_SHORT).show()
                 if (e.statusCode == CommonStatusCodes.DEVELOPER_ERROR) {
@@ -116,10 +143,16 @@ class SignInActivity : AppCompatActivity() {
         val credential = GoogleAuthProvider.getCredential(idToken, null)
         auth.signInWithCredential(credential)
             .addOnCompleteListener(this) { task ->
+
                 if (task.isSuccessful) {
                     Log.d(TAG, "Firebase Authentication with Google Successful")
                     Toast.makeText(this, "Google Sign-In Successful!", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this, MainActivity::class.java))
+                    val hasSeenOnboarding = prefs.getBoolean("has_seen_onboarding", false)
+                    if (hasSeenOnboarding) {
+                        startActivity(Intent(this, MainActivity::class.java))
+                    } else {
+                        startActivity(Intent(this, OnboardingActivity::class.java))
+                    }
                     finish()
                 } else {
                     Log.e(TAG, "Firebase Authentication with Google Failed", task.exception)

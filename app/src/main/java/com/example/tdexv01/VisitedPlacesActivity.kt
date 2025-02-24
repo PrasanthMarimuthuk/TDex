@@ -11,7 +11,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class VisitedPlacesActivity : AppCompatActivity() {
+class VisitedPlacesActivity : BaseActivity() {
 
     private lateinit var recyclerView: RecyclerView
     private val visitedPlaces = mutableListOf<AddedPlacesActivity.VisitedPlace>()
@@ -55,7 +55,8 @@ class VisitedPlacesActivity : AppCompatActivity() {
                     true
                 }
                 R.id.profile -> {
-                    Toast.makeText(this, "Profile Clicked", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.profile_clicked), Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this, ProfileActivity::class.java))
                     true
                 }
                 else -> false

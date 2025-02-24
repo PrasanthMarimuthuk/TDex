@@ -18,6 +18,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
@@ -29,6 +30,7 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -39,6 +41,12 @@ android {
     buildFeatures {
         compose = true
     }
+    packaging {
+        resources {
+            excludes += "META-INF/DEPENDENCIES"
+        }
+    }
+
 }
 
 dependencies {
@@ -46,9 +54,15 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
-    implementation("com.google.firebase:firebase-analytics")
+    implementation("io.github.jan-tennert.supabase:auth-kt-android:3.1.2")
+    implementation("io.ktor:ktor-client-apache5:3.1.1") {
+
+        exclude(group = "org.apache.httpcomponents.core5", module = "httpcore5")
+        exclude(group = "org.apache.httpcomponents.core5", module = "httpcore5-h2")}
+    implementation(libs.google.firebase.analytics)
     implementation(libs.androidx.viewpager2)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.play.services.base)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
@@ -62,6 +76,15 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.gridlayout)
     implementation(libs.play.services.places)
+    implementation(libs.mlkit.vision.common)
+    implementation(libs.mlkit.image.labeling)
+    implementation(libs.arcore)
+    implementation(libs.activity.ktx)
+    implementation(libs.firebase.storage.ktx)
+    implementation(libs.firebase.database.ktx)
+    implementation(libs.firebase.firestore.ktx)
+    implementation(libs.firebase.storage)
+    implementation(libs.googleid)
     annotationProcessor(libs.glide.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

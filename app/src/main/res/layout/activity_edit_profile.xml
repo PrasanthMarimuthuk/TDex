@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Profile Picture (Read-only, sourced from Google account) -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="60dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <ImageView
+            android:id="@+id/editProfileImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/profile_picture" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Name -->
+    <EditText
+        android:id="@+id/editProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <!-- Country -->
+    <EditText
+        android:id="@+id/editProfileCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_country"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <!-- State -->
+    <EditText
+        android:id="@+id/editProfileState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_state"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <!-- Date of Birth -->
+    <EditText
+        android:id="@+id/editDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_date_of_birth_yyyy_mm_dd"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        android:focusable="true"
+        android:clickable="true" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSaveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/light_green"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:background="@drawable/rounded_button"
+        app:cornerRadius="16dp" />
+</LinearLayout>

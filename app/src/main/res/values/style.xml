@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Splash Screen Theme -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Remove action bar and status bar for full-screen splash -->
+        <item name="android:windowFullscreen">true</item>
         <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
+
+    <style name="Theme.Tdexv01" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme colors here -->
+        <item name="colorPrimary">@color/light_green</item>
+        <item name="android:fontFamily">@font/noto_sans_tamil</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryVariant">@color/dark_green</item>
+        <item name="colorOnBackground">@android:color/black</item> <!-- Default for light mode -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item> <!-- Text color for light mode -->
+    </style>
+
 
 </resources>

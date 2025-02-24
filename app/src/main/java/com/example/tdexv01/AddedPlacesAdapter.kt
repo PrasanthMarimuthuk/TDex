@@ -31,16 +31,10 @@ class AddedPlacesAdapter(private val places: List<Place>, private val onActionCl
         holder.addedPlaceName.text = place.name
         holder.addedPlaceLocation.text = place.location
 
+        // Click on card to open details page with the full Place object
         holder.itemView.setOnClickListener {
             val intent = Intent(holder.itemView.context, TempleDetailActivity::class.java)
-            intent.putExtra("temple_name", place.name)
-            intent.putExtra("temple_location", place.location)
-            intent.putExtra("temple_distance", place.staticDistance)
-            intent.putExtra("temple_description", place.description)
-            intent.putExtra("temple_image1", place.image1)
-            intent.putExtra("temple_image2", place.image2)
-            intent.putExtra("temple_image3", place.image3)
-            intent.putExtra("temple_image4", place.image4)
+            intent.putExtra("place", place) // Pass the entire Place object with all fields
             holder.itemView.context.startActivity(intent)
         }
 

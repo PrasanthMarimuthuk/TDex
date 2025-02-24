@@ -1,224 +1,307 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="10dp">
+    android:layout_height="match_parent">
 
-    <!-- Horizontal Scroll for Temple Images -->
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:scrollbars="none">
 
-        <LinearLayout
-            android:id="@+id/templeImages"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="4dp">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="406dp"
-                android:layout_height="250dp"
-                android:layout_marginEnd="4dp"
-                app:cardCornerRadius="16dp"
-                app:cardPreventCornerOverlap="false"
-                app:cardUseCompatPadding="true">
-
-                <ImageView
-                    android:id="@+id/templeImage1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/brihadeeshwarar_temple"
-                    android:contentDescription="Brahadeeshwarar Temple Image 1" />
-            </androidx.cardview.widget.CardView>
-
-            <!-- Second Image -->
-            <androidx.cardview.widget.CardView
-                android:layout_width="406dp"
-                android:layout_height="250dp"
-                android:layout_marginEnd="4dp"
-                app:cardCornerRadius="16dp"
-                app:cardPreventCornerOverlap="false"
-                app:cardUseCompatPadding="true">
-
-                <ImageView
-                    android:id="@+id/templeImage2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/brihadeeshwarar_temple"
-                    android:contentDescription="Brahadeeshwarar Temple Image 2" />
-            </androidx.cardview.widget.CardView>
-
-            <!-- Third Image -->
-            <androidx.cardview.widget.CardView
-                android:layout_width="406dp"
-                android:layout_height="250dp"
-                android:layout_marginEnd="4dp"
-                app:cardCornerRadius="16dp"
-                app:cardPreventCornerOverlap="false"
-                app:cardUseCompatPadding="true">
-
-                <ImageView
-                    android:id="@+id/templeImage3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/brihadeeshwarar_temple"
-                    android:contentDescription="Brahadeeshwarar Temple Image 3" />
-            </androidx.cardview.widget.CardView>
-
-            <!-- Fourth Image -->
-            <androidx.cardview.widget.CardView
-                android:layout_width="406dp"
-                android:layout_height="250dp"
-                android:layout_marginEnd="4dp"
-                app:cardCornerRadius="16dp"
-                app:cardPreventCornerOverlap="false"
-                app:cardUseCompatPadding="true">
-
-                <ImageView
-                    android:id="@+id/templeImage4"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/brihadeeshwarar_temple"
-                    android:contentDescription="Brahadeeshwarar Temple Image 4" />
-            </androidx.cardview.widget.CardView>
-
-        </LinearLayout>
-    </HorizontalScrollView>
-
-    <!-- Temple Details -->
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp">
-
-        <TextView
-            android:id="@+id/templeName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:gravity="start"
-            android:text="Brahadeeshwarar Temple"
-            android:textColor="#070707"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/templeLocation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/templeName"
-            android:layout_alignParentStart="true"
-            android:gravity="start"
-            android:text="Tanjore, Tamil Nadu"
-            android:textColor="#3E3B3B"
-            android:textSize="12sp" />
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@id/templeName"
-            android:layout_alignParentEnd="true"
-            app:cardCornerRadius="8dp"
-            app:cardBackgroundColor="#009688">
-
-            <TextView
-                android:id="@+id/templeDistance"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="end"
-                android:text="19 Km"
-                android:textColor="#FDFDFD"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
-                android:paddingTop="4dp"
-                android:paddingBottom="4dp" />
-
-        </androidx.cardview.widget.CardView>
-
-    </RelativeLayout>
-
-    <!-- Buttons -->
-    <!-- Buttons -->
+    <!-- Main Content (LinearLayout with all temple details and scrollable description) -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:clipToPadding="false"
-        android:gravity="center"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
 
-        <Button
-            android:id="@+id/btnAdd"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginEnd="8dp"
-            android:backgroundTint="@color/light_green"
-            android:text="Add"
-            android:textColor="@android:color/white"
-            android:textAllCaps="false"
-            android:background="@drawable/rounded_button"
-            app:cornerRadius="4dp" />
 
-        <Button
-            android:id="@+id/btnDirection"
-            android:layout_width="0dp"
+        <!-- Horizontal Scroll for Temple Images -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/templeImages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="406dp"
+                    android:layout_height="250dp"
+                    android:layout_marginEnd="4dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:id="@+id/templeImage1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/brihadeeshwarar_temple"
+                        android:contentDescription="Brahadeeshwarar Temple Image 1" />
+                </androidx.cardview.widget.CardView>
+
+                <!-- Second Image -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="406dp"
+                    android:layout_height="250dp"
+                    android:layout_marginEnd="4dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:id="@+id/templeImage2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/brihadeeshwarar_temple"
+                        android:contentDescription="Brahadeeshwarar Temple Image 2" />
+                </androidx.cardview.widget.CardView>
+
+                <!-- Third Image -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="406dp"
+                    android:layout_height="250dp"
+                    android:layout_marginEnd="4dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:id="@+id/templeImage3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/brihadeeshwarar_temple"
+                        android:contentDescription="Brahadeeshwarar Temple Image 3" />
+                </androidx.cardview.widget.CardView>
+
+                <!-- Fourth Image -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="406dp"
+                    android:layout_height="250dp"
+                    android:layout_marginEnd="4dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardUseCompatPadding="true">
+
+                    <ImageView
+                        android:id="@+id/templeImage4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/brihadeeshwarar_temple"
+                        android:contentDescription="Brahadeeshwarar Temple Image 4" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Temple Details -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/templeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:gravity="start"
+                android:text="@string/brahadeeshwarar_temple"
+                android:textColor="#070707"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/templeLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/templeName"
+                android:layout_alignParentStart="true"
+                android:gravity="start"
+                android:text="@string/tanjore_tamil_nadu"
+                android:textColor="#3E3B3B"
+                android:textSize="12sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/templeName"
+                android:layout_alignParentEnd="true"
+                app:cardCornerRadius="8dp"
+                app:cardBackgroundColor="#009688">
+
+                <TextView
+                    android:id="@+id/templeDistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="@string/_19_km"
+                    android:textColor="#FDFDFD"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="@color/light_green"
+                android:text="@string/add"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_button"
+                app:cornerRadius="4dp" />
+
+            <ImageView
+                android:id="@+id/voiceButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_speaker"
+                android:background="@drawable/search_button_background"
+                android:backgroundTint="@color/light_green"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:contentDescription="@string/voice_interaction"
+                android:layout_gravity="center"
+                android:padding="5dp" />
+
+            <Button
+                android:id="@+id/btnDirection"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@color/light_green"
+                android:text="@string/direction"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rounded_button"
+                android:textAllCaps="false"
+                app:cornerRadius="4dp" />
+
+        </LinearLayout>
+
+        <!-- Scrollable Temple Description -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:layout_marginStart="8dp"
-            android:backgroundTint="@color/light_green"
-            android:text="Direction"
-            android:textColor="@android:color/white"
-            android:background="@drawable/rounded_button"
-            android:textAllCaps="false"
-            app:cornerRadius="4dp" />
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/templeDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill|left"
+                    android:padding="10dp"
+                    android:text="@string/nestled_on_a_serene"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/openingHoursText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill|left"
+                    android:paddingTop="8dp"
+                    android:text="@string/opening_hours"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/closingHoursText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill|left"
+                    android:text="@string/closing_hours"
+                    android:paddingTop="4dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/operatingWeekdaysText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="fill|left"
+                    android:text="@string/operating_days"
+                    android:paddingTop="4dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+        <!-- Bottom Navigation View -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            app:itemIconTint="@color/black"
+            app:itemTextColor="@color/black"
+            app:menu="@menu/bottom_nav_menu" />
 
     </LinearLayout>
 
-    <!-- Scrollable Temple Description -->
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1">
-
-        <TextView
-            android:id="@+id/templeDescription"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="fill|left"
-            android:padding="10dp"
-            android:text="Nestled on a serene hill in Coimbatore, the Maruthamalai Murugan Temple is a divine 12th-century marvel dedicated to Lord Murugan. Ascend 837 steps to witness the stunning 180-meter tall gopuram adorned with intricate carvings. This pilgrimage site is famed for its self-manifested idol, medicinal springs, and the vibrant annual Thaipoosam festival. The temple’s breathtaking views and serene atmosphere make it an unmissable spiritual haven for travelers."
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="@android:color/black"
-            android:textSize="16sp" />
-
-    </ScrollView>
-
-    <!-- Bottom Navigation View -->
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="match_parent"
+    <!-- Floating Action Button (Fixed at Bottom Right, Floating Above All Content) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/chatbotFab"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@color/white"
-        app:itemIconTint="@color/black"
-        app:itemTextColor="@color/black"
-        app:menu="@menu/bottom_nav_menu" />
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="45dp"
+        android:contentDescription="@string/open_chatbot"
+        android:src="@android:drawable/sym_action_chat"
+        app:behavior_overlapTop="60dp"
+        app:elevation="6dp"
+        app:fabSize="mini"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-</LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
