@@ -71,7 +71,7 @@ class TempleDetailActivity : AppCompatActivity() {
 
         // Handle Direction Button Click (use phone's default maps app)
         btnDirection.setOnClickListener {
-            val location = templeLocation.text.toString()
+            val location = templeName.text.toString()
             if (location.isNotEmpty()) {
                 val gmmIntentUri = Uri.parse("geo:0,0?q=$location")
                 val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
