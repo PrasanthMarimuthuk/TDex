@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import android.widget.Toast
 import androidx.fragment.app.DialogFragment
 import com.google.android.gms.location.places.Place
 
@@ -135,6 +136,29 @@ class TempleDetailActivity : AppCompatActivity() {
                 else -> false
             }
         }
+
+        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.home -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.visited -> {
+                    Toast.makeText(this, "Visited Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.map -> {
+                    Toast.makeText(this, "Map Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.profile -> {
+                    Toast.makeText(this, "Profile Clicked", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> false
+            }
+        }
     }
 
     private fun showFullScreenImage(index: Int, res1: Int, res2: Int, res3: Int, res4: Int) {
@@ -189,4 +213,5 @@ class FullScreenImageDialogFragment : DialogFragment() {
 
         return dialog
     }
+    
 }
