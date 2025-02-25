@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var placesRecyclerView: RecyclerView
     private lateinit var autocompleteRecyclerView: RecyclerView
     private val places = listOf(
+
         Place("Maruthamalai Temple", "Maruthamalai, Tamil Nadu", "20 Km", "Maruthamalai temple is Nestled on a serene hill in Coimbatore, the Maruthamalai Murugan Temple is a divine 12th-century marvel dedicated to Lord Murugan. Ascend 837 steps to witness the stunning 180-meter tall gopuram adorned with intricate carvings. This pilgrimage site is famed for its self-manifested idol, medicinal springs, and the vibrant annual Thaipoosam festival. The temple’s breathtaking views and serene atmosphere make it an unmissable spiritual haven for travelers.", 11.0139, 76.8028, R.drawable.maruthamalai_1, R.drawable.maruthamalai_2, R.drawable.maruthamalai_3, R.drawable.marudhamalai_4),
         Place("Isha Yoga Centre", "Coimbatore, Tamil Nadu", "35 Km", "The Isha Yoga Center situated at the foothills of Velliangiri, on the outskirts of Coimbatore, is the headquarters for Isha Foundation. Isha is a sacred space for self-transformation, where you can come dedicate time towards your inner growth. The center offers all four major paths of yoga – kriya (energy), gnana (knowledge), karma (action), and bhakti (devotion), drawing people from all over the world.\n\nThe Center is dedicated to fostering inner transformation and creating an established state of wellbeing in individuals. The large residential facility houses an active international community of brahmacharis, full-time volunteers and visitors. Isha Yoga Center provides a supportive environment for you to shift to healthier lifestyles, seek a higher level of self-fulfillment and realize your full potential.", 10.9711, 76.8259, R.drawable.isha1, R.drawable.isha2, R.drawable.isha3, R.drawable.isha4),
         Place("Velligiri Hills", "Coimbatore, Tamil Nadu", "40 Km", "The Velliangiri Mountains, a part of the Nilgiri Biosphere Reserve, are situated in the Western Ghats of Coimbatore district, Tamil Nadu. Known as the \"Sapthagiri, 7 Hills - Seven Mountains,\" these mountains are revered on par with Mount Kailash, the legendary abode of Shiva, considered one of the most spiritually powerful places on the planet. At the top of the Velliangiri Mountains, Shiva is worshipped as Swayambhu, one who is self-created, and in this form, he graces the devotees.", 10.9722, 76.8317, R.drawable.velliangiri1, R.drawable.velliangiri2, R.drawable.velliangiri3, R.drawable.velliangiri4),
@@ -58,6 +59,7 @@ class MainActivity : AppCompatActivity() {
     )
     private val addedPlaces = mutableListOf<Place>()
     private lateinit var autocompleteAdapter: AutocompleteAdapter
+    private var currentCategoryFilter: ((Place) -> Boolean)? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         supportActionBar?.hide()
         super.onCreate(savedInstanceState)
@@ -78,6 +80,7 @@ class MainActivity : AppCompatActivity() {
         val category10kmButton: Button = findViewById(R.id.category10kmButton)
         val category15kmButton: Button = findViewById(R.id.category15kmButton)
         val category20kmButton: Button = findViewById(R.id.category20kmButton)
+        val noPlacesText: TextView = findViewById(R.id.noPlacesTextView)
 
         placesRecyclerView = findViewById(R.id.placesRecyclerView)
         placesRecyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
@@ -164,6 +167,16 @@ class MainActivity : AppCompatActivity() {
 
         categoryAllButton.setOnClickListener {
             selectCategoryButton(categoryAllButton, arrayOf(category5kmButton, category10kmButton, category15kmButton, category20kmButton))
+            if (places.isNotEmpty()) {
+                updatePlacesList(places)
+                noPlacesText.visibility = View.GONE
+                placesRecyclerView.visibility = View.VISIBLE
+            } else {
+                noPlacesText.visibility = View.VISIBLE
+                placesRecyclerView.visibility = View.GONE
+            }
+
+            currentCategoryFilter = null
             updatePlacesList(places)
             Toast.makeText(this, "Category: All", Toast.LENGTH_SHORT).show()
         }
@@ -174,8 +187,17 @@ class MainActivity : AppCompatActivity() {
                 val distance = calculateDistance(currentLatitude, currentLongitude, place.latitude, place.longitude)
                 distance <= 5
             }
-            updatePlacesList(filteredPlaces)
+            if (filteredPlaces.isNotEmpty()) {
+                updatePlacesList(filteredPlaces)
+                noPlacesText.visibility = View.GONE
+                placesRecyclerView.visibility = View.VISIBLE
+            } else {
+                noPlacesText.visibility = View.VISIBLE
+                placesRecyclerView.visibility = View.GONE
+            }
             Toast.makeText(this, "Category: 5 Km", Toast.LENGTH_SHORT).show()
+            currentCategoryFilter = { place -> calculateDistance(currentLatitude, currentLongitude, place.latitude, place.longitude) <= 5 }
+            updatePlacesList(places.filter { currentCategoryFilter?.invoke(it) ?: true })
         }
 
         category10kmButton.setOnClickListener {
@@ -184,8 +206,18 @@ class MainActivity : AppCompatActivity() {
                 val distance = calculateDistance(currentLatitude, currentLongitude, place.latitude, place.longitude)
                 distance <= 10
             }
-            updatePlacesList(filteredPlaces)
+            if (filteredPlaces.isNotEmpty()) {
+                updatePlacesList(filteredPlaces)
+                noPlacesText.visibility = View.GONE
+                placesRecyclerView.visibility = View.VISIBLE
+            } else {
+                noPlacesText.visibility = View.VISIBLE
+                placesRecyclerView.visibility = View.GONE
+            }
+
             Toast.makeText(this, "Category: 10 Km", Toast.LENGTH_SHORT).show()
+            currentCategoryFilter = { place -> calculateDistance(currentLatitude, currentLongitude, place.latitude, place.longitude) <= 10 }
+            updatePlacesList(places.filter { currentCategoryFilter?.invoke(it) ?: true })
         }
 
         category15kmButton.setOnClickListener {
@@ -194,18 +226,37 @@ class MainActivity : AppCompatActivity() {
                 val distance = calculateDistance(currentLatitude, currentLongitude, place.latitude, place.longitude)
                 distance <= 15
             }
-            updatePlacesList(filteredPlaces)
+            if (filteredPlaces.isNotEmpty()) {
+                updatePlacesList(filteredPlaces)
+                noPlacesText.visibility = View.GONE
+                placesRecyclerView.visibility = View.VISIBLE
+            } else {
+                noPlacesText.visibility = View.VISIBLE
+                placesRecyclerView.visibility = View.GONE
+            }
+
             Toast.makeText(this, "Category: 15 Km", Toast.LENGTH_SHORT).show()
+            currentCategoryFilter = { place -> calculateDistance(currentLatitude, currentLongitude, place.latitude, place.longitude) <= 15 }
+            updatePlacesList(places.filter { currentCategoryFilter?.invoke(it) ?: true })
         }
 
         category20kmButton.setOnClickListener {
             selectCategoryButton(category20kmButton, arrayOf(categoryAllButton, category5kmButton, category10kmButton, category15kmButton))
-            val filteredPlaces = places.filter { place ->
-                val distance = calculateDistance(currentLatitude, currentLongitude, place.latitude, place.longitude)
-                distance <= 20
+             val filteredPlaces = places.filter { place ->
+                 val distance = calculateDistance(currentLatitude, currentLongitude, place.latitude, place.longitude)
+                 distance <= 20
+             }
+            if (filteredPlaces.isNotEmpty()) {
+                updatePlacesList(filteredPlaces)
+                noPlacesText.visibility = View.GONE
+                placesRecyclerView.visibility = View.VISIBLE
+            } else {
+                noPlacesText.visibility = View.VISIBLE
+                placesRecyclerView.visibility = View.GONE
             }
-            updatePlacesList(filteredPlaces)
             Toast.makeText(this, "Category: 20 Km", Toast.LENGTH_SHORT).show()
+            currentCategoryFilter = { place -> calculateDistance(currentLatitude, currentLongitude, place.latitude, place.longitude) <= 20 }
+            updatePlacesList(places.filter { currentCategoryFilter?.invoke(it) ?: true })
         }
 
         // Brahidheerwarar Temple Card Click
@@ -378,8 +429,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
         // Bottom NavigationView Setup
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+        bottomNavigationView.menu.findItem(R.id.home).setChecked(true)
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> {
@@ -416,7 +469,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updatePlacesList(filteredPlaces: List<Place>) {
-        val adapter = PlaceAdapter(filteredPlaces, currentLatitude, currentLongitude, this)
+        // Check if a category filter is applied and apply it
+        val placesToDisplay = currentCategoryFilter?.let { filter ->
+            filteredPlaces.filter(filter)
+        } ?: filteredPlaces
+        val adapter = PlaceAdapter(placesToDisplay, currentLatitude, currentLongitude, this)
         placesRecyclerView.adapter = adapter
     }
 
@@ -482,7 +539,9 @@ class MainActivity : AppCompatActivity() {
                     currentLatitude = location.latitude
                     currentLongitude = location.longitude
                     Log.d("MainActivity", "Location updated: Lat=${currentLatitude}, Lon=${currentLongitude}")
-                    updatePlacesList(places)
+                     val filteredPlaces = currentCategoryFilter?.let { filter ->
+                         places.filter(filter) } ?: places
+                         updatePlacesList(filteredPlaces)
                 }
             }
         }

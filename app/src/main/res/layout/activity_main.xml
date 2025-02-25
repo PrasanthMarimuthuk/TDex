@@ -15,6 +15,7 @@
         android:textColor="#000"
         android:padding="16dp" />
 
+
     <LinearLayout
         android:layout_width="360dp"
         android:layout_height="wrap_content"
@@ -576,22 +577,34 @@
 
 
     <!-- Vertical Scrollable Card View for Places -->
+
+    <!-- No Places Text View -->
+
+    <TextView
+        android:id="@+id/noPlacesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_places_found_humorous"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <!-- Bottom Navigation View (Fixed at Bottom) -->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/placesRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:padding="8dp"
-        android:overScrollMode="never" />
+        android:overScrollMode="never"
+        android:padding="8dp" />
 
-    <!-- Bottom Navigation View (Fixed at Bottom) -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
-        app:itemIconTint="@color/black"
-        app:itemTextColor="@color/black"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
         app:menu="@menu/bottom_nav_menu" />
 
 </LinearLayout>

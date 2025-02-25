@@ -59,4 +59,5 @@
     <string name="select_visit_date">Select Visit Date</string>
     <string name="visited_places">Visited Places</string>
     <string name="clear_history">Clear History</string>
+    <string name="no_places_found_humorous">Sorry, Alien... There are no places in the selected range</string>
 </resources>
