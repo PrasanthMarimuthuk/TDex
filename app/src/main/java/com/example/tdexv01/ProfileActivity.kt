@@ -1,17 +1,14 @@
 package com.example.tdexv01
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import com.bumptech.glide.Glide
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.auth.FirebaseAuth
 
 class ProfileActivity : BaseActivity() {
@@ -26,7 +23,7 @@ class ProfileActivity : BaseActivity() {
     private lateinit var cardSettings: CardView
     private lateinit var cardSupport: CardView
     private lateinit var cardAboutUs: CardView
-    private lateinit var chatbotFab: FloatingActionButton
+    private lateinit var chatbotCard: CardView // Changed from FloatingActionButton to CardView
     private val EDIT_PROFILE_REQUEST = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,7 +43,7 @@ class ProfileActivity : BaseActivity() {
         cardSettings = findViewById(R.id.cardSettings) ?: throw IllegalStateException("cardSettings not found in layout")
         cardSupport = findViewById(R.id.cardSupport) ?: throw IllegalStateException("cardSupport not found in layout")
         cardAboutUs = findViewById(R.id.cardAboutUs) ?: throw IllegalStateException("cardAboutUs not found in layout")
-        chatbotFab = findViewById(R.id.chatbotFab) ?: throw IllegalStateException("chatbotFab not found in layout")
+        chatbotCard = findViewById(R.id.chatbotCard) ?: throw IllegalStateException("chatbotCard not found in layout") // Updated ID
 
         // Load current user data
         val currentUser = auth.currentUser
@@ -78,17 +75,17 @@ class ProfileActivity : BaseActivity() {
             startActivity(Intent(this, AboutUsActivity::class.java))
         }
 
+        // Chatbot Card Click Listener (Navigate to ChatbotActivity without a specific place)
+        chatbotCard.setOnClickListener {
+            startActivity(Intent(this, ChatbotActivity::class.java)) // No "place" extra passed
+        }
+
         // Logout Button
         btnLogout.setOnClickListener {
             auth.signOut()
             Toast.makeText(this, getString(R.string.logged_out_successfully), Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, SignInActivity::class.java))
             finish()
-        }
-
-        // Chatbot FAB Click Listener (Navigate to ChatbotActivity without a specific place)
-        chatbotFab.setOnClickListener {
-            startActivity(Intent(this, ChatbotActivity::class.java)) // No "place" extra passed
         }
 
         // Bottom NavigationView Setup

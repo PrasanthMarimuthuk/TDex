@@ -1,6 +1,6 @@
 package com.example.tdexv01
 
-import android.content.Context
+
 import android.content.Intent
 import android.os.Bundle
 import android.os.Parcel
@@ -42,8 +42,9 @@ class AddedPlacesActivity : BaseActivity() {
 
         updateAddedPlacesList()
 
-        // Bottom NavigationView Setup (Fixed at Bottom)
+        // Bottom NavigationView Setup
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+        bottomNavigationView.menu.findItem(R.id.tovisit).setChecked(true) // Highlight "To Visit"
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> {
@@ -61,8 +62,8 @@ class AddedPlacesActivity : BaseActivity() {
                     true
                 }
                 R.id.profile -> {
-                    Toast.makeText(this, getString(R.string.profile_clicked), Toast.LENGTH_SHORT).show()
                     startActivity(Intent(this, ProfileActivity::class.java))
+                    Toast.makeText(this, getString(R.string.profile_clicked), Toast.LENGTH_SHORT).show()
                     true
                 }
                 else -> false
@@ -97,7 +98,10 @@ class AddedPlacesActivity : BaseActivity() {
         val dialog = VisitedPlaceDialogFragment.newInstance(place) { date ->
             val visitedPlace = VisitedPlace(place.name, place.location, place.image1, date)
             visitedPlaces.add(visitedPlace)
+            addedPlaces.removeAt(position) // Remove from addedPlaces when marked as visited
             saveVisitedPlaces()
+            saveAddedPlaces()
+            updateAddedPlacesList()
             Log.d("AddedPlacesActivity", "Mark as Visited: ${place.name}, Date: $date, Locale: ${Locale.getDefault().language}")
         }
         dialog.show(supportFragmentManager, "VisitedPlaceDialog")
@@ -119,9 +123,11 @@ class AddedPlacesActivity : BaseActivity() {
             val type = object : TypeToken<MutableList<Place>>() {}.type
             val rawPlaces = Gson().fromJson<MutableList<Place>>(json, type) ?: emptyList()
             addedPlaces.clear()
-            // Re-localize each place using the current context
+            // Re-localize each place using the current context, ignoring filterLocation
             rawPlaces.forEach { rawPlace ->
-                val localizedPlace = MainActivity.Place.getAllPlaces(this).find { it.latitude == rawPlace.latitude && it.longitude == rawPlace.longitude }
+                val localizedPlace = MainActivity.Place.getAllPlaces(this).find {
+                    it.latitude == rawPlace.latitude && it.longitude == rawPlace.longitude
+                }
                 localizedPlace?.let { addedPlaces.add(it) }
             }
         }
@@ -130,7 +136,15 @@ class AddedPlacesActivity : BaseActivity() {
     private fun saveAddedPlaces() {
         val prefs = getSharedPreferences("AppPrefs", MODE_PRIVATE)
         val editor = prefs.edit()
-        val json = Gson().toJson(addedPlaces.map { Place(it.name, it.location, it.staticDistance, it.description, it.latitude, it.longitude, it.image1, it.image2, it.image3, it.image4, it.openingHours, it.closingHours, it.operatingWeekdays) })
+        // Serialize without filterLocation, matching the original structure
+        val json = Gson().toJson(addedPlaces.map {
+            Place(
+                it.name, it.location, "", // Omit filterLocation by setting it to empty string
+                it.staticDistance, it.description, it.latitude, it.longitude,
+                it.image1, it.image2, it.image3, it.image4,
+                it.openingHours, it.closingHours, it.operatingWeekdays
+            )
+        })
         editor.putString("added_places", json)
         editor.apply()
     }
@@ -154,7 +168,7 @@ class AddedPlacesActivity : BaseActivity() {
     }
 
     fun addPlace(place: Place) {
-        if (!addedPlaces.contains(place)) {
+        if (!addedPlaces.any { it.latitude == place.latitude && it.longitude == place.longitude }) {
             addedPlaces.add(place)
             saveAddedPlaces()
             updateAddedPlacesList()

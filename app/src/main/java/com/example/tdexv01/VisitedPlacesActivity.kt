@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
+
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
@@ -42,16 +42,16 @@ class VisitedPlacesActivity : BaseActivity() {
             when (item.itemId) {
                 R.id.home -> {
                     startActivity(Intent(this, MainActivity::class.java))
-                    Toast.makeText(this, "Home Clicked", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.home_clicked), Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.visited -> {
-                    Toast.makeText(this, "Visited Clicked", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.visited_clicked), Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.tovisit -> {
                     startActivity(Intent(this, AddedPlacesActivity::class.java))
-                    Toast.makeText(this, "To visited Clicked", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.to_visit_clicked), Toast.LENGTH_SHORT).show()
                     true
                 }
                 R.id.profile -> {
@@ -65,7 +65,8 @@ class VisitedPlacesActivity : BaseActivity() {
     }
 
     private fun updateVisitedPlacesList() {
-        val adapter = VisitedPlacesAdapter(visitedPlaces)
+        // Pass 'this' (BaseActivity context) to the adapter for translation support
+        val adapter = VisitedPlacesAdapter(visitedPlaces, this)
         recyclerView.adapter = adapter
     }
 
@@ -78,6 +79,7 @@ class VisitedPlacesActivity : BaseActivity() {
             visitedPlaces.addAll(Gson().fromJson(json, type) ?: emptyList())
         }
     }
+
     private fun saveVisitedPlaces() {
         val prefs = getSharedPreferences("AppPrefs", MODE_PRIVATE)
         val editor = prefs.edit()
@@ -90,17 +92,17 @@ class VisitedPlacesActivity : BaseActivity() {
         visitedPlaces.clear()
         saveVisitedPlaces()
         updateVisitedPlacesList()
-        Toast.makeText(this, "Visited history cleared", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, getString(R.string.visited_history_cleared), Toast.LENGTH_SHORT).show()
     }
 
     private fun showClearHistoryConfirmation() {
         android.app.AlertDialog.Builder(this)
-            .setTitle("Clear History")
-            .setMessage("Are you sure you want to clear all visited places?")
-            .setPositiveButton("Yes") { _, _ ->
+            .setTitle(getString(R.string.clear_history))
+            .setMessage(getString(R.string.clear_history_confirmation))
+            .setPositiveButton(getString(R.string.yes)) { _, _ ->
                 clearVisitedPlaces()
             }
-            .setNegativeButton("No", null)
+            .setNegativeButton(getString(R.string.no), null)
             .show()
     }
 }

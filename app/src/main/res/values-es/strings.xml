@@ -1,0 +1,462 @@
+<resources>
+    <string name="app_name" translatable="false">T-Dex</string>
+    <string name="app_logo">Logotipo de la aplicación</string>
+    <string name="sign_in">INICIAR SESIÓN</string>
+    <string name="or">O</string>
+    <string name="logo">Logotipo</string>
+    <string name="t_dex" translatable="false">T-Dex</string>
+    <string name="sign_up">REGISTRARSE</string>
+    <string name="new_user_sign_up">¿Nuevo usuario? Regístrate</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo electrónico</string>
+    <string name="most_famous">Lugares más famosos</string>
+    <string name="continue_with_google">Continuar con Google</string>
+    <string name="default_web_client_id" translatable="false">948195832271-j3m83kfekbj4iesvfhr9qtskr8688egp.apps.googleusercontent.com</string>
+    <string name="secondary_web_client_id" translatable="false">748141285379-fr4acct3ueavuqr6n4rd7in0ep64nmju.apps.googleusercontent.com</string>
+    <string name="sign_in_with_google">Iniciar sesión con Google</string>
+    <string name="greetings">¡Saludos!</string>
+    <string name="search_destination">Buscar destino</string>
+    <string name="popular">Popular</string>
+    <string name="brihadeeshwarar_temple" translatable="false">Brihadeeshwarar Temple</string>
+    <string name="tanjore_tamilnadu" translatable="false">Tanjore, TamilNadu</string>
+    <string name="meenakshi_temple" translatable="false">Meenakshi Temple</string>
+    <string name="madurai_tamilnadu" translatable="false">Madurai, TamilNadu</string>
+    <string name="mahabalipuram" translatable="false">Mahabalipuram</string>
+    <string name="mamallapuram_tamilnadu" translatable="false">Mamallapuram, TamilNadu</string>
+    <string name="vellore_fort" translatable="false">Vellore Fort</string>
+    <string name="vellore_tamilnadu" translatable="false">Vellore, TamilNadu</string>
+    <string name="search_by_category">Buscar por categoría</string>
+    <string name="all">Todos</string>
+    <string name="_5_km">5 Km</string>
+    <string name="_10_km">10 Km</string>
+    <string name="_15_km">15 Km</string>
+    <string name="_20_km">20 Km</string>
+    <string name="home">Inicio</string>
+    <string name="visited">Visitados</string>
+    <string name="map">Mapa</string>
+    <string name="profile">Perfil</string>
+    <string name="isha_yoga_centre" translatable="false">Isha Yoga Centre</string>
+    <string name="coimbatore_tamilnadu" translatable="false">Coimbatore, Tamilnadu</string>
+    <string name="maruthamalai_murugan_temple" translatable="false">Maruthamalai Temple</string>
+    <string name="velliangiri_hills" translatable="false">Velliangiri Hills</string>
+    <string name="gass_forest_museum" translatable="false">Gass Forest Museum</string>
+    <string name="r_s_puram_coimbatore" translatable="false">R.S. Puram, Coimbatore</string>
+    <string name="kaviyaruvi_waterfalls" translatable="false">Kaviyaruvi Waterfalls</string>
+    <string name="aalliyar_reserve_forest_coimbatore" translatable="false">Aalliyar Reserve Forest, Coimbatore</string>
+    <string name="gedee_museum" translatable="false">Gedee Museum</string>
+    <string name="race_course_coimbatore" translatable="false">Race Course, Coimbatore</string>
+    <string name="sathyamangalam_wildlife_sanctuary" translatable="false">Sathyamangalam Wildlife \nSanctuary</string>
+    <string name="sathyamangalam_tamilnadu" translatable="false">Near Coimbatore</string>
+    <string name="government_museum">Museo Gubernamental</string>
+    <string name="gopalapuram_coimbatore" translatable="false">Gopalapuram, Coimbatore</string>
+    <string name="valparai" translatable="false">Valparai</string>
+    <string name="valparai_coimbatore" translatable="false">Valparai, Coimbatore</string>
+    <string name="perur_pateeswarar_temple" translatable="false">Perur Pateeswarar Temple</string>
+    <string name="perur_coimbatore" translatable="false">Perur, Coimbatore.</string>
+    <string name="send_otp">Enviar OTP</string>
+    <string name="mark_place_as_visited">Marcar lugar como visitado</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="select_visit_date">Seleccionar fecha de visita</string>
+    <string name="visited_places">Lugares visitados</string>
+    <string name="clear_history">Borrar historial</string>
+    <string name="no_places_found_humorous">Lo siento, extraterrestre… No hay lugares en el rango seleccionado</string>
+    <string name="search_by_photo">Buscar por foto</string>
+    <string name="open_chatbot">Abrir chatbot</string>
+    <string name="to_visit">Por visitar</string>
+    <string name="type_your_message">Escribe tu mensaje…</string>
+    <string name="send_message">Enviar mensaje</string>
+    <string name="voice_input">Entrada de voz</string>
+    <string name="enter_name">Ingresar nombre</string>
+    <string name="save">Guardar</string>
+    <string name="enter_date_of_birth_yyyy_mm_dd">Ingresar fecha de nacimiento (AAAA-MM-DD)</string>
+    <string name="change_profile_image">Cambiar imagen de perfil</string>
+    <string name="enter_state">Ingresar estado</string>
+    <string name="enter_country">Ingresar país</string>
+    <string name="profile_picture">Foto de perfil</string>
+    <string name="welcome_to_nt_dex">Bienvenido a \nT-Dex</string>
+    <string name="prasanth_m" translatable="false">Prasanth M</string>
+    <string name="andrew_domainname_com" translatable="false">andrew@domainname.com</string>
+    <string name="edit_profile">Editar perfil</string>
+    <string name="navigate">Navegar</string>
+    <string name="settings">Configuraciones</string>
+    <string name="app_settings">Configuraciones de la aplicación</string>
+    <string name="support">Soporte</string>
+    <string name="terms_of_service">Términos de servicio</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="name">Nombre</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="signup">Registrarse</string>
+    <string name="already_an_user_sign_in">¿Ya eres usuario? Inicia sesión</string>
+    <string name="brahadeeshwarar_temple" translatable="false">Brahadeeshwarar Temple</string>
+    <string name="tanjore_tamil_nadu" translatable="false">Tanjore, Tamil Nadu</string>
+    <string name="_19_km">19 Km</string>
+    <string name="add">Añadir</string>
+    <string name="voice_interaction">Interacción por voz</string>
+    <string name="direction">Dirección</string>
+    <string name="nestled_on_a_serene">Ubicado en una colina serena en Coimbatore, el Templo Maruthamalai Murugan es una maravilla divina del siglo XII dedicada a Lord Murugan. Sube 837 escalones para presenciar el impresionante gopuram de 180 metros de altura adornado con intrincados tallados. Este lugar de peregrinación es famoso por su ídolo automanifestado, fuentes medicinales y el vibrante festival anual Thaipoosam. Las vistas impresionantes y la atmósfera serena del templo lo convierten en un refugio espiritual imperdible para los viajeros.</string>
+    <string name="opening_hours">Horario de apertura:</string>
+    <string name="closing_hours">Horario de cierre:</string>
+    <string name="operating_days">Días de operación:</string>
+    <string name="close">Cerrar</string>
+    <string name="plus">+</string>
+    <string name="chennai" translatable="false">Chennai</string>
+    <string name="coimbatore" translatable="false">Coimbatore</string>
+    <string name="madurai" translatable="false">Madurai</string>
+    <string name="mark_as_visited">Marcar como visitado</string>
+    <string name="delete">Eliminar</string>
+    <string name="place_removed_from_visit_locations">%s eliminado de los lugares a visitar</string>
+
+        <string name="maruthamalai_temple_name" translatable="false">Maruthamalai Temple</string>
+        <string name="maruthamalai_temple_location" translatable="false">Maruthamalai, Tamil Nadu</string>
+        <string name="maruthamalai_temple_distance">20 Km</string>
+        <string name="maruthamalai_temple_description">Ubicado en una colina serena en Coimbatore, el Templo Maruthamalai Murugan es una maravilla divina del siglo XII dedicada a Lord Murugan. Sube 837 escalones para presenciar el impresionante gopuram de 180 metros de altura adornado con intrincados tallados. Este lugar de peregrinación es famoso por su ídolo automanifestado, fuentes medicinales y el vibrante festival anual Thaipoosam. Las vistas impresionantes y la atmósfera serena del templo lo convierten en un refugio espiritual imperdible para los viajeros.</string>
+        <string name="maruthamalai_temple_opening_hours">6:00</string>
+        <string name="maruthamalai_temple_closing_hours">21:00</string>
+        <string name="maruthamalai_temple_operating_days">Todos los días</string>
+
+        <string name="isha_yoga_centre_name" translatable="false">Isha Yoga Centre</string>
+        <string name="isha_yoga_centre_location" translatable="false">Coimbatore, Tamil Nadu</string>
+        <string name="isha_yoga_centre_distance">35 Km</string>
+        <string name="isha_yoga_centre_description">El Centro de Yoga Isha, situado a los pies de Velliangiri, en las afueras de Coimbatore, es la sede de la Fundación Isha. Isha es un espacio sagrado para la transformación personal, donde puedes dedicar tiempo a tu crecimiento interior. El centro ofrece los cuatro caminos principales del yoga: kriya (energía), gnana (conocimiento), karma (acción) y bhakti (devoción), atrayendo a personas de todo el mundo.\n\nEl Centro está dedicado a fomentar la transformación interior y crear un estado estable de bienestar en los individuos. La gran instalación residencial alberga una comunidad internacional activa de brahmacharis, voluntarios a tiempo completo y visitantes. El Centro de Yoga Isha proporciona un entorno de apoyo para que puedas adoptar estilos de vida más saludables, buscar un mayor nivel de autorrealización y alcanzar tu máximo potencial.</string>
+        <string name="isha_yoga_centre_opening_hours">6:00</string>
+        <string name="isha_yoga_centre_closing_hours">20:00</string>
+        <string name="isha_yoga_centre_operating_days">Lunes a domingo</string>
+
+        <string name="velliangiri_hills_name" translatable="false">Velliangiri Hills</string>
+        <string name="velliangiri_hills_location" translatable="false">Coimbatore, Tamil Nadu</string>
+        <string name="velliangiri_hills_distance">40 Km</string>
+        <string name="velliangiri_hills_description">Las montañas Velliangiri, parte de la Reserva de la Biosfera Nilgiri, están situadas en los Ghats Occidentales del distrito de Coimbatore, Tamil Nadu. Conocidas como las \"Sapthagiri, 7 Colinas - Siete Montañas\", estas montañas son veneradas al mismo nivel que el Monte Kailash, la legendaria morada de Shiva, considerado uno de los lugares más espiritualmente poderosos del planeta. En la cima de las montañas Velliangiri, Shiva es adorado como Swayambhu, aquel que se autocrea, y en esta forma bendice a los devotos.</string>
+        <string name="velliangiri_hills_opening_hours">5:00</string>
+        <string name="velliangiri_hills_closing_hours">18:00</string>
+        <string name="velliangiri_hills_operating_days">Todos los días</string>
+
+        <string name="gass_forest_museum_name" translatable="false">Gass Forest Museum</string>
+        <string name="gass_forest_museum_location" translatable="false">R.S.Puram, Coimbatore</string>
+        <string name="gass_forest_museum_distance">20 Km</string>
+        <string name="gass_forest_museum_description">El Museo Forestal Gass, ubicado en Coimbatore, Tamil Nadu, es un cautivador museo de historia natural que fue establecido en 1902. Lleva el nombre en honor a Horace Archibald Gass, una figura prominente en la silvicultura de esa era. El museo sirve como una ventana a la rica biodiversidad de los Ghats Occidentales, exhibiendo una impresionante y diversa colección de especímenes preservados.\n\nLos visitantes pueden explorar una variedad de exhibiciones que incluyen plantas, animales e insectos nativos de la región. El museo también ofrece exhibiciones informativas sobre prácticas forestales y esfuerzos de conservación, destacando la importancia de preservar nuestro patrimonio natural. Para aquellos apasionados por la naturaleza, el Museo Forestal Gass proporciona una experiencia enriquecedora que combina educación con admiración por el medio ambiente.\n\nYa seas un entusiasta de la naturaleza, estudiante o simplemente curioso sobre el mundo natural, el Museo Forestal Gass es un destino imprescindible.</string>
+        <string name="gass_forest_museum_opening_hours">9:00</string>
+        <string name="gass_forest_museum_closing_hours">17:00</string>
+        <string name="gass_forest_museum_operating_days">Martes a domingo</string>
+
+        <string name="kaviyaruvi_waterfalls_name" translatable="false">Kaviyaruvi Waterfalls</string>
+        <string name="kaviyaruvi_waterfalls_location" translatable="false">Aalliyar Reserve Forest, Coimbatore</string>
+        <string name="kaviyaruvi_waterfalls_distance">20 Km</string>
+        <string name="kaviyaruvi_waterfalls_description">Las cataratas Monkey, ubicadas cerca de Pollachi en Tamil Nadu, son una cascada natural situada en las colinas Anaimalai. Las cataratas forman parte del Santuario de Vida Silvestre y Parque Nacional Indira Gandhi. Históricamente, el área alrededor de las cataratas Monkey fue un centro significativo para plantaciones de té y café durante la era colonial británica. Las cataratas reciben su nombre debido a la gran presencia de macacos de bonete en la zona. Con el tiempo, las cataratas Monkey se han convertido en un destino turístico popular, conocido por su belleza escénica y aguas refrescantes. Las cataratas también se conocen como \"Kaviyaruvi\", un nombre arraigado en la antigua literatura Sangam.</string>
+        <string name="kaviyaruvi_waterfalls_opening_hours">6:00</string>
+        <string name="kaviyaruvi_waterfalls_closing_hours">18:00</string>
+        <string name="kaviyaruvi_waterfalls_operating_days">Todos los días</string>
+
+        <string name="gedee_museum_name" translatable="false">Gedee Museum</string>
+        <string name="gedee_museum_location" translatable="false">Race Course, Coimbatore</string>
+        <string name="gedee_museum_distance">20 Km</string>
+        <string name="gedee_museum_description">El Museo de Autos Gedee en Coimbatore, Tamil Nadu, es una atracción única que exhibe una notable colección de autos antiguos y clásicos. Establecido por las Caridades G D Naidu, el museo presenta automóviles raros de todo el mundo, destacando la evolución de la ingeniería automotriz. Los visitantes pueden maravillarse con los vehículos meticulosamente restaurados y aprender sobre la historia e innovación detrás de cada modelo. Es un lugar imprescindible para los entusiastas de los autos y los aficionados a la historia por igual.</string>
+        <string name="gedee_museum_opening_hours">10:00</string>
+        <string name="gedee_museum_closing_hours">17:30</string>
+        <string name="gedee_museum_operating_days">Martes a domingo</string>
+
+        <string name="sathyamangalam_wildlife_sanctuary_name" translatable="false">Sathyamangalam Wildlife \nSanctuary</string>
+        <string name="sathyamangalam_wildlife_sanctuary_location" translatable="false">Near Coimbatore</string>
+        <string name="sathyamangalam_wildlife_sanctuary_distance">20 Km</string>
+        <string name="sathyamangalam_wildlife_sanctuary_description">Ubicado en la confluencia de los Ghats Occidentales y Orientales en Tamil Nadu, el Santuario de Vida Silvestre Sathyamangalam es una vasta extensión de naturaleza conocida por su rica biodiversidad y paisajes impresionantes. Con una extensión de 1,411 kilómetros cuadrados, es una reserva de tigres vital y parte de la Reserva de la Biosfera Nilgiri. El santuario alberga una amplia variedad de flora y fauna, incluyendo tigres, elefantes, leopardos, gaures y más de 200 especies de aves. Sus densos bosques, ríos y pastizales lo convierten en un paraíso para los entusiastas de la naturaleza, fotógrafos de vida silvestre y ecoturistas. El santuario también tiene importancia histórica, ya que alguna vez fue una ruta utilizada por el legendario Tipu Sultan.</string>
+        <string name="sathyamangalam_wildlife_sanctuary_opening_hours">6:00</string>
+        <string name="sathyamangalam_wildlife_sanctuary_closing_hours">18:00</string>
+        <string name="sathyamangalam_wildlife_sanctuary_operating_days">Todos los días</string>
+
+        <string name="government_museum_name">Museo Gubernamental de Coimbatore</string>
+        <string name="government_museum_location" translatable="false">Gopalapuram, Coimbatore</string>
+        <string name="government_museum_distance">20 Km</string>
+        <string name="government_museum_description">El Museo Gubernamental de Coimbatore, ubicado en el corazón de la ciudad, es un tesoro de arte, historia y cultura. Establecido en 1975, este museo exhibe una diversa colección de artefactos, incluyendo esculturas antiguas, monedas, inscripciones y artesanías tradicionales. También presenta exhibiciones sobre antropología, botánica y geología, ofreciendo a los visitantes una visión fascinante del rico patrimonio y la historia natural de Tamil Nadu. El punto destacado del museo es su galería de estatuas de bronce, que reflejan la exquisita artesanía del período Chola. Una visita a este museo es un viaje a través del tiempo, perfecto para aficionados a la historia, estudiantes y viajeros curiosos.</string>
+        <string name="government_museum_opening_hours">10:00</string>
+        <string name="government_museum_closing_hours">17:00</string>
+        <string name="government_museum_operating_days">Martes a domingo</string>
+
+        <string name="valparai_hill_station_name" translatable="false">Valparai Hill Station</string>
+        <string name="valparai_hill_station_location" translatable="false">Valparai, Coimbatore</string>
+        <string name="valparai_hill_station_distance">20 Km</string>
+        <string name="valparai_hill_station_description">Ubicada en las exuberantes colinas Anamalai de Tamil Nadu, Valparai es una tranquila estación de montaña conocida por sus paisajes impresionantes, densas plantaciones de té y café, y rica biodiversidad. Situada a una altitud de 3,500 pies, ofrece un clima fresco y vistas impresionantes de valles cubiertos de niebla, cascadas y vida silvestre. Valparai forma parte de la Reserva de Tigres Anamalai y alberga especies raras como el tahr del Nilgiri, el macaco de cola de león y elefantes. Las atracciones populares incluyen la presa Sholayar, la presa Aliyar y el sereno mirador Nallamudi Poonjolai. Alejada del bullicio de la vida urbana, Valparai es un retiro perfecto para amantes de la naturaleza y aquellos que buscan paz en un entorno prístino.</string>
+        <string name="valparai_hill_station_opening_hours">6:00</string>
+        <string name="valparai_hill_station_closing_hours">18:00</string>
+        <string name="valparai_hill_station_operating_days">Todos los días</string>
+
+        <string name="perur_pateeswarar_temple_name" translatable="false">Perur Pateeswarar Temple</string>
+        <string name="perur_pateeswarar_temple_location" translatable="false">Perur, Coimbatore</string>
+        <string name="perur_pateeswarar_temple_distance">20 Km</string>
+        <string name="perur_pateeswarar_temple_description">El Templo Perur Pateeswarar es un templo hindú dedicado a Lord Shiva, ubicado en Perur, en la parte occidental de Coimbatore, en el estado de Tamil Nadu, India. El templo fue construido por Karikala Chola en el siglo II d.C. Está situado a orillas del río Noyyal y ha sido patrocinado por poetas como Arunagirinathar y Kachiappa Munivar. Patteeswarar (Shiva) es la deidad principal de este templo junto con su consorte Pachainayaki (Parvati). La deidad principal es un Swayambu Lingam.</string>
+        <string name="perur_pateeswarar_temple_opening_hours">6:00</string>
+        <string name="perur_pateeswarar_temple_closing_hours">12:00 y 16:00 – 20:00</string>
+        <string name="perur_pateeswarar_temple_operating_days">Todos los días</string>
+
+        <string name="fort_st_george_name" translatable="false">Fort St.George Museum</string>
+        <string name="fort_st_george_location" translatable="false">Chennai, Tamil Nadu</string>
+        <string name="fort_st_george_distance">20 Km</string>
+        <string name="fort_st_george_description">El Fuerte San Jorge, ubicado en Chennai, Tamil Nadu, es la primera fortaleza británica construida en la India, marcando el inicio de la influencia colonial británica en el país.\nConstruido en 1644 por la Compañía Británica de las Indias Orientales, desempeñó un papel importante en el establecimiento de Madrás (ahora Chennai) como centro de comercio y administración.\n\nDentro del complejo del fuerte se encuentra el Museo del Fuerte, que ofrece una visión profunda del pasado colonial de la región.\nEl museo está alojado en un edificio que alguna vez sirvió como Bolsa Pública y abrió al público en 1948.\nMuestra una rica colección de artefactos de la Raj Británica, incluyendo monedas, medallas, armas, uniformes, manuscritos y muebles antiguos.\n\nUno de los principales atractivos es la Iglesia de Santa María, la iglesia anglicana más antigua de la India, construida en 1680.\nEl museo también contiene pinturas raras, retratos de gobernadores británicos y cartas de figuras históricas como Lord Clive y Lord Cornwallis.\nEstos exhibiciones ofrecen a los visitantes un vistazo a la vida diaria y los estilos administrativos de los oficiales coloniales.\n\nLa arquitectura del Fuerte San Jorge combina el diseño militar británico con el encanto colonial y está rodeada de jardines bien cuidados y edificios bien conservados.\nAdemás de ser un sitio histórico, aún funciona como la sede administrativa del gobierno de Tamil Nadu, albergando la Asamblea Legislativa y la Secretaría.\n\nGestionado por la Encuesta Arqueológica de la India, el Museo del Fuerte continúa atrayendo a historiadores, estudiantes y turistas de todo el mundo.\nNo es solo un museo, sino un legado vivo de la era colonial que dio forma al panorama sociopolítico de Tamil Nadu.\nLos visitantes pueden recorrer siglos de historia, presenciando la transición del dominio colonial a la independencia india.\n\nEl Fuerte San Jorge se erige hoy no solo como un símbolo del pasado, sino como un faro de cómo Tamil Nadu evolucionó a través de siglos de cambio cultural y político.</string>
+        <string name="fort_st_george_opening_hours">9:00</string>
+        <string name="fort_st_george_closing_hours">17:00</string>
+        <string name="fort_st_george_operating_days">Abierto todos los días, excepto los viernes (museo cerrado)</string>
+
+        <string name="san_thome_basilica_name" translatable="false">San Thome Basilica</string>
+        <string name="san_thome_basilica_location" translatable="false">Chennai, Tamil Nadu</string>
+        <string name="san_thome_basilica_distance">20 Km</string>
+        <string name="san_thome_basilica_description">La Basílica de San Thome, ubicada en Chennai, Tamil Nadu, es una iglesia católica romana venerada construida sobre la tumba del Apóstol Santo Tomás, uno de los doce apóstoles de Jesucristo.\nEsta majestuosa estructura se erige como un símbolo de fe profunda y legado histórico, se cree que fue originalmente construida por exploradores portugueses en el siglo XVI y posteriormente reconstruida por los británicos en estilo neogótico en 1896.\n\nLa basílica no es solo un lugar de culto, sino también un centro de peregrinación que atrae a miles de devotos de todo el mundo.\nLa tumba de Santo Tomás, ubicada en la capilla subterránea, es un sitio espiritual significativo.\nLa arquitectura presenta agujas elevadas, vitrales y una fachada blanca que refleja pureza y paz.\n\nDentro de la iglesia, el ambiente tranquilo, los altares artísticos y las reliquias históricas ofrecen una experiencia serena y reflexiva.\nEl museo dentro del complejo de la iglesia exhibe artefactos relacionados con Santo Tomás, incluyendo reliquias, documentos históricos y estatuas.\n\nLa Basílica de San Thome es una de las tres únicas iglesias en el mundo construidas sobre la tumba de un apóstol de Jesús, lo que la hace históricamente y religiosamente única.\nLas otras dos son la Basílica de San Pedro en Roma y Santiago de Compostela en España.\n\nAdemás de su importancia religiosa, la basílica es también una maravilla arquitectónica que combina estilos coloniales y tradicionales, destacándose como un monumento patrimonial orgulloso de Chennai.\nHa sido testigo de siglos de armonía religiosa y devoción.\n\nGestionada por la Arquidiócesis de Madrás-Mylapore, sigue siendo un lugar activo para misas, oraciones y servicios comunitarios.\nPeregrinos y turistas por igual la visitan para buscar bendiciones y explorar su riqueza espiritual y cultural.\n\nLa Basílica de San Thome es un testimonio del legado perdurable de Santo Tomás en la India y una parte integral del patrimonio cristiano de Tamil Nadu.\nSimboliza la conexión histórica de Chennai con los orígenes del cristianismo en la India y continúa siendo un faro de fe, paz y unidad a través de las generaciones.</string>
+        <string name="san_thome_basilica_opening_hours">6:00</string>
+        <string name="san_thome_basilica_closing_hours">21:00</string>
+        <string name="san_thome_basilica_operating_days">Abierto todos los días</string>
+
+        <string name="kapaleeshwarar_temple_name" translatable="false">Kapaleeshwarar Temple</string>
+        <string name="kapaleeshwarar_temple_location" translatable="false">Mylapore, Chennai.</string>
+        <string name="kapaleeshwarar_temple_distance">20 Km</string>
+        <string name="kapaleeshwarar_temple_description">El Templo Kapaleeshwarar, ubicado en Mylapore, Chennai, es uno de los templos hindúes más antiguos y venerados dedicados a Lord Shiva en Tamil Nadu. Construido en el siglo VII d.C. por la dinastía Pallava en el estilo arquitectónico dravídico, fue posteriormente reconstruido por los gobernantes Vijayanagar. El nombre del templo deriva de Lord Kapaleeshwarar, una forma de Shiva, y su consorte Diosa Karpagambal, una encarnación de Parvati. Su imponente gopuram, adornado con intrincados tallados que representan cuentos mitológicos hindúes, es un testimonio del arte antiguo. El tanque sagrado y los mandapams con pilares realzan su ambiente espiritual sereno. Según la leyenda, Parvati adoró a Shiva aquí como una pava real, dando a Mylapore su nombre: ‘Mayil’ (pavo real) y ‘oor’ (lugar). El templo es un vibrante centro de culto y cultura, albergando pujas diarias, cantos védicos y el gran festival Panguni Peruvizha, que atrae a miles de devotos anualmente. Más allá de su significado religioso, sirve como un centro cultural con actuaciones de música y danza clásica resonando en sus salas. Situado en el bullicioso vecindario de Mylapore, simboliza el rico patrimonio espiritual de Chennai, atrayendo a peregrinos y turistas que se maravillan con su energía divina y esplendor arquitectónico. El templo preserva tradiciones saivitas tamiles de siglos de antigüedad, ofreciendo un vistazo a la devoción y el arte de la región. Sigue siendo un monumento vivo del legado cultural de Tamil Nadu, inspirando generaciones con su presencia perdurable.</string>
+        <string name="kapaleeshwarar_temple_opening_hours">6:00</string>
+        <string name="kapaleeshwarar_temple_closing_hours">21:00</string>
+        <string name="kapaleeshwarar_temple_operating_days">Abierto todos los días</string>
+
+        <string name="government_museum_egmore_name">Museo Gubernamental, Egmore</string>
+        <string name="government_museum_egmore_location" translatable="false">Egmore, Chennai</string>
+        <string name="government_museum_egmore_distance">20 km</string>
+        <string name="government_museum_egmore_description">El Museo Gubernamental en Egmore, Chennai, establecido en 1851, se encuentra entre los museos más antiguos y prestigiosos de la India, solo superado por el Museo Indio en Kolkata. Ubicado en un impresionante edificio de estilo indo-sarraceno, es un tesoro de arte, cultura e historia, ofreciendo una visión del rico pasado del sur de la India. El museo abarca múltiples departamentos, incluyendo Arqueología, Numismática, Zoología, Botánica y Geología, con más de 40 galerías que exhiben diversos artefactos. Su renombrada Galería de Bronce presenta exquisitos bronces Chola, incluyendo la icónica estatua de Nataraja, una obra maestra de la metalurgia antigua. Los visitantes pueden explorar arte tradicional y contemporáneo, armas antiguas, esculturas e instrumentos musicales del sur de la India. El museo también incluye un Museo Infantil y una sección de Historia Natural, que deleita a audiencias más jóvenes con exhibiciones interactivas. El elegante Teatro del Museo, una estructura colonial dentro del complejo, alberga actuaciones culturales y conferencias. Con una extensa colección de manuscritos en hoja de palma, monedas y esculturas de Amaravati, destaca el patrimonio de Tamil Nadu. Ubicado en el corazón de Chennai, el museo sirve como un centro educativo para estudiantes e investigadores, ofreciendo un viaje a través de siglos de civilización. Su campus verde y sus grandes salas crean una experiencia inmersiva para los entusiastas de la historia y el arte. El Museo Gubernamental se erige como un testimonio vivo de la diversidad cultural de la India, preservando el legado de Tamil Nadu mientras inspira a futuras generaciones.</string>
+        <string name="government_museum_egmore_opening_hours">9:30</string>
+        <string name="government_museum_egmore_closing_hours">17:00</string>
+        <string name="government_museum_egmore_operating_days">Abierto todos los días, excepto los viernes y días festivos nacionales</string>
+
+        <string name="parthasarathy_temple_name" translatable="false">Parthasarathy Temple</string>
+        <string name="parthasarathy_temple_location" translatable="false">Triplicane, Chennai</string>
+        <string name="parthasarathy_temple_distance">20 km</string>
+        <string name="parthasarathy_temple_description">El Templo Parthasarathy, ubicado en Triplicane, Chennai, es uno de los templos vaisnavitas más antiguos y venerados del sur de la India, dedicado a Lord Vishnu como Parthasarathy, que significa "auriga de Arjuna". Construido por los Pallavas en el siglo VIII y posteriormente renovado por los Cholas y los reyes Vijayanagara, este templo ejemplifica la arquitectura dravídica con su imponente gopuram adornado con tallados intrincados. Acoge a los devotos en un espacio sagrado rico en historia y espiritualidad. El santuario alberga a Parthasarathy, representado con una concha, un disco y una maza, junto a Rukmini, Satyaki y otras figuras divinas, un conjunto raro en la iconografía vaisnavita. Como uno de los 108 Divya Desams, es glorificado en los himnos de los Alvars, notablemente Nammalvar y Thirumangai Alvar. Las inscripciones históricas revelan donaciones reales y dotaciones, subrayando su importancia. Festivales como Vaikunta Ekadasi y Brahmotsavam atraen a miles, con procesiones vibrantes y rituales que muestran el patrimonio cultural de Tamil Nadu. El templo tiene cinco santuarios dedicados a varias encarnaciones de Vishnu, incluyendo Narasimha y Rama, reflejando la diversidad del culto vaisnavita. El tanque sagrado, Alli Keni, se cree que tiene propiedades curativas. Una visita al Templo Parthasarathy ofrece una inmersión profunda en el legado espiritual de Chennai, combinando devoción y arte en un ambiente sereno que resuena con siglos de tradición.</string>
+        <string name="parthasarathy_temple_opening_hours">6:00</string>
+        <string name="parthasarathy_temple_closing_hours">21:00</string>
+        <string name="parthasarathy_temple_operating_days">Abierto todos los días</string>
+
+        <string name="meenakshi_amman_temple_name" translatable="false">Meenakshi Amman Temple</string>
+        <string name="meenakshi_amman_temple_location" translatable="false">Madurai</string>
+        <string name="meenakshi_amman_temple_distance">20 km</string>
+        <string name="meenakshi_amman_temple_description">El Templo Meenakshi Amman, ubicado en el corazón de Madurai, es una maravilla arquitectónica y uno de los templos hindúes más importantes de la India, dedicado a la Diosa Meenakshi (Parvati) y su consorte Lord Sundareswarar (Shiva). Se cree que fue originalmente construido por los Pandyas alrededor del siglo VI, y fue ampliamente expandido por los gobernantes Nayak en los siglos XVI-XVII, mostrando la grandeza de la arquitectura dravídica. El complejo del templo abarca 14 acres y es renombrado por sus 14 gopurams imponentes, el más alto alcanzando los 170 pies, adornados con miles de figuras de estuco coloridas que representan deidades, seres míticos y animales. La Sala de los Mil Pilares, una hazaña de ingeniería, presenta columnas intrincadamente talladas que producen notas musicales cuando se golpean. El santuario del templo alberga a Meenakshi, adornada con joyas de color esmeralda, y a Sundareswarar, simbolizando la unión divina. Como un importante lugar de peregrinación, atrae a millones durante el festival anual Meenakshi Tirukalyanam, que celebra el matrimonio divino con procesiones vibrantes. La importancia histórica del templo es evidente en sus antiguas inscripciones tamiles y su rol como epicentro cultural de Madurai. El tanque sagrado, Potramarai Kulam, está rodeado por corredores con techos pintados, añadiendo al ambiente espiritual. Los visitantes quedan cautivados por la mezcla de arte, devoción e historia del templo, haciéndolo un testimonio del rico patrimonio de Tamil Nadu.</string>
+        <string name="meenakshi_amman_temple_opening_hours">5:00</string>
+        <string name="meenakshi_amman_temple_closing_hours">22:00</string>
+        <string name="meenakshi_amman_temple_operating_days">Abierto todos los días</string>
+
+        <string name="thirumalai_nayakkar_mahal_name" translatable="false">Thirumalai Nayakkar Mahal</string>
+        <string name="thirumalai_nayakkar_mahal_location" translatable="false">Madurai</string>
+        <string name="thirumalai_nayakkar_mahal_distance">20 km</string>
+        <string name="thirumalai_nayakkar_mahal_description">El Palacio Thirumalai Nayakkar, ubicado en Madurai, es un magnífico palacio del siglo XVII construido por el Rey Thirumalai Nayak, uno de los gobernantes más prominentes de la dinastía Nayak. Construido en 1636, esta joya arquitectónica combina estilos dravídico e indo-sarraceno, reflejando la grandeza de la era. Originalmente cuatro veces su tamaño actual, el palacio fue parcialmente destruido con el tiempo, pero lo que queda es un testimonio de su antigua gloria. La estructura es renombrada por sus pilares masivos, trabajos de estuco ornamentados y el majestuoso Swarga Vilasam (Pabellón Celestial), un vasto patio con un techo abovedado sostenido por columnas de 100 pies de altura. La Sala Durbar, donde el rey celebraba su corte, presenta arcos intrincados y frescos detallados que cautivan a los visitantes. El palacio alguna vez albergó residencias reales, un teatro y jardines, aunque solo una cuarta parte del complejo original sobrevive hoy. Su importancia histórica radica en su representación de la opulencia Nayak y sus contribuciones al paisaje cultural de Madurai. El Espectáculo de Sonido y Luz, que narra la historia del palacio, atrae a turistas, ofreciendo un vistazo a su antiguo esplendor. Restaurado por el gobierno de Tamil Nadu, el Mahal ahora sirve como museo, exhibiendo artefactos como esculturas y pinturas. El Palacio Thirumalai Nayakkar se erige como un símbolo del patrimonio real de Madurai, combinando arte, arquitectura e historia en un entorno sereno pero imponente.</string>
+        <string name="thirumalai_nayakkar_mahal_opening_hours">9:00</string>
+        <string name="thirumalai_nayakkar_mahal_closing_hours">17:00</string>
+        <string name="thirumalai_nayakkar_mahal_operating_days">Abierto todos los días</string>
+
+        <string name="koodal_azhagar_temple_name" translatable="false">Koodal Azhagar Temple</string>
+        <string name="koodal_azhagar_temple_location" translatable="false">Madurai</string>
+        <string name="koodal_azhagar_temple_distance">20 km</string>
+        <string name="koodal_azhagar_temple_description">El Templo Koodal Azhagar, situado en Madurai, es un antiguo y venerado santuario vaisnavita dedicado a Lord Vishnu como Koodal Azhagar, que significa "el hermoso de la confluencia". Se cree que es anterior al Templo Meenakshi, sus orígenes se remontan al período Sangam (siglo III a.C. al siglo III d.C.), con expansiones significativas por los Pandyas y posteriormente los Nayaks. Este templo ejemplifica la arquitectura dravídica con su impresionante gopuram de cinco niveles, adornado con tallados detallados de deidades y figuras míticas. Uno de los 108 Divya Desams, es glorificado en los himnos de los Alvars, particularmente Nammalvar, quien elogió su santidad. La singularidad del templo radica en sus tres santuarios que muestran a Vishnu en diferentes posturas: sentado (como Koodal Azhagar), de pie (como Veera Narayana) y reclinado (como Ranganatha), una característica rara en los templos vaisnavitas. Los intrincados tallados de madera en los techos del templo y los vibrantes festivales, como la procesión de Garuda Sevai, atraen a devotos y turistas por igual. Las inscripciones históricas lo vinculan a los gobernantes Pandya, destacando su importancia cultural y religiosa en Madurai, conocida como la "Atenas del Este". El tanque sagrado del templo, Hema Pushkarini, añade a su aura espiritual. Visitar el Templo Koodal Azhagar ofrece una experiencia serena, reflejando el rico patrimonio espiritual y arquitectónico de Tamil Nadu.</string>
+        <string name="koodal_azhagar_temple_opening_hours">6:00</string>
+        <string name="koodal_azhagar_temple_closing_hours">20:00</string>
+        <string name="koodal_azhagar_temple_operating_days">Abierto todos los días</string>
+
+        <string name="vandiyur_mariamman_teppakulam_name" translatable="false">Vandiyur Mariamman Teppakulam</string>
+        <string name="vandiyur_mariamman_teppakulam_location" translatable="false">Meenakshi Nagar, Madurai</string>
+        <string name="vandiyur_mariamman_teppakulam_distance">20 km</string>
+        <string name="vandiyur_mariamman_teppakulam_description">Vandiyur Mariamman Teppakulam, ubicado en Meenakshi Nagar, Madurai, es un extenso tanque de templo y un sitio patrimonial célebre, a solo 5 km del Templo Meenakshi Amman. Construido en 1645 por el Rey Thirumalai Nayak, esta maravilla arquitectónica abarca 16 acres y es uno de los tanques de templo más grandes del sur de la India. Conectado al río Vaigai a través de canales subterráneos, fue originalmente excavado para suministrar tierra para los ladrillos utilizados en la construcción del Palacio Thirumalai Nayakkar. El tanque cuenta con escalones de granito en los cuatro lados y un mandapam central, Maiya Mandapam, que alberga un templo de Vinayakar (Ganesha) y un pequeño jardín. La leyenda sostiene que el ídolo de Mukuruny Vinayakar, ahora en el Templo Meenakshi, fue desenterrado durante su excavación. El Teppakulam es famoso por el vibrante Festival de los Flotadores (Teppotsavam), celebrado anualmente en enero o febrero para conmemorar el cumpleaños del Rey Thirumalai Nayak. Durante este evento, los ídolos de la Diosa Meenakshi y Lord Sundareswarar son desfilados en flotadores iluminados, acompañados por miles de lámparas, transformando el tanque en un espectáculo deslumbrante. Aunque a menudo está seco durante gran parte del año, se llena durante el monzón, realzando su belleza serena. Vandiyur Mariamman Teppakulam se erige como un testimonio del rico legado cultural e histórico de Madurai, combinando espiritualidad con brillantez arquitectónica.</string>
+        <string name="vandiyur_mariamman_teppakulam_opening_hours">6:00</string>
+        <string name="vandiyur_mariamman_teppakulam_closing_hours">20:00</string>
+        <string name="vandiyur_mariamman_teppakulam_operating_days">Abierto todos los días</string>
+
+        <string name="gandhi_memorial_museum_name">Museo Conmemorativo de Gandhi</string>
+        <string name="gandhi_memorial_museum_location" translatable="false">Tamukkam, Madurai</string>
+        <string name="gandhi_memorial_museum_distance">20 km</string>
+        <string name="gandhi_memorial_museum_description">El Museo Conmemorativo de Gandhi, ubicado en Tamukkam, Madurai, es una institución histórica significativa dedicada a Mahatma Gandhi, el Padre de la Nación. Ubicado en el elegante Palacio Tamukkam, construido en 1670 por la Reina Mangammal de la dinastía Nayak, fue inaugurado el 15 de abril de 1959 por el Primer Ministro Jawaharlal Nehru. El museo se destaca como uno de los siete museos de Gandhi en la India, preservando su legado y la lucha por la libertad de la India. Muestra una extensa colección de artefactos, incluyendo el dhoti manchado de sangre que Gandhi llevaba durante su asesinato, fotografías, cartas y objetos personales como sus gafas y su rueca. El museo está dividido en secciones que detallan la vida de Gandhi, sus visitas a Madurai—donde adoptó el taparrabos en 1921—y el movimiento de independencia más amplio. Una biblioteca con más de 20,000 libros sobre la filosofía gandhiana, una galería de 124 pinturas que representan su vida y un teatro al aire libre para eventos culturales enriquecen la experiencia del visitante. Los alrededores serenos, con jardines bien mantenidos, reflejan los ideales de simplicidad y paz de Gandhi. El museo también sirve como un centro educativo, inspirando reflexión sobre la no violencia y la autosuficiencia, convirtiéndose en una parte vital del patrimonio de Madurai.</string>
+        <string name="gandhi_memorial_museum_opening_hours">10:00</string>
+        <string name="gandhi_memorial_museum_closing_hours">18:00</string>
+        <string name="gandhi_memorial_museum_operating_days">Abierto todos los días, excepto los viernes</string>
+
+        <string name="kazimar_big_mosque_name" translatable="false">Kazimar Big Mosque</string>
+        <string name="kazimar_big_mosque_location" translatable="false">Keerathurai, Madurai</string>
+        <string name="kazimar_big_mosque_distance">20 km</string>
+        <string name="kazimar_big_mosque_description">La Gran Mezquita Kazimar, ubicada en Keerathurai, Madurai, es el lugar de culto islámico más antiguo de la ciudad, fundado en 1284 d.C. por Hazrat Kazi Syed Tajuddin, un descendiente del Profeta Mahoma de Yemen. Con tierras otorgadas por el Rey Kulasekara Pandyan, esta mezquita del siglo XIII combina estilos arquitectónicos islámico y dravídico, con una vasta sala de oración con pilares y arcos tallados, y un patio sereno. Con capacidad para 2,500 fieles, sigue siendo un vibrante centro espiritual. La mezquita alberga el Maqbara de Madurai, el dargah de prominentes Hazrats—Meer Ahmad Ibrahim, Meer Amjad Ibrahim y Syed Abdus Salaam Ibrahim—también descendientes del Profeta, atrayendo a peregrinos de todo el país. Gestionada por los descendientes de Tajuddin, conocidos como Huqdars, durante más de 700 años, la administración de la mezquita refleja una continuidad rara, con alrededor de 450 miembros de la familia residiendo en la calle Kazimar. El Día del Fundador (Urus) anual, el 15 de Rajab, conmemora el legado de Tajuddin, mientras que otras celebraciones de Urs honran a los Hazrats. La Madrasah Árabe Kazi Syed Tajuddin dentro del complejo enseña árabe a más de 120 estudiantes, enriqueciendo su rol cultural. A solo 500 metros de la parada de autobuses Periyar y 800 metros del Templo Meenakshi, su ubicación central realza su prominencia. La Gran Mezquita Kazimar se erige como un testimonio de la armonía religiosa y la profundidad histórica de Madurai, ofreciendo un retiro pacífico en medio del bullicio de la ciudad.</string>
+        <string name="kazimar_big_mosque_opening_hours">5:00</string>
+        <string name="kazimar_big_mosque_closing_hours">21:00</string>
+        <string name="kazimar_big_mosque_operating_days">Abierto todos los días</string>
+
+        <string name="st_marys_cathedral_name" translatable="false">St. Mary’s Cathedral</string>
+        <string name="st_marys_cathedral_location" translatable="false">Mahalipatti, Madurai</string>
+        <string name="st_marys_cathedral_distance">20 km</string>
+        <string name="st_marys_cathedral_description">La Catedral de Santa María, ubicada en Mahalipatti, Madurai, es una histórica iglesia católica romana, también conocida como la Iglesia de Nuestra Señora de los Dolores, y sirve como la sede de la Arquidiócesis de Madurai. Fundada en 1840 por el P. Bertrand SJ, quien compró el terreno, comenzó como una pequeña capilla construida por el P. Garnier en 1841 para atender a 30 familias de marineros ostracizadas de la Iglesia de W. Pudupatti. Ampliado con el tiempo debido al crecimiento de la población católica, la estructura actual de estilo gótico, que combina influencias romanas, europeas y continentales, se completó en 1916. Elevada a la categoría de catedral en 1969, cuenta con dos torres de campanas de 42 metros, una llamativa fachada blanca y azul, y vibrantes vitrales que bañan el interior con luz colorida. Los altos techos abovedados y los intrincados arcos crean un ambiente sereno, potenciado por la ausencia de aire acondicionado, dependiendo en cambio de las brisas naturales. Un kodimaram dorado único (poste de bandera de templo hindú) en el recinto refleja la síntesis cultural de Madurai. La catedral acoge festivales como Navidad y Pascua, junto con una rica historia ligada al establecimiento de la Diócesis de Madurai en 1938, cuando se convirtió en pro-catedral. Ubicada en la calle East Veli, a solo 2 km de la estación de tren de Madurai, sigue siendo un hito prominente, ofreciendo un retiro tranquilo en medio del bullicio de la ciudad y un testimonio de la diversa herencia de Madurai.</string>
+        <string name="st_marys_cathedral_opening_hours">6:00</string>
+        <string name="st_marys_cathedral_closing_hours">20:00</string>
+        <string name="st_marys_cathedral_operating_days">Abierto todos los días</string>
+
+        <string name="samanar_malai_and_jain_beds_name" translatable="false">Samanar Malai and Jain Beds</string>
+        <string name="samanar_malai_and_jain_beds_location" translatable="false">Keelakuyilkudi, Madurai</string>
+        <string name="samanar_malai_and_jain_beds_distance">20 km</string>
+        <string name="samanar_malai_and_jain_beds_description">Samanar Malai, ubicado cerca de la aldea de Keelakuyilkudi, a 10 km al oeste de Madurai, es un promontorio rocoso histórico que se extiende 3 km hacia el este hasta Muthupatti. Conocido como las Colinas Samanar o Colinas Jain, es un testimonio del antiguo patrimonio jainista de Tamil Nadu, declarado monumento protegido por la Encuesta Arqueológica de la India. Datado desde el siglo II a.C. hasta el siglo XII d.C., cuenta con cuevas excavadas en la roca, inscripciones Tamil-Brahmi y esculturas jainistas, incluyendo las de Mahavira, Bahubali y Parsvanatha. El nombre "Samanar" deriva del sánscrito "Sramana", que significa asceta, reflejando su asociación con monjes jainistas que vivían en estas cuevas, practicando sallekhana (ayuno hasta la muerte). Los sitios clave incluyen Settipodavu, con una cueva del siglo X que alberga la imagen de Mahavira, y Pechipallam, que muestra ocho esculturas e inscripciones Vatteluttu de los siglos IX-X. Las Camas Jain—lajas planas talladas en la roca—sirvieron como lugares de descanso para los monjes, evidenciando su estilo de vida austero. Un estanque de loto y el Templo Karuppanasamy en las faldas de la colina realzan el ambiente sereno. Los hallazgos arqueológicos sugieren que aquí prosperó un monasterio jainista, Maadevi Perumpalli, visitado por reyes Pandya. Las colinas ofrecen vistas panorámicas de Madurai, combinando belleza natural con importancia histórica, convirtiéndolo en un destino único para entusiastas de la historia y buscadores espirituales.</string>
+        <string name="samanar_malai_and_jain_beds_opening_hours">6:00</string>
+        <string name="samanar_malai_and_jain_beds_closing_hours">18:00</string>
+        <string name="samanar_malai_and_jain_beds_operating_days">Abierto todos los días</string>
+
+        <string name="brihadeeswarar_temple_name" translatable="false">Brihadeeswarar Temple</string>
+        <string name="brihadeeswarar_temple_location" translatable="false">Balaganapathy Nagar, Thanjavur</string>
+        <string name="brihadeeswarar_temple_distance">20 km</string>
+        <string name="brihadeeswarar_temple_description">El Templo Brihadeeswarar, ubicado en Thanjavur, Tamil Nadu, es una obra maestra arquitectónica y Patrimonio de la Humanidad de la UNESCO, construido por Raja Raja Chola I entre 1003 y 1010 d.C. Dedicado a Lord Shiva como Brihadeeswarar, que significa "Gran Señor", este templo del siglo XI ejemplifica el apogeo de la arquitectura dravídica de la era Chola. Su característica más destacada es el vimana (torre) de 66 metros, uno de los más altos de su tipo, coronado con una cúpula monolítica de granito de 80 toneladas, izada usando técnicas de ingeniería antiguas. El complejo del templo, encerrado por un muro fortificado masivo, abarca 240 metros por 122 metros e incluye una estatua gigante de Nandi (el toro de Shiva) tallada en una sola piedra de 13 pies. Los intrincados tallados en las paredes representan la danza cósmica de Shiva, cuentos mitológicos y la realeza Chola, mientras que las inscripciones tamiles detallan su construcción y dotaciones. El santuario alberga un lingam de 3.7 metros, bañado en luz natural gracias a un diseño arquitectónico preciso. Una galería de frescos, con vibrantes pinturas Chola, añade esplendor artístico. Conocido localmente como "Periya Kovil" (Templo Grande), acoge el festival anual Natyanjali, que celebra la danza clásica. Notable por permanecer intacto tras un milenio, refleja la devoción, la destreza ingenieril y el legado cultural de los Cholas, convirtiéndolo en un símbolo atemporal del patrimonio de Tamil Nadu.</string>
+        <string name="brihadeeswarar_temple_opening_hours">6:00</string>
+        <string name="brihadeeswarar_temple_closing_hours">20:00</string>
+        <string name="brihadeeswarar_temple_operating_days">Abierto todos los días</string>
+
+        <string name="shore_temple_name" translatable="false">Shore Temple</string>
+        <string name="shore_temple_location" translatable="false">Mahabalipuram, Chengalpattu</string>
+        <string name="shore_temple_distance">20 km</string>
+        <string name="shore_temple_description">El Templo de la Costa, situado en la Bahía de Bengala en Mahabalipuram, Chengalpattu, es un monumento icónico del siglo VIII y Patrimonio de la Humanidad de la UNESCO, construido por la dinastía Pallava durante el reinado de Narasimhavarman II (700–728 d.C.). Dedicado a Lord Shiva y Vishnu, esta maravilla costera es uno de los templos de piedra estructural más antiguos de la India, mostrando la arquitectura dravídica temprana. Construido con bloques de granito, cuenta con dos santuarios principales: uno orientado al este con un lingam de Shiva y otro hacia el oeste con un Vishnu reclinado, flanqueados por un santuario menor de Durga con un león montado. Sus vimanas piramidales, que se elevan 18 metros, están adornados con intrincados tallados de deidades, seres míticos y motivos florales, desgastados pero majestuosos contra el telón de fondo del océano. La ubicación costera del templo, alguna vez parte de una bulliciosa ciudad portuaria, llevó a su erosión por las olas, pero su supervivencia a través de los siglos, incluyendo el tsunami de 2004, subraya su resiliencia. Originalmente uno de siete templos (los demás sumergidos), fue redescubierto en el siglo XIX y restaurado por la Encuesta Arqueológica de la India. Los céspedes circundantes y los toros Nandi realzan su ambiente sereno. El Festival de Danza de Mahabalipuram anual celebra su legado cultural. Un faro de la destreza artística Pallava, el Templo de la Costa combina historia, espiritualidad y belleza natural, cautivando a los visitantes con su atractivo atemporal.</string>
+        <string name="shore_temple_opening_hours">6:00</string>
+        <string name="shore_temple_closing_hours">18:00</string>
+        <string name="shore_temple_operating_days">Abierto todos los días</string>
+
+        <string name="kailasanathar_temple_name" translatable="false">Kailasanathar Temple</string>
+        <string name="kailasanathar_temple_location" translatable="false">Karuppadithattadai, Kanchipuram</string>
+        <string name="kailasanathar_temple_distance">20 km</string>
+        <string name="kailasanathar_temple_description">El Templo Kailasanathar, situado en Karuppadithattadai, Kanchipuram, es un venerado templo hindú del siglo VIII y uno de los monumentos estructurales más antiguos que sobreviven en Tamil Nadu, dedicado a Lord Shiva. Construido entre 685–705 d.C. por el rey Pallava Narasimhavarman II (Rajasimha), con adiciones de su hijo Mahendravarman III, se erige como un pináculo de la arquitectura dravídica temprana. Ubicado a orillas del río Vedavathi, a 75 km de Chennai, este sitio nominado por la UNESCO cuenta con una superestructura de arenisca sobre una base de granito, adornada con 58 sub-santuarios a lo largo de las paredes de su prakara (patio), mostrando intrincados tallados de Shiva, Vishnu y otras deidades. El santuario alberga un lingam de granito negro de 16 lados, mientras que el vimana de cuatro pisos se eleva en forma piramidal, coronado con una cúpula. Notable por sus pilares basados en leones y murales hindúes tempranos similares a los de las Cuevas de Ajanta, el templo también lleva inscripciones tamiles vitales para estudios epigráficos. Un túnel secreto, aún visible, sugiere su papel como refugio real en tiempos de guerra. Mantenido por la Encuesta Arqueológica de la India, acoge festivales como Maha Shivaratri, atrayendo a devotos y turistas a su ambiente sereno e histórico, reflejando la destreza artística Pallava y el legado espiritual de Kanchipuram.</string>
+        <string name="kailasanathar_temple_opening_hours">6:00</string>
+        <string name="kailasanathar_temple_closing_hours">18:00</string>
+        <string name="kailasanathar_temple_operating_days">Abierto todos los días</string>
+
+        <string name="thillai_nataraja_temple_name" translatable="false">Thillai Nataraja Temple</string>
+        <string name="thillai_nataraja_temple_location" translatable="false">Chidambaram, Cuddalore</string>
+        <string name="thillai_nataraja_temple_distance">20 km</string>
+        <string name="thillai_nataraja_temple_description">El Templo Thillai Nataraja, ubicado en Chidambaram, Cuddalore, es un venerado templo hindú dedicado a Lord Shiva como Nataraja, el bailarín cósmico, que simboliza la creación y la destrucción. Datado del siglo X con el patrocinio Chola, es uno de los cinco Pancha Bhoota Sthalams, representando el elemento del espacio (akasha). Con una extensión de 40 acres, el templo cuenta con cuatro gopurams imponentes, cada uno de 45 metros de altura y adornado con 108 karanas (posturas de danza) del Bharatanatyam, reflejando su profunda conexión con la danza clásica. El santuario alberga el icónico ídolo de Nataraja y el Chidambara Rahasyam, una representación simbólica del espacio sin forma, junto con un lingam de cristal adorado diariamente. Construido y ampliado por reyes Chola como Kulothunga I, el templo presenta tallados intrincados, esculturas de bronce y un santuario con techo dorado, mostrando la arquitectura dravídica. La sala de los 1000 pilares y el tanque sagrado Sivaganga realzan su grandeza. Gestionado por sacerdotes Dikshitar hereditarios, acoge festivales vibrantes como Natyanjali y Arudra Darshan, atrayendo a bailarines y devotos de todo el mundo. Ubicado a 60 km de Pondicherry, sigue siendo un faro espiritual y cultural, combinando arte, devoción y filosofía cósmica en el patrimonio de Tamil Nadu.</string>
+        <string name="thillai_nataraja_temple_opening_hours">6:00</string>
+        <string name="thillai_nataraja_temple_closing_hours">22:00</string>
+        <string name="thillai_nataraja_temple_operating_days">Abierto todos los días</string>
+
+        <string name="padmanabhapuram_palace_name" translatable="false">Padmanabhapuram Palace</string>
+        <string name="padmanabhapuram_palace_location" translatable="false">Padmanabhapuram, Kanyakumari</string>
+        <string name="padmanabhapuram_palace_distance">20 km</string>
+        <string name="padmanabhapuram_palace_description">El Palacio de Padmanabhapuram, ubicado en Padmanabhapuram, Kanyakumari, es un magnífico palacio de madera y un testimonio del patrimonio real de Travancore, construido en el siglo XVI por Iravi Varma Kulasekhara Perumal. Situado al pie de las Colinas Veli, a 50 km de Thiruvananthapuram, este extenso complejo de 6.5 acres sirvió como sede administrativa de los reyes de Travancore hasta el siglo XVIII. Reconocido por su arquitectura al estilo de Kerala, cuenta con tejados inclinados, intrincados tallados de palo de rosa y interiores de teca pulida, combinando elegancia con simplicidad. El palacio incluye secciones clave como el Thai Kottaram (Palacio de la Madre), la estructura más antigua de 1550, el Natakasala (Sala de Danza) con su suelo de granito negro, y el Uppirikka Malika de cuatro pisos, que alberga tesoros reales y un mural de Lord Vishnu. Un reloj de 300 años en la Cámara del Consejo del Rey aún funciona, mientras que el Mantrasala refleja una gobernanza estratégica. El museo del palacio exhibe artefactos, armas y pinturas, ofreciendo vistazos al pasado de Travancore. Pasajes secretos y una cama medicinal tallada en 64 maderas herbales destacan su ingenio. Rodeado de exuberante vegetación, atrae a visitantes por su ambiente sereno y profundidad histórica, mantenido por el Gobierno de Kerala a pesar de estar en Tamil Nadu, reflejando una síntesis cultural única.</string>
+        <string name="padmanabhapuram_palace_opening_hours">9:00</string>
+        <string name="padmanabhapuram_palace_closing_hours">17:00</string>
+        <string name="padmanabhapuram_palace_operating_days">Abierto todos los días, excepto los lunes</string>
+
+        <string name="airavatesvara_temple_name" translatable="false">Dharasuram Sri Airavatesvara Temple</string>
+        <string name="airavatesvara_temple_location" translatable="false">Dharasuram, Thanjavur</string>
+        <string name="airavatesvara_temple_distance">20 km</string>
+        <string name="airavatesvara_temple_description">El Templo Sri Airavatesvara, ubicado en Dharasuram, Thanjavur, es una joya arquitectónica del siglo XII y Patrimonio de la Humanidad de la UNESCO, construido por el rey Chola Rajaraja II (1146–1173 d.C.). Dedicado a Lord Shiva como Airavatesvara—nombrado por el elefante blanco de Indra, Airavata, curado por Shiva—este templo forma parte del trío de los Grandes Templos Chola Vivientes. Construido en granito, ejemplifica la arquitectura dravídica Chola con un vimana de 24 metros, más pequeño que sus contrapartes pero exquisitamente detallado. El mandapa frontal, diseñado como un carro con ruedas y caballos de piedra, muestra una artesanía sin igual, mientras que los intrincados tallados de bailarines, músicos y figuras míticas adornan las paredes y pilares. El santuario alberga un gran lingam de Shiva, y el santuario de la diosa Periya Nayaki se encuentra separado dentro del complejo. Los pilares musicales que emiten notas distintas cuando se golpean destacan el ingenio acústico de los Cholas. Las inscripciones tamiles narran su historia, vinculándolo a la leyenda de Airavata y al patrocinio Chola. La sala de 100 pilares y los escalones de baño añaden a su grandeza, aunque sufrió daños por invasiones del siglo XIV, posteriormente restaurado por la Encuesta Arqueológica de la India. Los festivales anuales como Maha Shivaratri atraen a devotos, mientras que su ambiente sereno atrae a entusiastas del patrimonio. Ubicado a 3 km de Kumbakonam, Airavatesvara refleja el legado cultural y espiritual de Tamil Nadu.</string>
+        <string name="airavatesvara_temple_opening_hours">6:00</string>
+        <string name="airavatesvara_temple_closing_hours">18:00</string>
+        <string name="airavatesvara_temple_operating_days">Abierto todos los días</string>
+
+        <string name="rock_fort_temple_name" translatable="false">Rock Fort Temple</string>
+        <string name="rock_fort_temple_location" translatable="false">Theppakulam, Tiruchirappalli</string>
+        <string name="rock_fort_temple_distance">20 km</string>
+        <string name="rock_fort_temple_description">El Templo del Fuerte de Roca, situado en la cima de una roca de 273 pies en Theppakulam, Tiruchirappalli, es un antiguo complejo de fortaleza y templo, un hito del patrimonio de Trichy. Datado del siglo VII con contribuciones de Pallava y Chola, alberga dos templos principales: el Templo Ucchi Pillayar, dedicado a Lord Ganesha, en la cima, y el Templo Thayumanavar, dedicado a Lord Shiva, a mitad de camino. Construido sobre una formación rocosa masiva, el complejo requiere subir 437 escalones tallados en la piedra, ofreciendo vistas panorámicas de la ciudad y el río Cauvery. Los Pallavas iniciaron su construcción, posteriormente fortificada por los Nayaks, combinando la arquitectura dravídica con el diseño militar. Los tallados intrincados, un lingam de Shiva de 12 pies y una sala con pilares reflejan su importancia espiritual y artística. El templo de Ganesha conmemora una leyenda donde Vibhishana regaló un ídolo a Trichy. Gestionado por la Encuesta Arqueológica de la India, acoge festivales como Chithirai Thiruvizha, atrayendo a devotos y turistas. Ubicado en el centro, simboliza la resiliencia histórica y cultural de Trichy.</string>
+        <string name="rock_fort_temple_opening_hours">6:00</string>
+        <string name="rock_fort_temple_closing_hours">20:00</string>
+        <string name="rock_fort_temple_operating_days">Abierto todos los días</string>
+
+        <string name="gangaikonda_cholapuram_temple_name" translatable="false">Gangaikonda Cholapuram Temple</string>
+        <string name="gangaikonda_cholapuram_temple_location" translatable="false">Jayankondam, Ariyalur</string>
+        <string name="gangaikonda_cholapuram_temple_distance">20 km</string>
+        <string name="gangaikonda_cholapuram_temple_description">El Templo Gangaikonda Cholapuram, ubicado en Jayankondam, Ariyalur, es un majestuoso monumento Chola del siglo XI y Patrimonio de la Humanidad de la UNESCO, construido por Rajendra Chola I (1012–1044 d.C.) para conmemorar su conquista del Ganges. Dedicado a Lord Shiva, este templo refleja el Templo Brihadeeswarar en Thanjavur pero con características distintas. Con una extensión de 20 acres, su vimana de 55 metros, aunque más corto, está intrincadamente tallado con esculturas de Shiva, Nandi y seres celestiales, mostrando la destreza artística Chola. El santuario alberga un lingam de Shiva de 4 metros, uno de los más grandes del sur de la India, mientras que un Nandi masivo de 9 pies lo enfrenta. El nombre del templo, que significa "Chola que conquistó el Ganga", refleja su importancia histórica como la capital del imperio Chola durante 250 años. Ídolos de bronce, un pozo con cabeza de león y detalladas inscripciones tamiles enriquecen su legado. Mantenido por la Encuesta Arqueológica de la India, acoge festivales como Maha Shivaratri, aunque gran parte de la ciudad original yace en ruinas. Ubicado a 70 km de Thanjavur, se erige como un testimonio de la ingeniería y devoción Chola.</string>
+        <string name="gangaikonda_cholapuram_temple_opening_hours">6:00</string>
+        <string name="gangaikonda_cholapuram_temple_closing_hours">18:00</string>
+        <string name="gangaikonda_cholapuram_temple_operating_days">Abierto todos los días</string>
+
+        <string name="vivekananda_rock_memorial_name" translatable="false">Swami Vivekananda Rock Memorial</string>
+        <string name="vivekananda_rock_memorial_location" translatable="false">Vivekanandapuram, Kanyakumari</string>
+        <string name="vivekananda_rock_memorial_distance">20 km</string>
+        <string name="vivekananda_rock_memorial_description">El Memorial de la Roca Swami Vivekananda, ubicado frente a Vivekanandapuram, Kanyakumari, es un impresionante monumento en una roca a 500 metros en el Mar Arábigo, donde Swami Vivekananda meditó en 1892. Construido en 1970 por el Comité del Memorial de la Roca Vivekananda bajo Eknath Ranade, conmemora su visión de una India unificada, inspirada durante su meditación en esta confluencia del Mar Arábigo, la Bahía de Bengala y el Océano Índico. Accesible por ferry, el memorial cuenta con dos estructuras principales: el Vivekananda Mandapam, con una estatua de bronce de Vivekananda, y el Shripada Mandapam, que marca la huella de la Diosa Kanyakumari. Combinando estilos arquitectónicos tamiles y bengalíes, su entorno sereno ofrece impresionantes vistas del amanecer y el atardecer. Una sala de meditación permite a los visitantes reflexionar en silencio, haciendo eco del legado espiritual de Vivekananda. Ubicado cerca del extremo más austral de la India, a 14 km de la ciudad de Kanyakumari, atrae a turistas y peregrinos, simbolizando la unidad y la iluminación en el paisaje cultural de Tamil Nadu.</string>
+        <string name="vivekananda_rock_memorial_opening_hours">8:00</string>
+        <string name="vivekananda_rock_memorial_closing_hours">16:00</string>
+        <string name="vivekananda_rock_memorial_operating_days">Abierto todos los días</string>
+
+        <string name="please_enter_a_place_name">Por favor, ingrese el nombre de un lugar</string>
+        <string name="place_not_found">Lugar no encontrado: %s</string>
+        <string name="category_all">Categoría: Todos</string>
+        <string name="category_5_km">Categoría: 5 Km</string>
+        <string name="category_10_km">Categoría: 10 Km</string>
+        <string name="category_15_km">Categoría: 15 Km</string>
+        <string name="category_20_km">Categoría: 20 Km</string>
+        <string name="showing_all_places_near_coimbatore">Mostrando todos los lugares cerca de Coimbatore.</string>
+        <string name="showing_places_within_5_kilometers">Mostrando lugares dentro de 5 kilómetros de tu ubicación.</string>
+        <string name="showing_places_within_10_kilometers">Mostrando lugares dentro de 10 kilómetros de tu ubicación.</string>
+        <string name="showing_places_within_15_kilometers">Mostrando lugares dentro de 15 kilómetros de tu ubicación.</string>
+        <string name="showing_places_within_20_kilometers">Mostrando lugares dentro de 20 kilómetros de tu ubicación.</string>
+        <string name="found_place">Encontrado %1$s en %2$s, a %3$s kilómetros de distancia.</string>
+        <string name="couldnt_find_place">Lo siento, no pude encontrar un lugar que coincida con \'%s\'.</string>
+        <string name="no_voice_input_detected">No se detectó entrada de voz</string>
+        <string name="location_permission_denied">Permiso de ubicación denegado. Las distancias serán estáticas.</string>
+        <string name="microphone_permission_required">Se requiere permiso de micrófono para la búsqueda por voz</string>
+        <string name="speak_to_search">Habla para buscar…</string>
+        <string name="home_clicked">Inicio clicado</string>
+        <string name="visited_clicked">Visitados clicado</string>
+        <string name="to_visit_clicked">Por visitar clicado</string>
+        <string name="profile_clicked">Perfil clicado</string>
+        <string name="place_added_to_visit_locations">%1$s añadido a Lugares por Visitar</string>
+        <string name="choose_action">Elegir acción</string>
+        <string name="km">Km</string>
+
+        <string name="unknown_temple">Templo desconocido</string>
+        <string name="unknown_location">Ubicación desconocida</string>
+        <string name="distance_unavailable">Distancia no disponible</string>
+        <string name="no_description">Sin descripción</string>
+        <string name="unknown">Desconocido</string>
+        <string name="no_place_data_available">No hay datos de lugar disponibles para la descripción de audio</string>
+        <string name="language_not_supported_using_english">Idioma no compatible, usando inglés</string>
+        <string name="tts_initialization_failed">Fallo en la inicialización de texto a voz</string>
+        <string name="gemini_could_not_process">Lo siento, no pude procesar tu solicitud.</string>
+        <string name="gemini_error_processing">Error al procesar tu solicitud. Por favor, intenta de nuevo.</string>
+        <string name="network_error">Error de red. Por favor, verifica tu conexión a internet.</string>
+        <string name="no_name">Sin nombre\n</string>
+        <string name="no_email">Sin correo electrónico</string>
+
+        <string name="ble_device_detected">Dispositivo BLE detectado</string>
+        <string name="please_enable_bluetooth">Por favor, habilita Bluetooth</string>
+        <string name="ble_permissions_denied">Permisos BLE denegados</string>
+        <string name="scanning">Escaneando…</string>
+        <string name="scan_stopped">Escaneo detenido</string>
+        <string name="smartwatch_out_of_range">Fuera de alcance</string>
+    <string name="ble_want_to_know">¿Quieres saber sobre el tallado del Templo Brihadeeswarar? (Distancia: %.2f metros)</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_info">Información sobre el tallado del Templo Brihadeeswarar</string>
+    <string name="distance_from_user">Distancia desde ti: %s metros</string>
+        <string name="ok">Aceptar</string>
+        <string name="back">Atrás</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_description">muestra una inscripción antigua del Templo Brihadeeswarar en Thanjavur, Tamil Nadu. Construido en el siglo XI por el rey Raja Raja Chola I, el templo es un símbolo de la arquitectura tamil y el arte Chola. Las inscripciones están grabadas en antiguo tamil y registran donaciones al templo, como tierras, oro, ganado y lámparas. También mencionan nombres de sacerdotes y artistas. Estas inscripciones revelan la administración organizada del reino Chola y su profundo fervor religioso. Hoy, son documentos históricos invaluables y el templo es un sitio del Patrimonio Mundial de la UNESCO.</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_image" translatable="false">Maruthamalai Pambatti Siddhar Temple Image</string>
+
+        <string name="how_can_we_help">¿Cómo podemos ayudarte?</string>
+        <string name="contact_us">Contáctanos</string>
+        <string name="support_email">Correo electrónico: %s</string>
+        <string name="support_phone">Teléfono: %s</string>
+        <string name="support_location">Ubicación: %s</string>
+        <string name="submit_a_query">Enviar una consulta</string>
+        <string name="subject">Asunto</string>
+        <string name="message">Mensaje</string>
+        <string name="submit">Enviar</string>
+        <string name="all_fields_required">¡Todos los campos son obligatorios!</string>
+        <string name="query_submitted">Consulta enviada con éxito, %s!</string>
+        <string name="our_team">Nuestro equipo</string>
+        <string name="meet_the_faces_behind_tdexv01">Conoce a las personas detrás de Tdex</string>
+        <string name="our_mission">Nuestra misión</string>
+        <string name="mission_description">En T-Dex, estamos dedicados a revolucionar la forma en que las personas interactúan con sus vehículos. Nuestra misión es proporcionar soluciones innovadoras y fáciles de usar que mejoren la experiencia de conducción, optimicen la gestión de vehículos y promuevan un transporte más seguro y eficiente para todos.</string>
+        <string name="our_commitment">Nuestro compromiso</string>
+        <string name="commitment_description">Nos esforzamos por responder a todas las consultas dentro de las 24 horas. Tu satisfacción es nuestra máxima prioridad, y estamos comprometidos a brindarte la mejor experiencia de soporte posible.</string>
+        <string name="copyright">© %s Todos los derechos reservados.</string>
+        <string name="about_us">Acerca de nosotros</string>
+        <string name="ragul_r" translatable="false">Ragul R</string>
+        <string name="sivapprakash_c" translatable="false">Sivapprakash C</string>
+        <string name="navaneeth_t" translatable="false">Navaneeth T</string>
+        <string name="lead_developer">Líder y Desarrollador</string>
+        <string name="co_lead_and_content_creator">Creador de Contenido</string>
+        <string name="developer">Desarrollador</string>
+        <string name="about_us_header_image">Imagen de cabecera de Acerca de nosotros</string>
+        <string name="user_not_signed_in">Usuario no ha iniciado sesión</string>
+        <string name="logged_out_successfully">Cierre de sesión exitoso</string>
+        <string name="ble_device_lost">Dispositivo BLE perdido</string>
+        <string name="ai_chatbot">Chatbot de IA</string>
+
+        <string name="visited_history_cleared">Historial de visitas borrado</string>
+        <string name="clear_history_confirmation">¿Estás seguro de que quieres borrar todos los lugares visitados?</string>
+        <string name="yes">Sí</string>
+        <string name="no">No</string>
+        <string name="visited_on">Visitado el: %1$s</string>
+        <string name="place_marked_as_visited">%1$s marcado como visitado el %2$s</string>
+        <string name="audio_stopped">Audio detenido</string>
+
+
+</resources>

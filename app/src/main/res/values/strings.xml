@@ -10,6 +10,7 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
+    <string name="most_famous">Most Famous Places</string>
     <string name="continue_with_google">Continue with Google</string>
     <string name="default_web_client_id">948195832271-j3m83kfekbj4iesvfhr9qtskr8688egp.apps.googleusercontent.com</string>
     <string name="secondary_web_client_id" translatable="false">748141285379-fr4acct3ueavuqr6n4rd7in0ep64nmju.apps.googleusercontent.com</string>
@@ -45,7 +46,7 @@
     <string name="aalliyar_reserve_forest_coimbatore">Aalliyar Reserve Forest, Coimbatore</string>
     <string name="gedee_museum">Gedee Museum</string>
     <string name="race_course_coimbatore">Race Course, Coimbatore</string>
-    <string name="sathyamangalam_wildlife_sanctuary">Sathyamangalam Wildlife Sanctuary</string>
+    <string name="sathyamangalam_wildlife_sanctuary">Sathyamangalam Wildlife \nSanctuary</string>
     <string name="sathyamangalam_tamilnadu">Near Coimbatore</string>
     <string name="government_museum">Government Museum</string>
     <string name="gopalapuram_coimbatore">Gopalapuram, Coimbatore</string>
@@ -101,12 +102,16 @@
     <string name="operating_days">Operating Days:</string>
     <string name="close">Close</string>
     <string name="plus">+</string>
+
+    <string name="chennai">Chennai</string>
+    <string name="coimbatore">Coimbatore</string>
+    <string name="madurai">Madurai</string>
     <!-- Existing strings... -->
 
     <string name="mark_as_visited">Mark as Visited</string>
     <string name="delete">Delete</string>
 
-    <string name="place_marked_as_visited">%s marked as visited on %s</string>
+
     <string name="place_removed_from_visit_locations">%s removed from Visit Locations</string>
 
     <!-- Existing strings... -->
@@ -158,7 +163,7 @@
     <string name="gedee_museum_closing_hours">5:30 PM</string>
     <string name="gedee_museum_operating_days">Tuesday to Sunday</string>
 
-    <string name="sathyamangalam_wildlife_sanctuary_name">Sathyamangalam Wildlife Sanctuary</string>
+    <string name="sathyamangalam_wildlife_sanctuary_name">Sathyamangalam Wildlife \nSanctuary</string>
     <string name="sathyamangalam_wildlife_sanctuary_location">Near Coimbatore</string>
     <string name="sathyamangalam_wildlife_sanctuary_distance">20 Km</string>
     <string name="sathyamangalam_wildlife_sanctuary_description">Located at the confluence of the Western and Eastern Ghats in Tamil Nadu, the Sathyamangalam Wildlife Sanctuary is a sprawling wilderness known for its rich biodiversity and stunning landscapes. Spread over 1,411 square kilometers, it is a vital tiger reserve and part of the Nilgiri Biosphere Reserve. The sanctuary is home to a wide variety of flora and fauna, including tigers, elephants, leopards, gaurs, and over 200 species of birds. Its dense forests, rivers, and grasslands make it a paradise for nature enthusiasts, wildlife photographers, and eco-tourists. The sanctuary also holds historical significance, as it was once a route used by the legendary Tipu Sultan.</string>
@@ -189,6 +194,193 @@
     <string name="perur_pateeswarar_temple_opening_hours">6:00 AM</string>
     <string name="perur_pateeswarar_temple_closing_hours">12:00 PM and 4:00 PM - 8:00 PM</string>
     <string name="perur_pateeswarar_temple_operating_days">All days</string>
+
+        <string name="fort_st_george_name">Fort St.George Museum</string>
+        <string name="fort_st_george_location">Chennai, Tamil Nadu</string>
+        <string name="fort_st_george_distance">20 Km</string>
+        <string name="fort_st_george_description">Fort St. George, located in Chennai, Tamil Nadu, is the first British fortress built in India, marking the beginning of British colonial influence in the country.\nConstructed in 1644 by the British East India Company, it played a major role in establishing Madras (now Chennai) as a center for trade and administration.\n\nInside the fort complex lies the Fort Museum, which offers a deep insight into the colonial past of the region.\nThe museum is housed in a building that once served as the Public Exchange and opened to the public in 1948.\nIt showcases a rich collection of artifacts from the British Raj, including coins, medals, weapons, uniforms, manuscripts, and antique furniture.\n\nOne of the major highlights is St. Mary’s Church, the oldest Anglican church in India, built in 1680.\nThe museum also contains rare paintings, portraits of British governors, and letters by historical figures such as Lord Clive and Lord Cornwallis.\nThese exhibits give visitors a glimpse into the daily lives and administrative styles of colonial officials.\n\nThe architecture of Fort St. George blends British military design with colonial charm and is surrounded by manicured gardens and well-preserved buildings.\nBesides being a historical site, it still functions as the administrative headquarters for the Tamil Nadu government, housing the Legislative Assembly and Secretariat.\n\nManaged by the Archaeological Survey of India, the Fort Museum continues to attract historians, students, and tourists from all over the world.\nIt is not just a museum but a living legacy of the colonial era that shaped the socio-political landscape of Tamil Nadu.\nVisitors can walk through centuries of history, witnessing the transition from colonial dominance to Indian independence.\n\nFort St. George stands today not only as a symbol of the past but as a beacon of how Tamil Nadu evolved through centuries of cultural and political change.</string>
+        <string name="fort_st_george_opening_hours">9:00 AM</string>
+        <string name="fort_st_george_closing_hours">5:00 PM</string>
+        <string name="fort_st_george_operating_days">Open daily, except Fridays (museum closed)</string>
+
+
+        <string name="san_thome_basilica_name">San Thome Basilica</string>
+        <string name="san_thome_basilica_location">Chennai, Tamil Nadu</string>
+        <string name="san_thome_basilica_distance">20 Km</string>
+        <string name="san_thome_basilica_description">San Thome Basilica, located in Chennai, Tamil Nadu, is a revered Roman Catholic church built over the tomb of Saint Thomas the Apostle, one of the twelve apostles of Jesus Christ.\nThis majestic structure stands as a symbol of deep faith and historic legacy, believed to have been originally built by Portuguese explorers in the 16th century and later rebuilt by the British in neo-Gothic style in 1896.\n\nThe basilica is not only a place of worship but also a pilgrimage center attracting thousands of devotees from across the world.\nThe tomb of St. Thomas, located in the underground chapel, is a significant spiritual site.\nThe architecture features soaring spires, stained glass windows, and a white facade that reflects purity and peace.\n\nInside the church, the peaceful ambiance, artistic altars, and historical relics offer a serene and reflective experience.\nThe museum inside the church complex displays artifacts related to St. Thomas, including relics, historical documents, and statues.\n\nSan Thome Basilica is one of only three churches in the world built over the tomb of an apostle of Jesus, making it historically and religiously unique.\nThe other two are St. Peter’s Basilica in Rome and Santiago de Compostela in Spain.\n\nApart from its religious importance, the basilica is also an architectural marvel that blends colonial and traditional styles, standing as a proud heritage monument of Chennai.\nIt has witnessed centuries of religious harmony and devotion.\n\nManaged by the Archdiocese of Madras-Mylapore, it remains an active place for mass, prayer, and community services.\nPilgrims and tourists alike visit to seek blessings and explore its spiritual and cultural richness.\n\nSan Thome Basilica is a testimony to the enduring legacy of St. Thomas in India and an integral part of Tamil Nadu’s Christian heritage.\nIt symbolizes Chennai’s historical connection to the origins of Christianity in India and continues to be a beacon of faith, peace, and unity across generations.</string>
+        <string name="san_thome_basilica_opening_hours">6:00 AM</string>
+        <string name="san_thome_basilica_closing_hours">9:00 PM</string>
+        <string name="san_thome_basilica_operating_days">Open daily</string>
+
+
+        <string name="kapaleeshwarar_temple_name">Kapaleeshwarar Temple</string>
+        <string name="kapaleeshwarar_temple_location">Mylapore, Chennai.</string>
+        <string name="kapaleeshwarar_temple_distance">20 Km</string>
+        <string name="kapaleeshwarar_temple_description">Kapaleeshwarar Temple, located in Mylapore, Chennai, is one of the oldest and most revered Hindu temples dedicated to Lord Shiva in Tamil Nadu. Built in the 7th century CE by the Pallava dynasty in the Dravidian architectural style, it was later reconstructed by the Vijayanagar rulers. The temple’s name derives from Lord Kapaleeshwarar, a form of Shiva, and his consort Goddess Karpagambal, an incarnation of Parvati. Its towering gopuram, adorned with intricate carvings depicting Hindu mythological tales, stands as a testament to ancient craftsmanship. The sacred tank and pillared mandapams enhance its serene spiritual ambiance. According to legend, Parvati worshipped Shiva here as a peahen, giving Mylapore its name—‘Mayil’ (peacock) and ‘oor’ (place). The temple is a vibrant center of worship and culture, hosting daily pujas, Vedic chants, and the grand Panguni Peruvizha festival, which draws thousands of devotees annually. Beyond its religious significance, it serves as a cultural hub with classical music and dance performances resonating through its halls. Situated in the bustling Mylapore neighborhood, it symbolizes Chennai’s rich spiritual heritage, attracting pilgrims and tourists alike who marvel at its divine energy and architectural splendor. The temple preserves centuries-old Tamil Saiva traditions, offering a glimpse into the region’s devotion and artistry. It remains a living monument of Tamil Nadu’s cultural legacy, inspiring generations with its enduring presence.</string>
+        <string name="kapaleeshwarar_temple_opening_hours">6:00 AM</string>
+        <string name="kapaleeshwarar_temple_closing_hours">9:00 PM</string>
+        <string name="kapaleeshwarar_temple_operating_days">Open daily</string>
+
+
+        <string name="government_museum_egmore_name">Government Museum, Egmore</string>
+        <string name="government_museum_egmore_location">Egmore, Chennai</string>
+        <string name="government_museum_egmore_distance">20 km</string>
+        <string name="government_museum_egmore_description">The Government Museum in Egmore, Chennai, established in 1851, ranks among India’s oldest and most prestigious museums, second only to the Indian Museum in Kolkata. Housed in a striking Indo-Saracenic building, it is a treasure trove of art, culture, and history, offering insight into South India’s rich past. The museum spans multiple departments, including Archaeology, Numismatics, Zoology, Botany, and Geology, with over 40 galleries showcasing diverse artifacts. Its renowned Bronze Gallery features exquisite Chola bronzes, including the iconic Nataraja statue, a masterpiece of ancient metallurgy. Visitors can explore traditional and contemporary art, ancient weapons, sculptures, and South Indian musical instruments. The museum also includes a Children’s Museum and a Natural History section, delighting younger audiences with interactive displays. The elegant Museum Theatre, a colonial structure within the complex, hosts cultural performances and lectures. With an extensive collection of palm-leaf manuscripts, coins, and Amaravati sculptures, it highlights Tamil Nadu’s heritage. Located in Chennai’s heart, the museum serves as an educational hub for students and researchers, offering a journey through centuries of civilization. Its lush green campus and grand halls create an immersive experience for history and art enthusiasts. The Government Museum stands as a living testament to India’s cultural diversity, preserving Tamil Nadu’s legacy while inspiring future generations.</string>
+        <string name="government_museum_egmore_opening_hours">9:30 AM</string>
+        <string name="government_museum_egmore_closing_hours">5:00 PM</string>
+        <string name="government_museum_egmore_operating_days">Open daily, except Fridays and national holidays</string>
+
+        <string name="parthasarathy_temple_name">Parthasarathy Temple</string>
+        <string name="parthasarathy_temple_location">Triplicane, Chennai</string>
+        <string name="parthasarathy_temple_distance">20 km</string>
+        <string name="parthasarathy_temple_description">The Parthasarathy Temple, located in Triplicane, Chennai, is one of the oldest and most revered Vaishnavite temples in South India, dedicated to Lord Vishnu as Parthasarathy, meaning "charioteer of Arjuna." Built by the Pallavas in the 8th century and later renovated by the Cholas and Vijayanagara kings, this temple exemplifies Dravidian architecture with its towering gopuram adorned with intricate carvings. It welcomes devotees into a sacred space rich with history and spirituality. The sanctum houses Parthasarathy, depicted with a conch, discus, and mace, alongside Rukmini, Satyaki, and other divine figures—a rare ensemble in Vaishnavite iconography. As one of the 108 Divya Desams, it is glorified in the hymns of the Alvars, notably Nammalvar and Thirumangai Alvar. Historical inscriptions reveal royal grants and endowments, underscoring its significance. Festivals like Vaikunta Ekadasi and Brahmotsavam attract thousands, featuring vibrant processions and rituals that showcase Tamil Nadu’s cultural heritage. The temple has five sanctums dedicated to various Vishnu incarnations, including Narasimha and Rama, reflecting the diversity of Vaishnavite worship. The sacred tank, Alli Keni, is believed to possess healing properties. A visit to Parthasarathy Temple offers a deep dive into Chennai’s spiritual legacy, blending devotion and artistry in a serene ambiance that resonates with centuries of tradition.\n</string><string name="parthasarathy_temple_opening_hours">6:00 AM</string>
+        <string name="parthasarathy_temple_closing_hours">9:00 PM</string>
+        <string name="parthasarathy_temple_operating_days">Open daily</string>
+
+        <string name="meenakshi_amman_temple_name">Meenakshi Amman Temple</string>
+        <string name="meenakshi_amman_temple_location">Madurai</string>
+        <string name="meenakshi_amman_temple_distance">20 km</string>
+        <string name="meenakshi_amman_temple_description">The Meenakshi Amman Temple, located in the heart of Madurai, is an architectural marvel and one of the most significant Hindu temples in India, dedicated to Goddess Meenakshi (Parvati) and her consort Lord Sundareswarar (Shiva). Believed to have been originally built by the Pandyas around the 6th century, it was extensively expanded by the Nayak rulers in the 16th-17th centuries, showcasing the grandeur of Dravidian architecture. The temple complex spans 14 acres and is renowned for its 14 towering gopurams, the tallest reaching 170 feet, adorned with thousands of colorful stucco figures depicting deities, mythical beings, and animals. The Hall of Thousand Pillars, an engineering feat, features intricately carved columns that produce musical notes when struck. The temple’s sanctum houses Meenakshi, adorned with emerald-hued jewelry, and Sundareswarar, symbolizing divine union. As a major pilgrimage site, it attracts millions during the annual Meenakshi Tirukalyanam festival, celebrating the divine marriage with vibrant processions. The temple’s historical significance is evident in its ancient Tamil inscriptions and its role as Madurai’s cultural epicenter. The sacred tank, Potramarai Kulam, is surrounded by corridors with painted ceilings, adding to the spiritual ambiance. Visitors are captivated by the temple’s blend of art, devotion, and history, making it a testament to Tamil Nadu’s rich heritage.\n</string>
+        <string name="meenakshi_amman_temple_opening_hours">5:00 AM</string>
+        <string name="meenakshi_amman_temple_closing_hours">10:00 PM</string>
+        <string name="meenakshi_amman_temple_operating_days">Open daily</string>
+
+
+        <string name="thirumalai_nayakkar_mahal_name">Thirumalai Nayakkar Mahal</string>
+        <string name="thirumalai_nayakkar_mahal_location">Madurai</string>
+        <string name="thirumalai_nayakkar_mahal_distance">20 km</string>
+        <string name="thirumalai_nayakkar_mahal_description">Thirumalai Nayakkar Mahal, located in Madurai, is a magnificent 17th-century palace built by King Thirumalai Nayak, one of the most prominent rulers of the Nayak dynasty. Constructed in 1636, this architectural gem blends Dravidian and Indo-Saracenic styles, reflecting the grandeur of the era. Originally four times its current size, the palace was partially destroyed over time, but what remains is a testament to its former glory. The structure is renowned for its massive pillars, ornate stucco work, and the majestic Swarga Vilasam (Celestial Pavilion), a vast courtyard with a domed roof supported by 100-foot-high columns. The Durbar Hall, where the king held court, features intricate arches and detailed frescoes that captivate visitors. The palace once housed royal residences, a theater, and gardens, though only a quarter of the original complex survives today. Its historical significance lies in its representation of Nayak opulence and their contributions to Madurai’s cultural landscape. The Sound and Light Show, narrating the palace’s history, draws tourists, offering a glimpse into its past splendor. Restored by the Tamil Nadu government, the Mahal now serves as a museum, displaying artifacts like sculptures and paintings. Thirumalai Nayakkar Mahal stands as a symbol of Madurai’s royal heritage, blending art, architecture, and history in a serene yet awe-inspiring setting.\n</string>
+        <string name="thirumalai_nayakkar_mahal_opening_hours">9:00 AM</string>
+        <string name="thirumalai_nayakkar_mahal_closing_hours">5:00 PM</string>
+        <string name="thirumalai_nayakkar_mahal_operating_days">Open daily</string>
+
+
+        <string name="koodal_azhagar_temple_name">Koodal Azhagar Temple</string>
+        <string name="koodal_azhagar_temple_location">Madurai</string>
+        <string name="koodal_azhagar_temple_distance">20 km</string>
+        <string name="koodal_azhagar_temple_description">The Koodal Azhagar Temple, situated in Madurai, is an ancient and revered Vaishnavite shrine dedicated to Lord Vishnu as Koodal Azhagar, meaning "the beautiful one of the confluence." Believed to predate the Meenakshi Temple, its origins trace back to the Sangam period (3rd century BCE to 3rd century CE), with significant expansions by the Pandyas and later Nayaks. This temple exemplifies Dravidian architecture with its striking five-tiered gopuram, adorned with detailed carvings of deities and mythical figures. One of the 108 Divya Desams, it is glorified in the hymns of the Alvars, particularly Nammalvar, who praised its sanctity. The temple’s uniqueness lies in its three sanctums showcasing Vishnu in different postures—sitting (as Koodal Azhagar), standing (as Veera Narayana), and reclining (as Ranganatha)—a rare feature in Vaishnavite temples. The intricate wooden carvings on the temple’s ceilings and the vibrant festivals, like the Garuda Sevai procession, attract devotees and tourists alike. Historical inscriptions link it to Pandya rulers, emphasizing its cultural and religious importance in Madurai, known as the "Athens of the East." The temple’s sacred tank, Hema Pushkarini, adds to its spiritual aura. Visiting Koodal Azhagar Temple offers a serene experience, reflecting Tamil Nadu’s rich spiritual and architectural heritage.\n</string>
+        <string name="koodal_azhagar_temple_opening_hours">6:00 AM</string>
+        <string name="koodal_azhagar_temple_closing_hours">8:00 PM</string>
+        <string name="koodal_azhagar_temple_operating_days">Open daily</string>
+
+
+        <string name="vandiyur_mariamman_teppakulam_name">Vandiyur Mariamman Teppakulam</string>
+        <string name="vandiyur_mariamman_teppakulam_location">Meenakshi Nagar, Madurai</string>
+        <string name="vandiyur_mariamman_teppakulam_distance">20 km</string>
+        <string name="vandiyur_mariamman_teppakulam_description">Vandiyur Mariamman Teppakulam, located in Meenakshi Nagar, Madurai, is a sprawling temple tank and a celebrated heritage site, just 5 km from the Meenakshi Amman Temple. Built in 1645 by King Thirumalai Nayak, this architectural marvel spans 16 acres and is one of the largest temple tanks in South India. Connected to the Vaigai River through underground channels, it was originally dug to supply soil for bricks used in constructing the Thirumalai Nayakkar Mahal. The tank features granite steps on all four sides and a central mandapam, Maiya Mandapam, housing a Vinayakar (Ganesha) temple and a small garden. Legend holds that the Mukuruny Vinayakar idol, now in the Meenakshi Temple, was unearthed during its excavation. The Teppakulam is famed for the vibrant Float Festival (Teppotsavam), held annually in January or February to mark King Thirumalai Nayak’s birthday. During this event, idols of Goddess Meenakshi and Lord Sundareswarar are paraded on illuminated floats, accompanied by thousands of lamps, transforming the tank into a dazzling spectacle. Though often dry for much of the year, it fills during the monsoon, enhancing its serene beauty. Vandiyur Mariamman Teppakulam stands as a testament to Madurai’s rich cultural and historical legacy, blending spirituality with architectural brilliance.\n</string>
+        <string name="vandiyur_mariamman_teppakulam_opening_hours">6:00 AM</string>
+        <string name="vandiyur_mariamman_teppakulam_closing_hours">8:00 PM</string>
+        <string name="vandiyur_mariamman_teppakulam_operating_days">Open daily</string>
+
+
+        <string name="gandhi_memorial_museum_name">Gandhi Memorial Museum</string>
+        <string name="gandhi_memorial_museum_location">Tamukkam,Madurai</string>
+        <string name="gandhi_memorial_museum_distance">20 km</string>
+        <string name="gandhi_memorial_museum_description">The Gandhi Memorial Museum, located in Tamukkam, Madurai, is a significant historical institution dedicated to Mahatma Gandhi, the Father of the Nation. Housed in the elegant Tamukkam Palace, built in 1670 by Queen Mangammal of the Nayak dynasty, it was inaugurated on April 15, 1959, by Prime Minister Jawaharlal Nehru. The museum stands as one of seven Gandhi museums in India, preserving his legacy and India’s freedom struggle. It showcases an extensive collection of artifacts, including the blood-stained dhoti Gandhi wore during his assassination, photographs, letters, and personal items like his spectacles and spinning wheel. The museum is divided into sections detailing Gandhi’s life, his visits to Madurai—where he adopted the loincloth in 1921—and the broader independence movement. A library with over 20,000 books on Gandhian philosophy, a gallery of 124 paintings depicting his life, and an open-air theater for cultural events enrich the visitor experience. The serene surroundings, with well-maintained gardens, reflect Gandhi’s ideals of simplicity and peace. The museum also serves as an educational hub, inspiring reflection on non-violence and self-reliance, making it a vital part of Madurai’s heritage.\n</string>
+        <string name="gandhi_memorial_museum_opening_hours">10:00 AM</string>
+        <string name="gandhi_memorial_museum_closing_hours">6:00 PM</string>
+        <string name="gandhi_memorial_museum_operating_days">Open daily, except Fridays</string>
+
+
+        <string name="kazimar_big_mosque_name">Kazimar Big Mosque</string>
+        <string name="kazimar_big_mosque_location">Keerathurai, Madurai</string>
+        <string name="kazimar_big_mosque_distance">20 km</string>
+        <string name="kazimar_big_mosque_description">Kazimar Big Mosque, located in Keerathurai, Madurai, is the city’s oldest Islamic place of worship, founded in 1284 CE by Hazrat Kazi Syed Tajuddin, a descendant of Prophet Muhammad from Yemen. Granted land by King Kulasekara Pandyan, this 13th-century mosque blends Islamic and Dravidian architectural styles, featuring a vast prayer hall with carved pillars and arches, and a serene courtyard. With a capacity for 2,500 worshippers, it remains a vibrant spiritual hub. The mosque houses the Madurai Maqbara, the dargah of prominent Hazrats—Meer Ahmad Ibrahim, Meer Amjad Ibrahim, and Syed Abdus Salaam Ibrahim—also descendants of the Prophet, drawing pilgrims nationwide. Managed by Tajuddin’s descendants, known as Huqdars, for over 700 years, the mosque’s administration reflects a rare continuity, with around 450 family members residing in Kazimar Street. The annual Founder’s Day (Urus) on the 15th of Rajab commemorates Tajuddin’s legacy, while other Urs celebrations honor the Hazrats. The Kazi Syed Tajuddin Arabi Madrasah within the complex teaches Arabic to over 120 students, enriching its cultural role. Just 500 meters from Periyar Bus Stand and 800 meters from Meenakshi Temple, its central location enhances its prominence. Kazimar Big Mosque stands as a testament to Madurai’s religious harmony and historical depth, offering a peaceful retreat amid the city’s bustle.\n</string>
+        <string name="kazimar_big_mosque_opening_hours">5:00 AM</string>
+        <string name="kazimar_big_mosque_closing_hours">9:00 PM</string>
+        <string name="kazimar_big_mosque_operating_days">Open daily</string>
+
+        <string name="st_marys_cathedral_name">St. Mary’s Cathedral</string>
+        <string name="st_marys_cathedral_location">Mahalipatti, Madurai</string>
+        <string name="st_marys_cathedral_distance">20 km</string>
+        <string name="st_marys_cathedral_description">St. Mary’s Cathedral, located in Mahalipatti, Madurai, is a historic Roman Catholic church, also known as the Church of Our Lady of Dolours, and serves as the seat of the Madurai Archdiocese. Founded in 1840 by Fr. Bertrand SJ, who purchased the land, it began as a small chapel built by Fr. Garnier in 1841 to serve 30 sailor families ostracized from W. Pudupatti Church. Expanded over time due to a growing Catholic population, the current Gothic-style structure, blending Roman, European, and Continental influences, was completed in 1916. Elevated to cathedral status in 1969, it features two 42-meter bell towers, a striking white-and-blue façade, and vibrant stained-glass windows that bathe the interior in colorful light. The high vaulted ceilings and intricate arches create a serene ambiance, enhanced by the absence of air conditioning, relying instead on natural breezes. A unique golden kodimaram (Hindu temple flagpost) in the compound reflects Madurai’s cultural synthesis. The cathedral hosts festivals like Christmas and Easter, alongside a rich history tied to the 1938 establishment of the Madurai Diocese, when it became a pro-cathedral. Located on East Veli Street, just 2 km from Madurai Railway Station, it remains a prominent landmark, offering a tranquil retreat amidst the city’s bustle and a testament to Madurai’s diverse heritage.\n</string>
+        <string name="st_marys_cathedral_opening_hours">6:00 AM</string>
+        <string name="st_marys_cathedral_closing_hours">8:00 PM</string>
+        <string name="st_marys_cathedral_operating_days">Open daily</string>
+
+
+        <string name="samanar_malai_and_jain_beds_name">Samanar Malai and Jain Beds</string>
+        <string name="samanar_malai_and_jain_beds_location">Keelakuyilkudi, Madurai</string>
+        <string name="samanar_malai_and_jain_beds_distance">20 km</string>
+        <string name="samanar_malai_and_jain_beds_description">Samanar Malai, located near Keelakuyilkudi village, 10 km west of Madurai, is a historic rocky hillock stretching 3 km eastward toward Muthupatti. Known as Samanar Hills or Jain Hills, it is a testament to Tamil Nadu’s ancient Jain heritage, declared a protected monument by the Archaeological Survey of India. Dating from the 2nd century BCE to the 12th century CE, it features rock-cut caves, Tamil-Brahmi inscriptions, and Jain sculptures, including those of Mahavira, Bahubali, and Parsvanatha. The name "Samanar" derives from the Sanskrit "Sramana," meaning ascetic, reflecting its association with Jain monks who lived in these caves, practicing sallekhana (fasting unto death). Key sites include Settipodavu, with a 10th-century cave housing Mahavira’s image, and Pechipallam, showcasing eight sculptures and Vatteluttu inscriptions from the 9th-10th centuries. The Jain Beds—flat stone slabs carved into the rock—served as resting places for monks, evidencing their austere lifestyle. A lotus pond and Karuppanasamy Temple at the foothills enhance the serene ambiance. Archaeological findings suggest a Jain monastery, Maadevi Perumpalli, once thrived here, visited by Pandya kings. The hills offer panoramic views of Madurai, blending natural beauty with historical significance, making it a unique destination for history enthusiasts and spiritual seekers.\n</string>
+        <string name="samanar_malai_and_jain_beds_opening_hours">6:00 AM</string>
+        <string name="samanar_malai_and_jain_beds_closing_hours">6:00 PM</string>
+        <string name="samanar_malai_and_jain_beds_operating_days">Open daily</string>
+
+        <string name="brihadeeswarar_temple_name">Brihadeeswarar Temple</string>
+        <string name="brihadeeswarar_temple_location">Balaganapathy Nagar, Thanjavur</string>
+        <string name="brihadeeswarar_temple_distance">20 km</string>
+        <string name="brihadeeswarar_temple_description">Brihadeeswarar Temple, located in Thanjavur, Tamil Nadu, is an architectural masterpiece and UNESCO World Heritage Site, built by Raja Raja Chola I between 1003 and 1010 CE. Dedicated to Lord Shiva as Brihadeeswarar, meaning "Great Lord," this 11th-century temple exemplifies the zenith of Chola-era Dravidian architecture. Its most striking feature is the 66-meter vimana (tower), one of the tallest of its kind, crowned with an 80-tonne monolithic granite cupola, hoisted using ancient engineering techniques. The temple complex, enclosed by a massive fortified wall, spans 240 meters by 122 meters and includes a grand Nandi (Shiva’s bull) statue carved from a single 13-foot stone. Intricate carvings on the walls depict Shiva’s cosmic dance, mythological tales, and Chola royalty, while Tamil inscriptions detail its construction and endowments. The sanctum houses a towering 3.7-meter lingam, bathed in natural light through precise architectural design. A fresco gallery, with vibrant Chola paintings, adds artistic splendor. Known locally as "Periya Kovil" (Big Temple), it hosts the annual Natyanjali festival, celebrating classical dance. Remarkably intact after a millennium, it reflects the Cholas’ devotion, engineering prowess, and cultural legacy, making it a timeless symbol of Tamil Nadu’s heritage.\n</string>
+        <string name="brihadeeswarar_temple_opening_hours">6:00 AM</string>
+        <string name="brihadeeswarar_temple_closing_hours">8:00 PM</string>
+        <string name="brihadeeswarar_temple_operating_days">Open daily</string>
+
+    <string name="shore_temple_name">Shore Temple</string>
+    <string name="shore_temple_location">Mahabalipuram, Chengalpattu</string>
+    <string name="shore_temple_distance">20 km</string>
+    <string name="shore_temple_description">The Shore Temple, perched on the Bay of Bengal in Mahabalipuram, Chengalpattu, is an iconic 8th–century monument and UNESCO World Heritage Site, built by the Pallava dynasty during Narasimhavarman II’s reign (700–728 CE). Dedicated to Lord Shiva and Vishnu, this coastal marvel is one of India’s oldest structural stone temples, showcasing early Dravidian architecture. Constructed from granite blocks, it features two main shrines—one facing east with a Shiva lingam and another westward with a reclining Vishnu—flanked by a smaller Durga shrine with a lion mount. Its pyramid-like vimanas, rising 18 meters, are adorned with intricate carvings of deities, mythical beings, and floral motifs, weathered yet majestic against the ocean backdrop. The temple’s seaside location, once part of a bustling port city, led to its erosion by waves, yet its survival through centuries, including the 2004 tsunami, underscores its resilience. Originally one of seven temples (the rest submerged), it was rediscovered in the 19th century and restored by the Archaeological Survey of India. The surrounding lawns and Nandi bulls enhance its serene ambiance. The annual Mahabalipuram Dance Festival celebrates its cultural legacy. A beacon of Pallava artistry, the Shore Temple blends history, spirituality, and natural beauty, captivating visitors with its timeless allure.\n</string>
+    <string name="shore_temple_opening_hours">6:00 AM</string>
+    <string name="shore_temple_closing_hours">6:00 PM</string>
+    <string name="shore_temple_operating_days">Open daily</string>
+
+    <string name="kailasanathar_temple_name">Kailasanathar Temple</string>
+    <string name="kailasanathar_temple_location">karuppadithattadai, Kanchipuram</string>
+    <string name="kailasanathar_temple_distance">20 km</string>
+    <string name="kailasanathar_temple_description">Kailasanathar Temple, situated in Karuppadithattadai, Kanchipuram, is a revered 8th–century Hindu temple and one of Tamil Nadu’s oldest surviving structural monuments, dedicated to Lord Shiva. Built between 685–705 CE by Pallava king Narasimhavarman II (Rajasimha), with additions by his son Mahendravarman III, it stands as a pinnacle of early Dravidian architecture. Located on the banks of the Vedavathi River, 75 km from Chennai, this UNESCO-nominated site features a sandstone superstructure on a granite base, adorned with 58 sub-shrines along its prakara (courtyard) walls, showcasing intricate carvings of Shiva, Vishnu, and other deities. The sanctum houses a 16-sided black granite lingam, while the four-story vimana rises in a pyramidal shape, topped with a dome. Notable for its lion-based pillars and early Hindu murals akin to Ajanta Caves, the temple also bears Tamil inscriptions vital for epigraphical studies. A secret tunnel, still visible, hints at its wartime role as a royal refuge. Maintained by the Archaeological Survey of India, it hosts festivals like Maha Shivaratri, drawing devotees and tourists to its serene, historic ambiance, reflecting Pallava artistry and Kanchipuram’s spiritual legacy.\n</string>
+    <string name="kailasanathar_temple_opening_hours">6:00 AM</string>
+    <string name="kailasanathar_temple_closing_hours">6:00 PM</string>
+    <string name="kailasanathar_temple_operating_days">Open daily</string>
+
+
+    <string name="thillai_nataraja_temple_name">Thillai Nataraja Temple</string>
+    <string name="thillai_nataraja_temple_location">Chidambaram, Cuddalore</string>
+    <string name="thillai_nataraja_temple_distance">20 km</string>
+    <string name="thillai_nataraja_temple_description">Thillai Nataraja Temple, located in Chidambaram, Cuddalore, is a revered Hindu temple dedicated to Lord Shiva as Nataraja, the cosmic dancer, symbolizing creation and destruction. Dating back to the 10th century with Chola patronage, it is one of the five Pancha Bhoota Sthalams, representing the element of space (akasha). Spanning 40 acres, the temple boasts four towering gopurams, each rising 45 meters and adorned with 108 karanas (dance poses) from Bharatanatyam, reflecting its deep connection to classical dance. The sanctum houses the iconic Nataraja idol and the Chidambara Rahasyam, a symbolic representation of formless space, alongside a crystal lingam worshipped daily. Built and expanded by Chola kings like Kulothunga I, the temple features intricate carvings, bronze sculptures, and a golden-roofed shrine, showcasing Dravidian architecture. The 1000-pillared hall and sacred Sivaganga tank enhance its grandeur. Managed by hereditary Dikshitar priests, it hosts vibrant festivals like Natyanjali and Arudra Darshan, drawing dancers and devotees globally. Located 60 km from Pondicherry, it remains a spiritual and cultural beacon, blending art, devotion, and cosmic philosophy in Tamil Nadu’s heritage.\n</string>
+    <string name="thillai_nataraja_temple_opening_hours">6:00 AM</string>
+    <string name="thillai_nataraja_temple_closing_hours">10:00 PM</string>
+    <string name="thillai_nataraja_temple_operating_days">Open daily</string>
+
+    <string name="padmanabhapuram_palace_name">Padmanabhapuram Palace</string>
+    <string name="padmanabhapuram_palace_location">Padmanabhapuram, Kanyakumari</string>
+    <string name="padmanabhapuram_palace_distance">20 km</string>
+    <string name="padmanabhapuram_palace_description">Padmanabhapuram Palace, located in Padmanabhapuram, Kanyakumari, is a magnificent wooden palace and a testament to Travancore’s royal heritage, built in the 16th century by Iravi Varma Kulasekhara Perumal. Nestled at the foot of the Veli Hills, 50 km from Thiruvananthapuram, this sprawling 6.5-acre complex served as the administrative seat of the Travancore kings until the 18th century. Renowned for its Kerala-style architecture, it features sloped roofs, intricate rosewood carvings, and polished teak interiors, blending elegance with simplicity. The palace includes key sections like the Thai Kottaram (Mother’s Palace), the oldest structure from 1550, the Natakasala (Dance Hall) with its black granite floor, and the four-storeyed Uppirikka Malika, housing royal treasures and a mural of Lord Vishnu. A 300-year-old clock in the King’s Council Chamber still ticks, while the Mantrasala reflects strategic governance. The palace museum displays artifacts, weapons, and paintings, offering glimpses into Travancore’s past. Secret passages and a medicinal bed carved from 64 herbal woods highlight its ingenuity. Surrounded by lush greenery, it draws visitors for its serene ambiance and historical depth, maintained by the Kerala Government despite being in Tamil Nadu, reflecting a unique cultural synthesis.\n</string>
+    <string name="padmanabhapuram_palace_opening_hours">9:00 AM</string>
+    <string name="padmanabhapuram_palace_closing_hours">5:00 PM</string>
+    <string name="padmanabhapuram_palace_operating_days">Open daily, except Mondays</string>
+
+    <string name="airavatesvara_temple_name">Dharasuram Sri Airavatesvara Temple</string>
+    <string name="airavatesvara_temple_location">Dharasuram, Thanjavur</string>
+    <string name="airavatesvara_temple_distance">20 km</string>
+    <string name="airavatesvara_temple_description">Sri Airavatesvara Temple, located in Dharasuram, Thanjavur, is a 12th–century architectural gem and UNESCO World Heritage Site, built by Chola king Rajaraja II (1146–1173 CE). Dedicated to Lord Shiva as Airavatesvara—named after Indra’s white elephant, Airavata, healed by Shiva—this temple is part of the Great Living Chola Temples trio. Constructed in granite, it exemplifies Chola Dravidian architecture with a 24-meter vimana, smaller than its counterparts yet exquisitely detailed. The front mandapa, designed as a chariot with stone wheels and horses, showcases unparalleled craftsmanship, while intricate carvings of dancers, musicians, and mythical figures adorn the walls and pillars. The sanctum houses a large Shiva lingam, and the shrine of goddess Periya Nayaki stands separately within the complex. Musical pillars that emit distinct notes when struck highlight the Cholas’ acoustic ingenuity. Tamil inscriptions narrate its history, linking it to Airavata’s legend and Chola patronage. The temple’s 100-pillar hall and bathing steps add to its grandeur, though it suffered damage from 14th-century invasions, later restored by the Archaeological Survey of India. Annual festivals like Maha Shivaratri draw devotees, while its serene ambiance attracts heritage enthusiasts. Located 3 km from Kumbakonam, Airavatesvara reflects Tamil Nadu’s cultural and spiritual legacy.\n</string>
+    <string name="airavatesvara_temple_opening_hours">6:00 AM</string>
+    <string name="airavatesvara_temple_closing_hours">6:00 PM</string>
+    <string name="airavatesvara_temple_operating_days">Open daily</string>
+
+
+        <string name="rock_fort_temple_name">Rock Fort Temple</string>
+        <string name="rock_fort_temple_location">Theppakulam, Tiruchirappalli</string>
+        <string name="rock_fort_temple_distance">20 km</string>
+        <string name="rock_fort_temple_description">Rock Fort Temple, perched atop a 273-foot rock in Theppakulam, Tiruchirappalli, is an ancient fortress and temple complex, a landmark of Trichy’s heritage. Dating back to the 7th century with Pallava and Chola contributions, it houses two main temples: the Ucchi Pillayar Temple, dedicated to Lord Ganesha, at the summit, and the Thayumanavar Temple, dedicated to Lord Shiva, midway. Built on a massive rock formation, the complex required climbing 437 steps carved into the stone, offering panoramic views of the city and the Cauvery River. The Pallavas initiated its construction, later fortified by the Nayaks, blending Dravidian architecture with military design. Intricate carvings, a 12-foot Shiva lingam, and a pillared hall reflect its spiritual and artistic significance. The Ganesha temple commemorates a legend where Vibhishana gifted an idol to Trichy. Managed by the Archaeological Survey of India, it hosts festivals like Chithirai Thiruvizha, attracting devotees and tourists. Located centrally, it symbolizes Trichy’s historical and cultural resilience.\n</string>
+        <string name="rock_fort_temple_opening_hours">6:00 AM</string>
+        <string name="rock_fort_temple_closing_hours">8:00 PM</string>
+        <string name="rock_fort_temple_operating_days">Open daily</string>
+
+        <string name="gangaikonda_cholapuram_temple_name">Gangaikonda Cholapuram Temple</string>
+        <string name="gangaikonda_cholapuram_temple_location">Jayankondam, Ariyalur</string>
+        <string name="gangaikonda_cholapuram_temple_distance">20 km</string>
+        <string name="gangaikonda_cholapuram_temple_description">Gangaikonda Cholapuram Temple, located in Jayankondam, Ariyalur, is a majestic 11th–century Chola monument and UNESCO World Heritage Site, built by Rajendra Chola I (1012–1044 CE) to commemorate his conquest of the Ganges. Dedicated to Lord Shiva, this temple mirrors the Brihadeeswarar Temple in Thanjavur but with distinct features. Spanning 20 acres, its 55-meter vimana, though shorter, is intricately carved with sculptures of Shiva, Nandi, and celestial beings, showcasing Chola artistry. The sanctum houses a 4-meter Shiva lingam, one of the largest in South India, while a massive 9-foot Nandi faces it. The temple’s name, meaning "Chola who conquered the Ganga," reflects its historical significance as the capital of the Chola empire for 250 years. Bronze idols, a lion-headed well, and detailed Tamil inscriptions enrich its legacy. Maintained by the Archaeological Survey of India, it hosts festivals like Maha Shivaratri, though much of the original city lies in ruins. Located 70 km from Thanjavur, it stands as a testament to Chola engineering and devotion.\n</string>
+        <string name="gangaikonda_cholapuram_temple_opening_hours">6:00 AM</string>
+        <string name="gangaikonda_cholapuram_temple_closing_hours">6:00 PM</string>
+        <string name="gangaikonda_cholapuram_temple_operating_days">Open daily</string>
+
+        <string name="vivekananda_rock_memorial_name">Swami Vivekananda Rock Memorial</string>
+        <string name="vivekananda_rock_memorial_location">Vivekanandapuram, Kanyakumari</string>
+        <string name="vivekananda_rock_memorial_distance">20 km</string>
+        <string name="vivekananda_rock_memorial_description">Swami Vivekananda Rock Memorial, located off Vivekanandapuram, Kanyakumari, is a striking monument on a rock 500 meters into the Arabian Sea, where Swami Vivekananda meditated in 1892. Built in 1970 by the Vivekananda Rock Memorial Committee under Eknath Ranade, it commemorates his vision of a unified India, inspired during his meditation at this confluence of the Arabian Sea, Bay of Bengal, and Indian Ocean. Accessible by ferry, the memorial features two main structures: the Vivekananda Mandapam, with a bronze statue of Vivekananda, and the Shripada Mandapam, marking the footprint of Goddess Kanyakumari. Blending Tamil and Bengali architectural styles, its serene setting offers stunning sunrise and sunset views. A meditation hall allows visitors to reflect in silence, echoing Vivekananda’s spiritual legacy. Located near the southernmost tip of India, 14 km from Kanyakumari town, it draws tourists and pilgrims, symbolizing unity and enlightenment in Tamil Nadu’s cultural landscape.\n</string>
+        <string name="vivekananda_rock_memorial_opening_hours">8:00 AM</string>
+        <string name="vivekananda_rock_memorial_closing_hours">4:00 PM</string>
+        <string name="vivekananda_rock_memorial_operating_days">Open daily</string>
+
 
     <!-- Existing strings... -->
     <string name="please_enter_a_place_name">Please enter a place name</string>
@@ -239,13 +431,13 @@
     <string name="scanning">Scanning…</string>
     <string name="scan_stopped">Scan stopped</string>
     <string name="smartwatch_out_of_range">out of range</string>
-    <string name="ble_want_to_know">Do you want to know about Maruthamalai Pambatti Siddhar Temple? (Distance: %.2f meters)</string>
-    <string name="maruthamalai_pambatti_siddhar_temple_info">Maruthamalai Pambatti Siddhar Temple Info</string>
+    <string name="ble_want_to_know">Do you want to know about Brahadeeshwarar Temple Carving ? (Distance: %.2f meters)</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_info">Brahadeeshwarar Temple Carving Info</string>
     <string name="distance_from_user">Distance from you: %s meters</string>
     <string name="ok">OK</string>
     <string name="back">Back</string>
     <!-- Existing strings... -->
-    <string name="maruthamalai_pambatti_siddhar_temple_description">Maruthamalai Pambatti Siddhar Temple is a sacred shrine dedicated to Lord Murugan, located on a serene hill in Coimbatore, Tamil Nadu. It is believed to be the abode of Pambatti Siddhar, a revered saint known for his spiritual powers and medicinal knowledge. The temple, nestled amidst lush greenery, offers breathtaking views and a peaceful atmosphere, attracting devotees and tourists alike. The annual Thaipoosam festival is a major event here, featuring vibrant rituals and processions.</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_description"> An ancient stone inscription found on the walls of the Brihadeeswarar Temple in Thanjavur, Tamil Nadu. This temple, built in the 11th century by Raja Raja Chola I, stands as a magnificent testament to Tamil architecture, Chola artistry, and South Indian temple culture. The inscriptions like the one seen here are carved in Tamil-Brahmi script, which evolved into the Tamil script used during the Chola dynasty. These writings are not merely decorative—they are rich historical records that provide insights into the governance, culture, and spirituality of that era. Most inscriptions at Brihadeeswarar Temple document donations made by kings, queens, and citizens to the temple, including lands, gold, lamps, and livestock. They also list the names of dancers, musicians, and temple priests who were employed to perform religious duties. Some inscriptions detail the administrative procedures, tax policies, and land measurements of the time. The Chola kings ensured meticulous documentation of such details, and their scribes carved these records directly onto the granite walls of the temple complex. While a complete translation of the specific text in this image would require a professional epigraphist, it is highly likely that it contains royal decrees or temple endowments made during the reign of Raja Raja Chola or his immediate successors. The temple served not only as a place of worship but also as a cultural hub and administrative center. These carvings demonstrate the Cholas\' deep devotion to Lord Shiva, their organized governance, and their commitment to preserving history through written records. Today, these inscriptions are invaluable to historians and archaeologists, offering a rare, direct window into life over a thousand years ago. The Brihadeeswarar Temple remains a UNESCO World Heritage Site and a symbol of Tamil pride, architectural genius, and spiritual legacy</string>
     <string name="maruthamalai_pambatti_siddhar_temple_image">Maruthamalai Pambatti Siddhar Temple Image</string>
 
     <!-- Existing strings... -->
@@ -278,6 +470,16 @@
     <string name="user_not_signed_in">User not signed in</string>
     <string name="logged_out_successfully">Logout Succussful</string>
     <string name="ble_device_lost">BLE device lost</string>
+    <string name="ai_chatbot">AI Chatbot</string>
+
+
+    <string name="visited_history_cleared">Visited history cleared</string>
+    <string name="clear_history_confirmation">Are you sure you want to clear all visited places?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="visited_on">Visited on: %1$s</string>
+    <string name="place_marked_as_visited">%1$s marked as visited on %2$s</string>
+    <string name="audio_stopped">Audio Stopped</string>
 
 
 </resources>

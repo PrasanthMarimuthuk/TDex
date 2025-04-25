@@ -3,7 +3,7 @@ package com.example.tdexv01
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
+
 
 class AboutUsActivity : BaseActivity() {
 
@@ -19,7 +19,7 @@ class AboutUsActivity : BaseActivity() {
         findViewById<TextView>(R.id.missionText).text = getString(R.string.mission_description)
         findViewById<TextView>(R.id.commitmentTitle).text = getString(R.string.our_commitment)
         findViewById<TextView>(R.id.commitmentText).text = getString(R.string.commitment_description)
-        findViewById<TextView>(R.id.copyright).text = getString(R.string.copyright, "2024 T-Dex")
+        findViewById<TextView>(R.id.copyright).text = getString(R.string.copyright, "2025 T-Dex")
 
         // Set team member images and names (using drawable resources for simplicity)
         findViewById<ImageView>(R.id.prasanthImage).setImageResource(R.drawable.prasanth) // Add prasanth_m.png to drawable

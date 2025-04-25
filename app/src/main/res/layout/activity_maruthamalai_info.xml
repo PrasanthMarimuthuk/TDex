@@ -1,51 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@android:color/white">
+    android:background="@android:color/white"
+    android:fillViewport="true">
 
-    <!-- Temple Image -->
-    <ImageView
-        android:id="@+id/maruthamalaiImage"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/marudhamalai_4"
-        android:contentDescription="@string/maruthamalai_pambatti_siddhar_temple_image" />
-
-    <!-- Temple Description -->
-    <TextView
-        android:id="@+id/maruthamalaiDescription"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textColor="@android:color/black"
-        android:paddingTop="16dp"
-        android:paddingBottom="8dp" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <!-- Distance from User -->
-    <TextView
-        android:id="@+id/maruthamalaiDistance"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:textColor="@android:color/darker_gray"
-        android:paddingBottom="16dp" />
+        <!-- Zoomable Image Container -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:minHeight="250dp">
 
-    <!-- Back Button -->
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/back"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/button_background"
-        android:padding="4dp"
-        android:onClick="onBackPressed"
-        android:layout_gravity="center"
-        android:textColor="@android:color/white"
-        android:textSize="12sp" />
+            <ImageView
+                android:id="@+id/maruthamalaiImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="matrix"
+                android:adjustViewBounds="true"
+                android:src="@drawable/thanjavur_carving"
+                android:contentDescription="@string/maruthamalai_pambatti_siddhar_temple_image" />
 
+        </FrameLayout>
 
-</LinearLayout>
+        <!-- Temple Description -->
+        <TextView
+            android:id="@+id/maruthamalaiDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <!-- Distance from User -->
+        <TextView
+            android:id="@+id/maruthamalaiDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingBottom="16dp" />
+
+        <!-- Back Button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:padding="4dp"
+            android:onClick="onBackPressed"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</ScrollView>

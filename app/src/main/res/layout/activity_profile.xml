@@ -12,7 +12,7 @@
         android:layout_height="200dp"
         android:background="@drawable/edit_bg"
         android:orientation="vertical"
-        android:padding="16dp"
+        android:padding="8dp"
         android:layout_alignParentTop="true">
 
         <!-- Profile Picture -->
@@ -20,7 +20,7 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="10dp"
             app:cardCornerRadius="60dp"
             app:cardElevation="4dp"
             app:cardBackgroundColor="@android:color/white">
@@ -29,7 +29,7 @@
                 android:id="@+id/profileImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:contentDescription="@string/profile_picture"
+                                android:contentDescription="@string/profile_picture"
                 android:scaleType="centerCrop" />
         </androidx.cardview.widget.CardView>
 
@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="0dp"
             android:text="@string/prasanth_m"
             android:textColor="@android:color/white"
             android:textSize="20sp"
@@ -48,223 +48,259 @@
         <TextView
             android:id="@+id/profileEmail"
             android:layout_width="wrap_content"
-            android:layout_height="8dp"
+            android:layout_height="20dp"
             android:layout_gravity="center"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
             android:text="@string/andrew_domainname_com"
             android:textColor="@android:color/white"
             android:textSize="14sp" />
     </LinearLayout>
 
-    <!-- Action Cards (Below Header, Scrollable if needed) -->
-    <LinearLayout
-        android:id="@+id/actionCards"
+    <!-- Action Cards (Scrollable content) -->
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp"
         android:layout_below="@id/header"
-        android:layout_marginTop="16dp">
+        android:layout_above="@id/btnLogout"
+        android:fillViewport="true">
 
-        <!-- Edit Profile Card -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardEditProfile"
+        <LinearLayout
+            android:id="@+id/actionCards"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="2dp"
-            app:cardBackgroundColor="@android:color/white">
+            android:orientation="vertical"
+            android:padding="16dp">
 
-            <LinearLayout
+            <!-- Edit Profile Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardEditProfile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="16dp"
-                android:gravity="center_vertical">
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@android:color/white">
 
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_edit_profile"
-                    android:contentDescription="@string/edit_profile" />
-
-                <TextView
-                    android:layout_width="0dp"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/edit_profile"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:paddingStart="16dp" />
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
 
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_chevron_right"
-                    android:contentDescription="@string/navigate" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_edit_profile"
+                        android:contentDescription="@string/edit_profile" />
 
-        <!-- Settings Card -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardSettings"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="2dp"
-            app:cardBackgroundColor="@android:color/white">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/edit_profile"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        android:paddingStart="16dp" />
 
-            <LinearLayout
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_chevron_right"
+                        android:contentDescription="@string/navigate" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Settings Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardSettings"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="16dp"
-                android:gravity="center_vertical">
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@android:color/white">
 
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_settings"
-                    android:contentDescription="@string/settings" />
-
-                <TextView
-                    android:layout_width="0dp"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/app_settings"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:paddingStart="16dp" />
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
 
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_chevron_right"
-                    android:contentDescription="@string/navigate" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_settings"
+                        android:contentDescription="@string/settings" />
 
-        <!-- Support Card -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardSupport"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="2dp"
-            app:cardBackgroundColor="@android:color/white">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/app_settings"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        android:paddingStart="16dp" />
 
-            <LinearLayout
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_chevron_right"
+                        android:contentDescription="@string/navigate" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Support Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardSupport"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="16dp"
-                android:gravity="center_vertical">
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@android:color/white">
 
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_support"
-                    android:contentDescription="@string/support" />
-
-                <TextView
-                    android:layout_width="0dp"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/support"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:paddingStart="16dp" />
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
 
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_chevron_right"
-                    android:contentDescription="@string/navigate" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_support"
+                        android:contentDescription="@string/support" />
 
-        <!-- About Us Card -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardAboutUs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="2dp"
-            app:cardBackgroundColor="@android:color/white">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/support"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        android:paddingStart="16dp" />
 
-            <LinearLayout
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_chevron_right"
+                        android:contentDescription="@string/navigate" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- About Us Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardAboutUs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="16dp"
-                android:gravity="center_vertical">
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@android:color/white">
 
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_terms"
-                    android:contentDescription="@string/about_us" />
-
-                <TextView
-                    android:layout_width="0dp"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/about_us"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:paddingStart="16dp" />
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
 
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:src="@drawable/ic_chevron_right"
-                    android:contentDescription="@string/navigate" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-    </LinearLayout>
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_terms"
+                        android:contentDescription="@string/about_us" />
 
-    <!-- Logout Button at Bottom (Fixed above BottomNavigationView) -->
-    <Button
-        android:id="@+id/btnLogout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/log_out"
-        android:textColor="@android:color/white"
-        android:backgroundTint="@color/light_green"
-        android:textAllCaps="false"
-        android:padding="16dp"
-        android:layout_above="@id/bottomNavigationView"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/rounded_button"
-        app:cornerRadius="4dp" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/about_us"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        android:paddingStart="16dp" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_chevron_right"
+                        android:contentDescription="@string/navigate" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Chatbot Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/chatbotCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/aibot"
+                        android:contentDescription="@string/ai_chatbot" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/ai_chatbot"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        android:paddingStart="16dp" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_chevron_right"
+                        android:contentDescription="@string/navigate" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
 
     <!-- Bottom Navigation View (Fixed at Bottom) -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_alignParentBottom="true"
-        android:background="@color/white"
+        android:layout_height="wrap_content"
         app:itemIconTint="@color/black"
         app:itemTextColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
         app:menu="@menu/bottom_nav_menu" />
 
-    <!-- Chatbot FAB (Bottom Right, Above BottomNavigationView) -->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/chatbotFab"
-        android:layout_width="wrap_content"
+    <!-- Logout Button (Above BottomNavigationView) -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_above="@id/bottomNavigationView"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="70dp"
-        android:contentDescription="@string/open_chatbot"
-        android:src="@android:drawable/sym_action_chat"
-        app:elevation="6dp"
-        app:fabSize="mini" />
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/log_out"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/light_green"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:background="@drawable/rounded_button"
+        app:cornerRadius="4dp" />
 
 </RelativeLayout>

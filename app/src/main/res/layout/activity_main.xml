@@ -5,19 +5,6 @@
     android:layout_height="match_parent"
     android:background="@android:color/white">
 
-    <!-- Greeting Text -->
-    <TextView
-        android:id="@+id/greetingTextView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/greetings"
-        android:textSize="18sp"
-        android:textColor="#000"
-        android:padding="16dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
     <!-- Search Bar -->
     <LinearLayout
         android:id="@+id/search_bar_layout"
@@ -25,12 +12,13 @@
         android:layout_height="wrap_content"
         android:paddingStart="12dp"
         android:paddingTop="8dp"
+        android:layout_marginTop="19dp"
         android:paddingEnd="8dp"
         android:paddingBottom="8dp"
         android:gravity="center"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/search_bar_background"
-        app:layout_constraintTop_toBottomOf="@id/greetingTextView"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
@@ -72,8 +60,21 @@
             android:contentDescription="Search by Voice" />
     </LinearLayout>
 
-
-
+    <!-- Spinner -->
+    <Spinner
+        android:id="@+id/citySpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spinner_background"
+        android:padding="6dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:popupBackground="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/search_bar_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Autocomplete Dropdown (RecyclerView) -->
     <androidx.recyclerview.widget.RecyclerView
@@ -82,7 +83,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:padding="4dp"
-        app:layout_constraintTop_toBottomOf="@id/search_bar_layout"
+        app:layout_constraintTop_toBottomOf="@id/citySpinner"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -122,7 +123,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="180dp"
-                android:id="@+id/BrahidheerwararTemple"
+                android:id="@+id/MaruthamalaiTemple"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 app:cardCornerRadius="8dp">
@@ -439,6 +440,684 @@
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Georgefort"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage11"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/georgefort1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName11"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/fort_st_george_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Santhomchurch"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage12"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/santhome1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName12"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/san_thome_basilica_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Kapaleeshwarar"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage13"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kapaleeshwarar2" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName13"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/kapaleeshwarar_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/GovernmentMuseumEgmore"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage14"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/govmusegmore1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName15"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/government_museum_egmore_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Parthasarathy"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage15"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/parthasarathy1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName15"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/parthasarathy_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/MeenakshiAmman"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage16"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/meenakshiamman1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName16"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/meenakshi_amman_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ThirumalaiNayakkar"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage17"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/thirumalaimahal1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName17"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/thirumalai_nayakkar_mahal_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/KoodalAzhagar"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage18"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/koodalalagar1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName18"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/koodal_azhagar_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/VandiyurMariamman"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage19"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/teppakulam1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName19"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/vandiyur_mariamman_teppakulam_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/GandhiMemorial"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage20"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gandhimus1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName20"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/gandhi_memorial_museum_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/KazimarBigMosque"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage21"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mad_kazimar1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName21"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/kazimar_big_mosque_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/StMarysCathedral"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage22"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mad_stmary1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName22"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/st_marys_cathedral_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/SamanarMalaiJainBeds"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage23"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/keelakuilkudi1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName23"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/samanar_malai_and_jain_beds_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/BrihadeeswararTemple"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage24"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/brihadeeshwartemple1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName24"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/brihadeeswarar_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ShoreTemple"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage25"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/shoretemple1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName25"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/shore_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/KailasanatharTemple"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage26"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kailasanathar1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName26"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/kailasanathar_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ThillaiNatarajaTemple"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage27"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/chidambaram1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName27"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/thillai_nataraja_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/PadmanabhapuramPalace"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage28"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/padmanabhapurampalace1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName28"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/padmanabhapuram_palace_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/AiravatesvaraTemple"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage29"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/airavatesvara1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName29"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/airavatesvara_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/RockFortTemple"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage30"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rockforttemple2" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName30"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/rock_fort_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/GangaikondaCholapuramTemple"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage31"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gangaikonda1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName31"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/gangaikonda_cholapuram_temple_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/VivekanandaRockMemorial"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/popularPlaceImage32"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vivekanandarock1" />
+
+                    <TextView
+                        android:id="@+id/popularPlaceName32"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:padding="8dp"
+                        android:text="@string/vivekananda_rock_memorial_name"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
         </LinearLayout>
     </HorizontalScrollView>
 
@@ -558,6 +1237,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -8,7 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
-class SupportActivity : AppCompatActivity() { // Changed BaseActivity to AppCompatActivity for clarity
+class SupportActivity : BaseActivity() { // Changed BaseActivity to AppCompatActivity for clarity
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,7 +23,7 @@ class SupportActivity : AppCompatActivity() { // Changed BaseActivity to AppComp
         findViewById<TextView>(R.id.contactLocation).text = getString(R.string.support_location, "SNSCE, CBE-110")
         findViewById<TextView>(R.id.commitmentTitle).text = getString(R.string.our_commitment)
         findViewById<TextView>(R.id.commitmentText).text = getString(R.string.commitment_description)
-        findViewById<TextView>(R.id.copyright).text = getString(R.string.copyright, "2024 Tdexv01")
+        findViewById<TextView>(R.id.copyright).text = getString(R.string.copyright, "2025 T-dex")
 
         // Handle query submission
         val nameEditText = findViewById<EditText>(R.id.queryName)

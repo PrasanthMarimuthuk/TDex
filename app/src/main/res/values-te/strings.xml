@@ -1,0 +1,511 @@
+<resources>
+    <string name="app_name">T-Dex</string>
+    <string name="app_logo">యాప్ లోగో</string>
+    <string name="sign_in">సైన్ ఇన్</string>
+    <string name="or">లేదా</string>
+    <string name="logo">లోగో</string>
+    <string name="t_dex">T-Dex</string>
+    <string name="sign_up">సైన్ అప్</string>
+    <string name="new_user_sign_up">కొత్త యూజర్? సైన్ అప్</string>
+    <string name="forgot_password">పాస్‌వర్డ్ మర్చిపోయారా?</string>
+    <string name="password">పాస్‌వర్డ్</string>
+    <string name="email">ఈమెయిల్</string>
+    <string name="most_famous">అత్యంత ప్రసిద్ధ స్థలాలు</string>
+    <string name="continue_with_google">గూగుల్‌తో కొనసాగండి</string>
+    <string name="default_web_client_id">948195832271-j3m83kfekbj4iesvfhr9qtskr8688egp.apps.googleusercontent.com</string>
+    <string name="secondary_web_client_id" translatable="false">748141285379-fr4cct3ueavuqr6n4rd7in0ep64nmju.apps.googleusercontent.com</string>
+    <string name="sign_in_with_google">గూగుల్‌తో సైన్ ఇన్</string>
+    <string name="greetings">వందనాలు!</string>
+    <string name="search_destination">గమ్యస్థానాన్ని శోధించండి</string>
+    <string name="popular">ప్రముఖ</string>
+    <string name="search_by_category">వర్గం ద్వారా శోధించండి</string>
+    <string name="all">అన్నీ</string>
+    <string name="_5_km">5 కి.మీ</string>
+    <string name="_10_km">10 కి.మీ</string>
+    <string name="_15_km">15 కి.మీ</string>
+    <string name="_20_km">20 కి.మీ</string>
+    <string name="home">హోమ్</string>
+    <string name="visited">సందర్శించినవి</string>
+    <string name="map">మ్యాప్</string>
+    <string name="profile">ప్రొఫైల్</string>
+    <string name="send_otp">OTP పంపండి</string>
+    <string name="mark_place_as_visited">స్థలాన్ని సందర్శించినట్లు గుర్తించండి</string>
+    <string name="cancel">రద్దు</string>
+    <string name="confirm">నిర్ధారించండి</string>
+    <string name="select_visit_date">సందర్శన తేదీని ఎంచుకోండి</string>
+    <string name="visited_places">సందర్శించిన స్థలాలు</string>
+    <string name="clear_history">చరిత్రను క్లియర్ చేయండి</string>
+    <string name="no_places_found_humorous">క్షమించండి, ఏలియన్… ఎంచుకున్న శ్రేణిలో స్థలాలు లేవు</string>
+    <string name="search_by_photo">ఫోటో ద్వారా శోధించండి</string>
+    <string name="open_chatbot">చాట్‌బాట్ తెరవండి</string>
+    <string name="to_visit">సందర్శించాల్సినవి</string>
+    <string name="type_your_message">మీ సందేశాన్ని టైప్ చేయండి…</string>
+    <string name="send_message">సందేశం పంపండి</string>
+    <string name="voice_input">వాయిస్ ఇన్‌పుట్</string>
+    <string name="enter_name">పేరు నమోదు చేయండి</string>
+    <string name="save">సేవ్</string>
+    <string name="enter_date_of_birth_yyyy_mm_dd">పుట్టిన తేదీ నమోదు చేయండి (YYYY-MM-DD)</string>
+    <string name="change_profile_image">ప్రొఫైల్ చిత్రాన్ని మార్చండి</string>
+    <string name="enter_state">రాష్ట్రం నమోదు చేయండి</string>
+    <string name="enter_country">దేశం నమోదు చేయండి</string>
+    <string name="profile_picture">ప్రొఫైల్ చిత్రం</string>
+    <string name="welcome_to_nt_dex">T-Dexకి స్వాగతం \n</string>
+    <string name="prasanth_m">Prasanth M</string>
+    <string name="andrew_domainname_com">andrew@domainname.com</string>
+    <string name="edit_profile">ప్రొఫైల్‌ను సవరించండి</string>
+    <string name="navigate">నావిగేట్</string>
+    <string name="settings">సెట్టింగ్స్</string>
+    <string name="app_settings">యాప్ సెట్టింగ్స్</string>
+    <string name="support">సహాయం</string>
+    <string name="terms_of_service">సేవా నిబంధనలు</string>
+    <string name="log_out">లాగ్ అవుట్</string>
+    <string name="select_language">భాషను ఎంచుకోండి</string>
+    <string name="name">పేరు</string>
+    <string name="confirm_password">పాస్‌వర్డ్‌ను నిర్ధారించండి</string>
+    <string name="signup">సైనప్</string>
+    <string name="already_an_user_sign_in">ఇప్పటికే యూజర్? సైన్-ఇన్</string>
+    <string name="tanjore_tamil_nadu">Tanjore, Tamil Nadu</string>
+    <string name="_19_km">19 కి.మీ</string>
+    <string name="add">జోడించండి</string>
+    <string name="voice_interaction">వాయిస్ ఇంటరాక్షన్</string>
+
+    <string name="nestled_on_a_serene">కోయంబత్తూరులో ఒక శాంతమైన కొండపై ఉన్న మరుతమలై మురుగన్ టెంపుల్, లార్డ్ మురుగన్‌కు అంకితం చేయబడిన 12వ శతాబ్దపు అద్భుతమైన నిర్మాణం. 837 మెట్లు ఎక్కి, సంకీర్ణమైన చెక్కడాలతో అలంకరించబడిన 180 మీటర్ల ఎత్తైన గోపురాన్ని చూడండి. ఈ తీర్థయాత్ర స్థలం స్వయంభూ విగ్రహం, ఔషధ జలాలు మరియు ఉత్సాహభరితమైన వార్షిక తైపూసం ఉత్సవం కోసం ప్రసిద్ధి చెందింది. టెంపుల్ యొక్క అద్భుతమైన దృశ్యాలు మరియు శాంతమైన వాతావరణం ఇది ప్రయాణీకులకు తప్పక సందర్శించాల్సిన ఆధ్యాత్మిక స్వర్గంగా చేస్తాయి.</string>
+    <string name="opening_hours">తెరవడం గంటలు:</string>
+    <string name="closing_hours">మూసివేత గంటలు:</string>
+    <string name="operating_days">పనిచేసే రోజులు:</string>
+    <string name="close">మూసివేయండి</string>
+    <string name="plus">+</string>
+    <string name="brahadeeshwarar_temple">బృహదీశ్వర ఆలయం</string>
+    <string name="direction">దిశ</string>
+
+    <string name="brihadeeshwarar_temple">బృహదీశ్వర ఆలయం</string>
+    <string name="tanjore_tamilnadu">తంజావూరు, తమిళనాడు</string>
+
+    <string name="meenakshi_temple">మీనాక్షి ఆలయం</string>
+    <string name="madurai_tamilnadu">మదురై, తమిళనాడు</string>
+
+    <string name="mahabalipuram">మహాబలిపురం</string>
+    <string name="mamallapuram_tamilnadu">మామల్లపురం, తమిళనాడు</string>
+
+    <string name="vellore_fort">వేలూరు కోట</string>
+    <string name="vellore_tamilnadu">వేలూరు, తమిళనాడు</string>
+
+    <string name="isha_yoga_centre">ఈషా యోగా కేంద్రం</string>
+    <string name="coimbatore_tamilnadu">కోయంబత్తూరు, తమిళనాడు</string>
+
+    <string name="maruthamalai_murugan_temple">మరుతమలై మురుగన్ ఆలయం</string>
+
+    <string name="velliangiri_hills">వెల్లియంగిరి కొండలు</string>
+
+    <string name="gass_forest_museum">గాస్ ఫారెస్ట్ మ్యూజియం</string>
+    <string name="r_s_puram_coimbatore">ఆర్.ఎస్. పురం, కోయంబత్తూరు</string>
+
+    <string name="kaviyaruvi_waterfalls">కవియారువి జలపాతాలు</string>
+    <string name="aalliyar_reserve_forest_coimbatore">ఆలియార్ రిజర్వ్ ఫారెస్ట్, కోయంబత్తూరు</string>
+
+    <string name="gedee_museum">గెడి మ్యూజియం</string>
+    <string name="race_course_coimbatore">రేస్ కోర్స్, కోయంబత్తూరు</string>
+
+    <string name="sathyamangalam_wildlife_sanctuary">సత్యమంగలం వన్యప్రాణుల అభయారణ్యం</string>
+    <string name="sathyamangalam_tamilnadu">కోయంబత్తూరుకు సమీపంలో</string>
+
+    <string name="government_museum">ప్రభుత్వ మ్యూజియం</string>
+    <string name="gopalapuram_coimbatore">గోపాలపురం, కోయంబత్తూరు</string>
+
+    <string name="valparai">వాల్పారై</string>
+    <string name="valparai_coimbatore">వాల్పారై, కోయంబత్తూరు</string>
+
+    <string name="perur_pateeswarar_temple">పేరు పటీస్‌వరర్ ఆలయం</string>
+    <string name="perur_coimbatore">పేరు, కోయంబత్తూరు</string>
+
+
+
+    <string name="chennai">చెన్నై</string>
+    <string name="coimbatore">కోయంబత్తూరు</string>
+    <string name="madurai">మదురై</string>
+    <string name="mark_as_visited">సందర్శించినట్లు గుర్తించండి</string>
+    <string name="delete">తొలగించండి</string>
+    <string name="place_removed_from_visit_locations">%s సందర్శించాల్సిన స్థలాల నుండి తొలగించబడింది</string>
+
+    <string name="please_enter_a_place_name">దయచేసి ఒక ప్రదేశం పేరును నమోదు చేయండి</string>
+    <string name="place_not_found">ప్రదేశం కనుగొనబడలేదు: %s</string>
+    <string name="category_all">వర్గం: అన్నీ</string>
+    <string name="category_5_km">వర్గం: 5 కి.మీ</string>
+    <string name="category_10_km">వర్గం: 10 కి.మీ</string>
+    <string name="category_15_km">వర్గం: 15 కి.మీ</string>
+    <string name="category_20_km">వర్గం: 20 కి.మీ</string>
+    <string name="showing_all_places_near_coimbatore">కోయంబత్తూరు సమీపంలోని అన్ని ప్రదేశాలు చూపబడుతున్నాయి.</string>
+    <string name="showing_places_within_5_kilometers">మీ స్థానం నుండి 5 కిలోమీటర్ల పరిధిలోని ప్రదేశాలు చూపబడుతున్నాయి.</string>
+    <string name="showing_places_within_10_kilometers">మీ స్థానం నుండి 10 కిలోమీటర్ల పరిధిలోని ప్రదేశాలు చూపబడుతున్నాయి.</string>
+    <string name="showing_places_within_15_kilometers">మీ స్థానం నుండి 15 కిలోమీటర్ల పరిధిలోని ప్రదేశాలు చూపబడుతున్నాయి.</string>
+    <string name="showing_places_within_20_kilometers">మీ స్థానం నుండి 20 కిలోమీటర్ల పరిధిలోని ప్రదేశాలు చూపబడుతున్నాయి.</string>
+    <string name="found_place">%2$s వద్ద %1$s కనుగొనబడింది, %3$s కిలోమీటర్ల దూరంలో ఉంది.</string>
+    <string name="couldnt_find_place">క్షమించండి, \'%s\'తో సరిపోలే స్థలాన్ని నేను కనుగొనలేకపోయాను.</string>
+    <string name="no_voice_input_detected">వాయిస్ ఇన్‌పుట్ గుర్తించబడలేదు</string>
+    <string name="location_permission_denied">స్థాన అనుమతి నిరాకరించబడింది. దూరాలు స్థిరంగా ఉంటాయి.</string>
+    <string name="microphone_permission_required">వాయిస్ శోధన కోసం మైక్రోఫోన్ అనుమతి అవసరం</string>
+    <string name="speak_to_search">శోధించడానికి మాట్లాడండి…</string>
+    <string name="home_clicked">హోమ్ క్లిక్ చేయబడింది</string>
+    <string name="visited_clicked">సందర్శించినవి క్లిక్ చేయబడ్డాయి</string>
+    <string name="to_visit_clicked">సందర్శించవలసినవి క్లిక్ చేయబడ్డాయి</string>
+    <string name="profile_clicked">ప్రొఫైల్ క్లిక్ చేయబడింది</string>
+    <string name="place_added_to_visit_locations">%1$s సందర్శించవలసిన స్థలాలకు జోడించబడింది</string>
+    <string name="choose_action">చర్యను ఎంచుకోండి</string>
+    <string name="km">కి.మీ</string>
+
+    <string name="unknown_temple">తెలియని దేవాలయం</string>
+    <string name="unknown_location">తెలియని ప్రదేశం</string>
+    <string name="distance_unavailable">దూరం అందుబాటులో లేదు</string>
+    <string name="no_description">వివరణ లేదు</string>
+    <string name="unknown">తెలియదు</string>
+    <string name="no_place_data_available">ఆడియో వివరణ కోసం స్థల డేటా అందుబాటులో లేదు</string>
+    <string name="language_not_supported_using_english">భాష మద్దతు లేదు, ఇంగ్లీష్ ఉపయోగిస్తోంది</string>
+    <string name="tts_initialization_failed">టెక్స్ట్-టు-స్పీచ్ ప్రారంభించడం విఫలమైంది</string>
+    <string name="gemini_could_not_process">క్షమించండి, నేను మీ అభ్యర్థనను ప్రాసెస్ చేయలేకపోయాను.</string>
+    <string name="gemini_error_processing">మీ అభ్యర్థనను ప్రాసెస్ చేయడంలో లోపం. దయచేసి మళ్లీ ప్రయత్నించండి.</string>
+    <string name="network_error">నెట్‌వర్క్ లోపం. దయచేసి మీ ఇంటర్నెట్ కనెక్షన్‌ను తనిఖీ చేయండి.</string>
+    <string name="no_name">పేరు లేదు\n</string>
+    <string name="no_email">ఇమెయిల్ లేదు</string>
+
+    <string name="ble_device_detected">BLE పరికరం కనుగొనబడింది</string>
+    <string name="please_enable_bluetooth">దయచేసి బ్లూటూత్‌ను ప్రారంభించండి</string>
+    <string name="ble_permissions_denied">BLE అనుమతులు నిరాకరించబడ్డాయి</string>
+    <string name="scanning">స్కానింగ్…</string>
+    <string name="scan_stopped">స్కాన్ ఆగిపోయింది</string>
+    <string name="smartwatch_out_of_range">పరిధికి వెలుపల</string>
+    <string name="ble_want_to_know">బృహదీశ్వర ఆలయ శిల్పం గురించి తెలుసుకోవాలా? (దూరం: %.2f మీటర్లు)</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_info">బృహదీశ్వర ఆలయ శిల్ప వివరాలు</string>
+    <string name="distance_from_user">మీ నుండి దూరం: %s మీటర్లు</string>
+    <string name="ok">సరే</string>
+    <string name="back">వెనుకకు</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_description">ఈ చిత్రం తమిళనాడులోని తంజావూరులో ఉన్న బృహదీశ్వరాలయం లోని ఒక పురాతన శాసనాన్ని చూపిస్తుంది. ఈ దేవాలయం 11వ శతాబ్దంలో రాజరాజ చోళుడు నిర్మించాడు. ఇది తమిళ సంస్కృతి, చోళుల కళ మరియు దక్షిణ భారతీయ ఆలయ నిర్మాణశైలికి గొప్ప నిదర్శనంగా నిలుస్తుంది. ఈ శాసనాలు పురాతన తమిళ లిపిలో ఉన్నాయి మరియు వాటిలో దేవాలయానికి బహుమతులు, భూములు, బంగారం, దీపాలు మరియు పశువులు వంటి విరాళాలను నమోదు చేయడం జరిగింది. అలాగే దేవాలయ పురోహితులు, నాట్య కళాకారులు మరియు ఇతర సేవాకారుల పేర్లు కూడా ఉన్నాయి. ఇవి ఆ కాలపు పాలన, పన్నుల విధానం మరియు సంస్కృతిని సూచిస్తాయి. ఈ దేవాలయం ఆధ్యాత్మికతతో పాటు ఒక పరిపాలనా కేంద్రంగా కూడా ఉపయోగపడింది. ఈ శాసనాలు చోళుల భక్తిని, వారి పరిపాలనా నైపుణ్యాన్ని మరియు చారిత్రక క్రమశీలతను ప్రతిబింబిస్తాయి. ఇవి ఇప్పుడు చారిత్రక పరిశోధనకు గొప్ప ఆధారాలుగా ఉన్నాయి.</string>
+    <string name="maruthamalai_pambatti_siddhar_temple_image">మారుతమలై పంబాట్టి సిద్ధర్ ఆలయ చిత్రం</string>
+
+    <string name="how_can_we_help">మేము మీకు ఎలా సహాయం చేయగలము?</string>
+    <string name="contact_us">మమ్మల్ని సంప్రదించండి</string>
+    <string name="support_email">ఇమెయిల్: %s</string>
+    <string name="support_phone">ఫోన్: %s</string>
+    <string name="support_location">స్థానం: %s</string>
+    <string name="submit_a_query">ఒక ప్రశ్నను సమర్పించండి</string>
+    <string name="subject">విషయం</string>
+    <string name="message">సందేశం</string>
+    <string name="submit">సమర్పించండి</string>
+    <string name="all_fields_required">అన్ని ఫీల్డ్‌లు తప్పనిసరి!</string>
+    <string name="query_submitted">ప్రశ్న విజయవంతంగా సమర్పించబడింది, %s!</string>
+    <string name="our_team">మా బృందం</string>
+    <string name="meet_the_faces_behind_tdexv01">Tdex వెనుక ఉన్న వ్యక్తులను కలవండి</string>
+    <string name="our_mission">మా లక్ష్యం</string>
+    <string name="mission_description">T-Dex వద్ద, ప్రజలు తమ వాహనాలతో సంభాషించే విధానంలో విప్లవాత్మక మార్పులు తీసుకురావడానికి మేము అంకితభావంతో ఉన్నాము. డ్రైవింగ్ అనుభవాన్ని మెరుగుపరచడానికి, వాహన నిర్వహణను మెరుగుపరచడానికి మరియు అందరికీ సురక్షితమైన, మరింత సమర్థవంతమైన రవాణాను ప్రోత్సహించడానికి వినూత్నమైన, వినియోగదారు-స్నేహపూర్వక పరిష్కారాలను అందించడమే మా లక్ష్యం.</string>
+    <string name="our_commitment">మా నిబద్ధత</string>
+    <string name="commitment_description">మేము 24 గంటల్లోపు అన్ని ప్రశ్నలకు సమాధానం ఇవ్వడానికి ప్రయత్నిస్తాము. మీ సంతృప్తి మా ప్రధాన ప్రాధాన్యత, మరియు మీకు సాధ్యమైనంత ఉత్తమమైన మద్దతు అనుభవాన్ని అందించడానికి మేము కట్టుబడి ఉన్నాము.</string>
+    <string name="copyright">© %s అన్ని హక్కులు ప్రత్యేకించబడ్డాయి.</string>
+    <string name="about_us">మా గురించి</string>
+    <string name="ragul_r">రాగుల్ ఆర్</string>
+    <string name="sivapprakash_c">శివప్రకాష్ సి</string>
+    <string name="navaneeth_t">నవనీత్ టి</string>
+    <string name="lead_developer">లీడ్ మరియు డెవలపర్</string>
+    <string name="co_lead_and_content_creator">కంటెంట్ క్రియేటర్</string>
+    <string name="developer">డెవలపర్</string>
+    <string name="about_us_header_image">మా గురించి హెడర్ చిత్రం</string>
+    <string name="user_not_signed_in">వినియోగదారు సైన్ ఇన్ చేయలేదు</string>
+    <string name="logged_out_successfully">విజయవంతంగా లాగ్ అవుట్ చేయబడింది</string>
+    <string name="ble_device_lost">BLE పరికరం పోయింది</string>
+    <string name="ai_chatbot">AI చాట్‌బాట్</string>
+
+
+    <string name="visited_history_cleared">సందర్శించిన చరిత్ర తొలగించబడింది</string>
+    <string name="clear_history_confirmation">మీరు సందర్శించిన అన్ని ప్రదేశాలను తొలగించాలనుకుంటున్నారా?</string>
+    <string name="yes">అవును</string>
+    <string name="no">లేదు</string>
+    <string name="visited_on">సందర్శించిన తేదీ: %1$s</string>
+    <string name="place_marked_as_visited">%2$sన %1$s సందర్శించినట్లు గుర్తించబడింది</string>
+    <string name="audio_stopped">ఆడియో ఆగిపోయింది</string>
+
+    <!-- Maruthamalai Temple -->
+    <string name="maruthamalai_temple_name">మరుతమలై ఆలయం</string>
+    <string name="maruthamalai_temple_location">మరుతమలై, తమిళనాడు</string>
+    <string name="maruthamalai_temple_distance">20 కి.మీ</string>
+    <string name="maruthamalai_temple_description">కోయంబత్తూరులోని ఒక శాంతమైన కొండపై ఉన్న మరుతమలై మురుగన్ ఆలయం, 12వ శతాబ్దంలో నిర్మితమైన ఒక దైవిక అద్భుతం, ఇది లార్డ్ మురుగన్‌కు అంకితం. 837 మెట్లు ఎక్కి, 180 మీటర్ల ఎత్తైన గోపురాన్ని, సంక్లిష్టమైన చెక్కడాలతో అలంకరించబడిన దృశ్యాన్ని చూడండి. ఈ యాత్రా స్థలం స్వయంగా ప్రత్యక్షమైన విగ్రహం, ఔషధ ఊటలు, మరియు ఉత్సాహభరితమైన తైపూసం ఉత్సవం కోసం ప్రసిద్ధి చెందింది. ఆలయం యొక్క అద్భుతమైన దృశ్యాలు మరియు శాంతమైన వాతావరణం యాత్రికులకు ఒక అనివార్యమైన ఆధ్యాత్మిక స్వర్గంగా మార్చాయి.</string>
+    <string name="maruthamalai_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="maruthamalai_temple_closing_hours">రాత్రి 9:00</string>
+    <string name="maruthamalai_temple_operating_days">అన్ని రోజులు</string>
+
+    <!-- Isha Yoga Centre -->
+    <string name="isha_yoga_centre_name">ఈశా యోగా కేంద్రం</string>
+    <string name="isha_yoga_centre_location">కోయంబత్తూరు, తమిళనాడు</string>
+    <string name="isha_yoga_centre_distance">35 కి.మీ</string>
+    <string name="isha_yoga_centre_description">వెల్లియంగిరి కొండల దిగువన, కోయంబత్తూరు శివారులో ఉన్న ఈశా యోగా కేంద్రం, ఈశా ఫౌండేషన్ యొక్క ప్రధాన కార్యాలయం. ఈశా అనేది స్వీయ-పరివర్తన కోసం ఒక పవిత్ర స్థలం, ఇక్కడ మీరు మీ ఆంతరిక వృద్ధి కోసం సమయాన్ని కేటాయించవచ్చు. ఈ కేంద్రం నాలుగు ప్రధాన యోగా మార్గాలను అందిస్తుంది – క్రియా (శక్తి), జ్ఞానం (విజ్ఞానం), కర్మ (కార్యం), మరియు భక్తి (భక్తి), ప్రపంచవ్యాప్తంగా ప్రజలను ఆకర్షిస్తుంది.\n\nఈ కేంద్రం వ్యక్తులలో ఆంతరిక పరివర్తనను ప్రోత్సహించడానికి మరియు స్థిరమైన శ్రేయస్సు స్థితిని సృష్టించడానికి అంకితం చేయబడింది. పెద్ద నివాస సౌకర్యం బ్రహ్మచారులు, పూర్తి-సమయం స్వచ్ఛంద సేవకులు మరియు సందర్శకులతో కూడిన చురుకైన అంతర్జాతీయ సమాజాన్ని కలిగి ఉంది. ఈశా యోగా కేంద్రం ఆరోగ్యకరమైన జీవనశైలిలోకి మార్పు చేయడానికి, ఉన్నత స్థాయి స్వీయ-సాక్షాత్కారాన్ని కోరడానికి మరియు మీ పూర్తి సామర్థ్యాన్ని సాక్షాత్కరించడానికి సహాయక వాతావరణాన్ని అందిస్తుంది.</string>
+    <string name="isha_yoga_centre_opening_hours">ఉదయం 6:00</string>
+    <string name="isha_yoga_centre_closing_hours">రాత్రి 8:00</string>
+    <string name="isha_yoga_centre_operating_days">సోమవారం నుండి ఆదివారం వరకు</string>
+
+    <!-- Velliangiri Hills -->
+    <string name="velliangiri_hills_name">వెల్లియంగిరి కొండలు</string>
+    <string name="velliangiri_hills_location">కోయంబత్తూరు, తమిళనాడు</string>
+    <string name="velliangiri_hills_distance">40 కి.మీ</string>
+    <string name="velliangiri_hills_description">నీలగిరి బయోస్పియర్ రిజర్వ్‌లో భాగమైన వెల్లియంగిరి పర్వతాలు, తమిళనాడులోని కోయంబత్తూరు జిల్లాలోని వెస్టర్న్ ఘాట్స్‌లో ఉన్నాయి. "సప్తగిరి, 7 కొండలు - ఏడు పర్వతాలు"గా పిలువబడే ఈ పర్వతాలు, శివుడి పురాణ నివాసమైన కైలాస పర్వతంతో సమానంగా గౌరవించబడతాయి, ఇది గ్రహంపై అత్యంత ఆధ్యాత్మిక శక్తివంతమైన స్థలాలలో ఒకటిగా పరిగణించబడుతుంది. వెల్లియంగిరి పర్వతాల శిఖరంపై, శివుడు స్వయంభూ రూపంలో, స్వయంగా సృష్టించబడినవాడిగా ఆరాధించబడతాడు, మరియు ఈ రూపంలో, అతను భక్తులను అనుగ్రహిస్తాడు.</string>
+    <string name="velliangiri_hills_opening_hours">ఉదయం 5:00</string>
+    <string name="velliangiri_hills_closing_hours">సాయంత్రం 6:00</string>
+    <string name="velliangiri_hills_operating_days">అన్ని రోజులు</string>
+
+    <!-- Gass Forest Museum -->
+    <string name="gass_forest_museum_name">గాస్ ఫారెస్ట్ మ్యూజియం</string>
+    <string name="gass_forest_museum_location">ఆర్.ఎస్.పురం, కోయంబత్తూరు</string>
+    <string name="gass_forest_museum_distance">20 కి.మీ</string>
+    <string name="gass_forest_museum_description">తమిళనాడులోని కోయంబత్తూరులో ఉన్న గాస్ ఫారెస్ట్ మ్యూజియం, 1902లో స్థాపించబడిన ఒక ఆకర్షణీయమైన సహజ చరిత్ర మ్యూజియం. ఇది ఆ యుగంలో ప్రముఖ అటవీ శాస్త్రవేత్త అయిన హోరేస్ ఆర్చిబాల్డ్ గాస్ పేరు మీద నామకరణం చేయబడింది. ఈ మ్యూజియం వెస్టర్న్ ఘాట్స్ యొక్క గొప్ప జీవవైవిధ్యానికి ఒక కిటికీగా ఉపయోగపడుతుంది, ఇది సంరక్షించబడిన మొక్కలు, జంతువులు మరియు కీటకాలతో కూడిన ఆకట్టుకునే మరియు వైవిధ్యమైన సేకరణను ప్రదర్శిస్తుంది.\n\nసందర్శకులు ప్రాంతానికి చెందిన మొక్కలు, జంతువులు మరియు కీటకాలను కలిగి ఉన్న వివిధ ప్రదర్శనలను అన్వేషించవచ్చు. మ్యూజియం అటవీ పద్ధతులు మరియు సంరక్షణ ప్రయత్నాలపై సమాచారపూర్వక ప్రదర్శనలను కూడా అందిస్తుంది, మన సహజ వారసత్వాన్ని సంరక్షించడం యొక్క ప్రాముఖ్యతను హైలైట్ చేస్తుంది. ప్రకృతి పట్ల మక్కువ ఉన్నవారికి, గాస్ ఫారెస్ట్ మ్యూజియం విద్య మరియు పర్యావరణం పట్ల ఆరాధనను కలిపే సుసంపన్నమైన అనుభవాన్ని అందిస్తుంది.\n\nమీరు ప్రకృతి ఔత్సాహికుడైనా, విద్యార్థైనా, లేదా సహజ ప్రపంచం గురించి ఆసక్తి కలిగినవారైనా, గాస్ ఫారెస్ట్ మ్యూజియం తప్పక సందర్శించాల్సిన గమ్యస్థానం.</string>
+    <string name="gass_forest_museum_opening_hours">ఉదయం 9:00</string>
+    <string name="gass_forest_museum_closing_hours">సాయంత్రం 5:00</string>
+    <string name="gass_forest_museum_operating_days">మంగళవారం నుండి ఆదివారం వరకు</string>
+
+    <!-- Kaviyaruvi Waterfalls -->
+    <string name="kaviyaruvi_waterfalls_name">కవియారువి జలపాతం</string>
+    <string name="kaviyaruvi_waterfalls_location">ఆల్లియార్ రిజర్వ్ ఫారెస్ట్, కోయంబత్తూరు</string>
+    <string name="kaviyaruvi_waterfalls_distance">20 కి.మీ</string>
+    <string name="kaviyaruvi_waterfalls_description">తమిళనాడులోని పొల్లాచి సమీపంలో ఉన్న మంకీ ఫాల్స్, అనైమలై కొండలలో ఉన్న ఒక సహజ జలపాతం. ఈ జలపాతం ఇందిరా గాంధీ వన్యప్రాణి సంరక్షణ కేంద్రం మరియు జాతీయ ఉద్యానవనంలో భాగం. చారిత్రాత్మకంగా, మంకీ ఫాల్స్ చుట్టూ ఉన్న ప్రాంతం బ్రిటిష్ వలస యుగంలో టీ మరియు కాఫీ తోటలకు ముఖ్య కేంద్రంగా ఉండేది. ఈ జలపాతం దాని చుట్టూ ఉన్న బొనెట్ మకాక్‌ల ఉనికి కారణంగా ఈ పేరు పొందింది. కాలక్రమేణ, మంకీ ఫాల్స్ దాని సుందరమైన అందం మరియు రిఫ్రెష్ చేసే నీటి కారణంగా ప్రసిద్ధ పర్యాటక గమ్యస్థానంగా మారింది. ఈ జలపాతం "కవియారువి" అని కూడా పిలువబడుతుంది, ఇది పురాతన సంగం సాహిత్యంలో ఉన్న పేరు.</string>
+    <string name="kaviyaruvi_waterfalls_opening_hours">ఉదయం 6:00</string>
+    <string name="kaviyaruvi_waterfalls_closing_hours">సాయంత్రం 6:00</string>
+    <string name="kaviyaruvi_waterfalls_operating_days">అన్ని రోజులు</string>
+
+    <!-- Gedee Museum -->
+    <string name="gedee_museum_name">గెడీ మ్యూజియం</string>
+    <string name="gedee_museum_location">రేస్ కోర్స్, కోయంబత్తూరు</string>
+    <string name="gedee_museum_distance">20 కి.మీ</string>
+    <string name="gedee_museum_description">తమిళనాడులోని కోయంబత్తూరులో ఉన్న గెడీ కార్ మ్యూజియం, పాతకాలపు మరియు క్లాసిక్ కార్ల యొక్క అద్భుతమైన సేకరణను ప్రదర్శించే ఒక ప్రత్యేక ఆకర్షణ. జి.డి. నాయుడు ఛారిటీస్ ద్వారా స్థాపించబడిన ఈ మ్యూజియం, ప్రపంచవ్యాప్తంగా అరుదైన ఆటోమొబైల్స్‌ను కలిగి ఉంది, ఆటోమోటివ్ ఇంజనీరింగ్ యొక్క పరిణామాన్ని హైలైట్ చేస్తుంది. సందర్శకులు ఖచ్చితంగా పునరుద్ధరించబడిన వాహనాలను చూసి ఆశ్చర్యపోవచ్చు మరియు ప్రతి మోడల్ వెనుక ఉన్న చరిత్ర మరియు ఆవిష్కరణ గురించి తెలుసుకోవచ్చు. కారు ఔత్సాహికులు మరియు చరిత్ర ఔత్సాహికులకు ఇది తప్పక సందర్శించాల్సిన గమ్యస్థానం.</string>
+    <string name="gedee_museum_opening_hours">ఉదయం 10:00</string>
+    <string name="gedee_museum_closing_hours">సాయంత్రం 5:30</string>
+    <string name="gedee_museum_operating_days">మంగళవారం నుండి ఆదివారం వరకు</string>
+
+    <!-- Sathyamangalam Wildlife Sanctuary -->
+    <string name="sathyamangalam_wildlife_sanctuary_name">సత్యమంగళం వన్యప్రాణి సంరక్షణ కేంద్రం</string>
+    <string name="sathyamangalam_wildlife_sanctuary_location">కోయంబత్తూరు సమీపంలో</string>
+    <string name="sathyamangalam_wildlife_sanctuary_distance">20 కి.మీ</string>
+    <string name="sathyamangalam_wildlife_sanctuary_description">తమిళనాడులోని వెస్టర్న్ మరియు ఈస్టర్న్ ఘాట్స్ సంగమం వద్ద ఉన్న సత్యమంగళం వన్యప్రాణి సంరక్షణ కేంద్రం, 1,411 చదరపు కిలోమీటర్ల విస్తీర్ణంలో విస్తరించి ఉన్న ఒక విశాలమైన అడవి, దాని గొప్ప జీవవైవిధ్యం మరియు అద్భుతమైన భూమి దృశ్యాలకు ప్రసిద్ధి చెందింది. ఇది ఒక ముఖ్యమైన పులుల సంరక్షణ కేంద్రం మరియు నీలగిరి బయోస్పియర్ రిజర్వ్‌లో భాగం. ఈ సంరక్షణ కేంద్రం పులులు, ఏనుగులు, చిరుతపులులు, గౌర్‌లు మరియు 200 రకాల పక్షులతో సహా వివిధ రకాల వృక్షజాలం మరియు జంతుజాలానికి నిలయం. దాని దట్టమైన అడవులు, నదులు మరియు గడ్డి భూములు ప్రకృతి ఔత్సాహికులు, వన్యప్రాణి ఫోటోగ్రాఫర్‌లు మరియు పర్యావరణ పర్యాటకులకు ఒక స్వర్గంగా మారాయి. ఈ సంరక్షణ కేంద్రం చారిత్రాత్మక ప్రాముఖ్యతను కూడా కలిగి ఉంది, ఎందుకంటే ఇది ఒకప్పుడు పురాణ టిప్పు సుల్తాన్ ఉపయోగించిన మార్గం.</string>
+    <string name="sathyamangalam_wildlife_sanctuary_opening_hours">ఉదయం 6:00</string>
+    <string name="sathyamangalam_wildlife_sanctuary_closing_hours">సాయంత్రం 6:00</string>
+    <string name="sathyamangalam_wildlife_sanctuary_operating_days">అన్ని రోజులు</string>
+
+    <!-- Government Museum of Coimbatore -->
+    <string name="government_museum_name">కోయంబత్తూరు ప్రభుత్వ మ్యూజియం</string>
+    <string name="government_museum_location">గోపాలపురం, కోయంబత్తూరు</string>
+    <string name="government_museum_distance">20 కి.మీ</string>
+    <string name="government_museum_description">కోయంబత్తూరు నగరం హృదయంలో ఉన్న కోయంబత్తూరు ప్రభుత్వ మ్యూజియం, 1975లో స్థాపించబడిన కళ, చరిత్ర మరియు సంస్కృతి యొక్క నిధి సంచయం. ఈ మ్యూజియం పురాతన శిల్పాలు, నాణేలు, శాసనాలు మరియు సాంప్రదాయ చేతివృత్తులతో సహా విభిన్న సేకరణను ప్రదర్శిస్తుంది. ఇది మానవశాస్త్రం, వృక్షశాస్త్రం మరియు భూగర్భ శాస్త్రంపై ప్రదర్శనలను కూడా కలిగి ఉంది, తమిళనాడు యొక్క గొప్ప వారసత్వం మరియు సహజ చరిత్రలో సందర్శకులకు ఆసక్తికరమైన అంతర్దృష్టిని అందిస్తుంది. ఈ మ్యూజియం యొక్క హైలైట్ దాని కాంస్య విగ్రహాల గ్యాలరీ, ఇది చోళ యుగం యొక్క అద్భుతమైన శిల్పకళను ప్రతిబింబిస్తుంది. ఈ మ్యూజియం సందర్శన చరిత్ర ఔత్సాహికులు, విద్యార్థులు మరియు ఆసక్తిగల యాత్రికులకు సమయం గుండా ప్రయాణంగా ఉంటుంది.</string>
+    <string name="government_museum_opening_hours">ఉదయం 10:00</string>
+    <string name="government_museum_closing_hours">సాయంత్రం 5:00</string>
+    <string name="government_museum_operating_days">మంగళవారం నుండి ఆదివారం వరకు</string>
+
+    <!-- Valparai Hill Station -->
+    <string name="valparai_hill_station_name">వాల్పరై హిల్ స్టేషన్</string>
+    <string name="valparai_hill_station_location">వాల్పరై, కోయంబత్తూరు</string>
+    <string name="valparai_hill_station_distance">20 కి.మీ</string>
+    <string name="valparai_hill_station_description">తమిళనాడులోని అనమలై కొండలలో ఉన్న వాల్పరై, దాని అద్భుతమైన భూమి దృశ్యాలు, దట్టమైన టీ మరియు కాఫీ తోటలు, మరియు గొప్ప జీవవైవిధ్యంతో ప్రసిద్ధి చెందిన ఒక శాంతమైన హిల్ స్టేషన్. 3,500 అడుగుల ఎత్తులో ఉన్న ఇది చల్లని వాతావరణం మరియు పొగమంచుతో కప్పబడిన లోయలు, జలపాతాలు మరియు వన్యప్రాణుల యొక్క అద్భుతమైన దృశ్యాలను అందిస్తుంది. వాల్పరై అనమలై టైగర్ రిజర్వ్‌లో భాగం మరియు నీలగిరి తహర్, సింహపుచ్చ మకాక్, మరియు ఏనుగుల వంటి అరుదైన జాతులకు నిలయం. ప్రసిద్ధ ఆకర్షణలలో షోలయార్ డ్యామ్, అలియార్ డ్యామ్, మరియు శాంతమైన నల్లముడి పూంజోలై వీక్షణ స్థలం ఉన్నాయి. నగర జీవితం యొక్క హడావిడి నుండి దూరంగా, వాల్పరై ప్రకృతి ప్రేమికులకు మరియు ప్రశాంతతను కోరుకునే వారికి సరైన రిట్రీట్.</string>
+    <string name="valparai_hill_station_opening_hours">ఉదయం 6:00</string>
+    <string name="valparai_hill_station_closing_hours">సాయంత్రం 6:00</string>
+    <string name="valparai_hill_station_operating_days">అన్ని రోజులు</string>
+
+    <!-- Perur Pateeswarar Temple -->
+    <string name="perur_pateeswarar_temple_name">పెరూర్ పట్టీశ్వర ఆలయం</string>
+    <string name="perur_pateeswarar_temple_location">పెరూర్, కోయంబత్తూరు</string>
+    <string name="perur_pateeswarar_temple_distance">20 కి.మీ</string>
+    <string name="perur_pateeswarar_temple_description">పెరూర్ పట్టీశ్వర ఆలయం, భారతదేశంలోని తమిళనాడు రాష్ట్రంలోని కోయంబత్తూరు యొక్క పశ్చిమ భాగంలో ఉన్న లార్డ్ శివుడికి అంకితమైన ఒక హిందూ ఆలయం. ఈ ఆలయం 2వ శతాబ్దంలో కరికాల చోళుడు నిర్మించాడు. ఈ ఆలయం నోయ్యల్ నది ఒడ్డున ఉంది మరియు అరుణగిరినాథర్ మరియు కచియప్ప మునివర్ వంటి కవులచే సమర్థించబడింది. పట్టీశ్వర (శివుడు) ఈ ఆలయం యొక్క ప్రధాన దేవత, అతని సహచరి పచైనాయకి (పార్వతి)తో కలిసి. ప్రధాన దేవత ఒక స్వయంభూ లింగం.</string>
+    <string name="perur_pateeswarar_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="perur_pateeswarar_temple_closing_hours">మధ్యాహ్నం 12:00 మరియు సాయంత్రం 4:00 - రాత్రి 8:00</string>
+    <string name="perur_pateeswarar_temple_operating_days">అన్ని రోజులు</string>
+
+    <!-- Fort St. George Museum -->
+    <string name="fort_st_george_name">ఫోర్ట్ సెయింట్ జార్జ్ మ్యూజియం</string>
+    <string name="fort_st_george_location">చెన్నై, తమిళనాడు</string>
+    <string name="fort_st_george_distance">20 కి.మీ</string>
+    <string name="fort_st_george_description">చెన్నైలోని ఫోర్ట్ సెయింట్ జార్జ్, భారతదేశంలో బ్రిటిష్ వారు నిర్మించిన మొదటి కోట, దేశంలో బ్రిటిష్ వలస ప్రభావం యొక్క ప్రారంభాన్ని సూచిస్తుంది.\n1644లో బ్రిటిష్ ఈస్ట్ ఇండియా కంపెనీ ద్వారా నిర్మించబడిన ఇది, మద్రాస్ (ఇప్పుడు చెన్నై)ని వాణిజ్యం మరియు పరిపాలన కేంద్రంగా స్థాపించడంలో ప్రధాన పాత్ర పోషించింది.\n\nకోట సముదాయంలో ఉన్న ఫోర్ట్ మ్యూజియం, ఈ ప్రాంతం యొక్క వలస చరిత్రలో లోతైన అంతర్దృష్టిని అందిస్తుంది.\nఈ మ్యూజియం ఒకప్పుడు పబ్లిక్ ఎక్స్చేంజ్‌గా ఉపయోగపడిన భవనంలో ఉంది మరియు 1948లో ప్రజలకు తెరవబడింది.\nఇది బ్రిటిష్ రాజ్ నుండి నాణేలు, పతకాలు, ఆయుధాలు, యూనిఫామ్‌లు, రాతప్రతులు, మరియు పాతకాలపు ఫర్నిచర్‌తో సహా గొప్ప సేకరణను ప్రదర్శిస్తుంది.\n\nప్రధాన ఆకర్షణలలో ఒకటి సెయింట్ మేరీస్ చర్చి, భారతదేశంలో అత్యంత పురాతన ఆంగ్లికన్ చర్చి, 1680లో నిర్మించబడింది.\nఈ మ్యూజియం అరుదైన చిత్రాలు, బ్రిటిష్ గవర్నర్‌ల చిత్రపటాలు, మరియు లార్డ్ క్లైవ్ మరియు లార్డ్ కార్న్‌వాలిస్ వంటి చారిత్రక వ్యక్తుల లేఖలను కలిగి ఉంది.\nఈ ప్రదర్శనలు వలస అధికారుల రోజువారీ జీవనం మరియు పరిపాలనా శైలులను సందర్శకులకు ఒక సంగ్రహాంశాన్ని అందిస్తాయి.\n\nఫోర్ట్ సెయింట్ జార్జ్ యొక్క నిర్మాణం బ్రిటిష్ సైనిక డిజైన్‌ను వలస ఆకర్షణతో మిళితం చేస్తుంది మరియు చక్కగా నిర్వహించబడిన తోటలు మరియు బాగా సంరక్షించబడిన భవనాలతో చుట్టుముట్టబడి ఉంది.\nచారిత్రక స్థలంగా ఉండటమే కాకుండా, ఇది ఇప్పటికీ తమిళనాడు ప్రభుత్వం యొక్క పరిపాలనా ప్రధాన కార్యాలయంగా, శాసనసభ మరియు సెక్రటేరియట్‌ను కలిగి ఉంది.\n\nఆర్కియాలాజికల్ సర్వే ఆఫ్ ఇండియా ద్వారా నిర్వహించబడే ఫోర్ట్ మ్యూజియం, ప్రపంచవ్యాప్తంగా చరిత్రకారులు, విద్యార్థులు మరియు పర్యాటకులను ఆకర్షిస్తూనే ఉంది.\nఇది కేవలం మ్యూజియం మాత్రమే కాదు, తమిళనాడు యొక్క సామాజిక-రాజకీయ దృశ్యాన్ని రూపొందించిన వలస యుగం యొక్క జీవన వారసత్వం.\nసందర్శకులు శతాబ్దాల చరిత్ర గుండా నడవవచ్చు, వలస ఆధిపత్యం నుండి భారత స్వాతంత్ర్యం వరకు పరివర్తనను సాక్షాత్కరించవచ్చు.\n\nఫోర్ట్ సెయింట్ జార్జ్ ఈ రోజు గతం యొక్క చిహ్నంగా మాత్రమే కాకుండా, తమిళనాడు శతాబ్దాల సాంస్కృతిక మరియు రాజకీయ మార్పుల ద్వారా ఎలా పరిణామం చెందిందో ఒక సూచికగా నిలుస్తుంది.</string>
+    <string name="fort_st_george_opening_hours">ఉదయం 9:00</string>
+    <string name="fort_st_george_closing_hours">సాయంత్రం 5:00</string>
+    <string name="fort_st_george_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది, శుక్రవారాలు మినహా (మ్యూజియం మూసివేయబడుతుంది)</string>
+
+    <!-- San Thome Basilica -->
+    <string name="san_thome_basilica_name">సాన్ తోమ్ బసిలికా</string>
+    <string name="san_thome_basilica_location">చెన్నై, తమిళనాడు</string>
+    <string name="san_thome_basilica_distance">20 కి.మీ</string>
+    <string name="san_thome_basilica_description">చెన్నైలోని సాన్ తోమ్ బసిలికా, యేసు క్రీస్తు యొక్క పన్నెండు అపోస్టల్స్‌లో ఒకరైన సెయింట్ థామస్ యొక్క సమాధి పై నిర్మించబడిన ఒక గౌరవనీయ రోమన్ కాథలిక్ చర్చి.\nఈ గంభీరమైన నిర్మాణం లోతైన విశ్వాసం మరియు చారిత్రక వారసత్వం యొక్క చిహ్నంగా నిలుస్తుంది, ఇది 16వ శతాబ్దంలో పోర్చుగీస్ అన్వేషకులచే మొదట నిర్మించబడిందని మరియు తరువాత 1896లో బ్రిటిష్ వారిచే నియో-గోతిక్ శైలిలో పునర్నిర్మించబడిందని నమ్ముతారు.\n\nఈ బసిలికా కేవలం ఆరాధనా స్థలం మాత్రమే కాదు, ప్రపంచవ్యాప్తంగా వేలాది భక్తులను ఆకర్షించే ఒక యాత్రా కేంద్రం.\nభూగర్భ చాపెల్‌లో ఉన్న సెయింట్ థామస్ యొక్క సమాధి ఒక ముఖ్యమైన ఆధ్యాత్మిక స్థలం.\nఈ నిర్మాణం ఎత్తైన స్పైర్‌లు, రంగురంగుల గాజు కిటికీలు, మరియు శుద్ధత మరియు శాంతిని ప్రతిబింబించే తెల్లని ముఖభాగాన్ని కలిగి ఉంది.\n\nచర్చి లోపల, శాంతమైన వాతావరణం, కళాత్మక బలిపీఠాలు, మరియు చారిత్రక శేషాలు ఒక సమాధానకరమైన మరియు ఆలోచనాత్మక అనుభవాన్ని అందిస్తాయి.\nచర్చి సముదాయంలోని మ్యూజియం సెయింట్ థామస్‌కు సంబంధించిన శేషాలు, చారిత్రక పత్రాలు, మరియు విగ్రహాలతో సహా శేషాలను ప్రదర్శిస్తుంది.\n\nసాన్ తోమ్ బసిలికా ప్రపంచంలో యేసు యొక్క అపోస్టల్ సమాధి పై నిర్మించబడిన మూడు చర్చిలలో ఒకటి, ఇది చారిత్రకంగా మరియు మతపరంగా ప్రత్యేకమైనదిగా చేస్తుంది.\nమిగిలిన రెండు రోమ్‌లోని సెయింట్ పీటర్స్ బసిలికా మరియు స్పెయిన్‌లోని శాంటియాగో డి కంపోస్టెలా.\n\nదాని మతపరమైన ప్రాముఖ్యతతో పాటు, ఈ బసిలికా వలస మరియు సాంప్రదాయ శైలులను మిళితం చేసే ఒక నిర్మాణ అద్భుతం, చెన్నై యొక్క గర్వకారణమైన వారసత్వ స్మారకంగా నిలుస్తుంది.\nఇది శతాబ్దాల మత సామరస్యం మరియు భక్తిని సాక్ష్యంగా చూసింది.\n\nమద్రాస్-మైలాపూర్ ఆర్చ్‌డియోసెస్ ద్వారా నిర్వహించబడే ఇది, మాస్, ప్రార్థన, మరియు సమాజ సేవలకు చురుకైన స్థలంగా ఉంది.\nపుణ్యక్షేత్రాలు మరియు పర్యాటకులు ఆశీర్వాదాలను కోరడానికి మరియు దాని ఆధ్యాత్మిక మరియు సాంస్కృతిక సంపదను అన్వేషించడానికి సందర్శిస్తారు.\n\nసాన్ తోమ్ బసిలికా భారతదేశంలో సెయింట్ థామస్ యొక్క శాశ్వత వారసత్వానికి సాక్ష్యంగా నిలుస్తుంది మరియు తమిళనాడు యొక్క క్రైస్తవ వారసత్వంలో అంతర్భాగంగా ఉంది.\nఇది చెన్నై యొక్క క్రైస్తవ మూలాలతో చారిత్రక సంబంధాన్ని సూచిస్తుంది మరియు తరతరాలకు విశ్వాసం, శాంతి, మరియు ఐక్యత యొక్క ఒక సూచికగా కొనసాగుతుంది.</string>
+    <string name="san_thome_basilica_opening_hours">ఉదయం 6:00</string>
+    <string name="san_thome_basilica_closing_hours">రాత్రి 9:00</string>
+    <string name="san_thome_basilica_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Kapaleeshwarar Temple -->
+    <string name="kapaleeshwarar_temple_name">కపాలీశ్వర ఆలయం</string>
+    <string name="kapaleeshwarar_temple_location">మైలాపూర్, చెన్నై</string>
+    <string name="kapaleeshwarar_temple_distance">20 కి.మీ</string>
+    <string name="kapaleeshwarar_temple_description">చెన్నైలోని మైలాపూర్‌లో ఉన్న కపాలీశ్వర ఆలయం, తమిళనాడులోని అత్యంత పురాతన మరియు గౌరవనీయ హిందూ ఆలయాలలో ఒకటి, లార్డ్ శివుడికి అంకితం. 7వ శతాబ్దంలో పల్లవ రాజవంశం ద్వారా ద్రావిడ నిర్మాణ శైలిలో నిర్మించబడిన ఇది, తరువాత విజయనగర రాజులచే పునర్నిర్మించబడింది. ఈ ఆలయం లార్డ్ కపాలీశ్వర, శివుడి ఒక రూపం, మరియు అతని సహచరి దేవత కర్పగంబల్, పార్వతి యొక్క అవతారం నుండి దాని పేరును పొందింది. హిందూ పురాణ కథలను చిత్రీకరించే సంక్లిష్టమైన చెక్కడాలతో అలంకరించబడిన దాని ఎత్తైన గోపురం పురాతన శిల్పకళకు నిదర్శనం. పవిత్ర ట్యాంక్ మరియు స్తంభాలతో కూడిన మండపాలు దాని శాంతమైన ఆధ్యాత్మిక వాతావరణాన్ని మెరుగుపరుస్తాయి. పురాణం ప్రకారం, పార్వతి ఇక్కడ నెమలి రూపంలో శివుడిని ఆరాధించింది, మైలాపూర్‌కు ‘మయిల్’ (నెమలి) మరియు ‘ఊర్’ (స్థలం) అనే పేరును ఇచ్చింది. ఈ ఆలయం ఆరాధన మరియు సంస్కృతి యొక్క ఉత్సాహభరిత కేంద్రం, రోజువారీ పూజలు, వేద గీతాలు, మరియు వేలాది భక్తులను ఆకర్షించే గొప్ప పంగుని పెరువిజా ఉత్సవాన్ని నిర్వహిస్తుంది. దాని మతపరమైన ప్రాముఖ్యతకు మించి, ఇది శాస్త్రీయ సంగీతం మరియు నృత్య ప్రదర్శనలతో కూడిన సాంస్కృతిక కేంద్రంగా ఉపయోగపడుతుంది. బిజీగా ఉన్న మైలాపూర్ పరిసరంలో ఉన్న ఇది, చెన్నై యొక్క గొప్ప ఆధ్యాత్మిక వారసత్వాన్ని సూచిస్తుంది, యాత్రికులు మరియు పర్యాటకులను దాని దైవిక శక్తి మరియు నిర్మాణ వైభవంతో ఆకర్షిస్తుంది. ఈ ఆలయం శతాబ్దాల నాటి తమిళ సైవ సంప్రదాయాలను సంరక్షిస్తుంది, ప్రాంతం యొక్క భక్తి మరియు కళాత్మకతలో అంతర్దృష్టిని అందిస్తూ, తమిళనాడు యొక్క సాంస్కృతిక వారసత్వం యొక్క జీవన స్మారకంగా నిలుస్తుంది.</string>
+    <string name="kapaleeshwarar_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="kapaleeshwarar_temple_closing_hours">రాత్రి 9:00</string>
+    <string name="kapaleeshwarar_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Government Museum, Egmore -->
+    <string name="government_museum_egmore_name">ప్రభుత్వ మ్యూజియం, ఎగ్మోర్</string>
+    <string name="government_museum_egmore_location">ఎగ్మోర్, చెన్నై</string>
+    <string name="government_museum_egmore_distance">20 కి.మీ</string>
+    <string name="government_museum_egmore_description">చెన్నైలోని ఎగ్మోర్‌లో 1851లో స్థాపించబడిన ప్రభుత్వ మ్యూజియం, కోల్‌కతాలోని ఇండియన్ మ్యూజియం తర్వాత భారతదేశంలో అత్యంత పురాతన మరియు ప్రతిష్ఠాత్మక మ్యూజియంలలో ఒకటిగా ఉంది. ఒక ఆకర్షణీయమైన ఇండో-సరసెనిక్ భవనంలో ఉన్న ఇది, దక్షిణ భారతదేశం యొక్క గొప్ప గతాన్ని అంతర్దృష్టి అందించే కళ, సంస్కృతి, మరియు చరిత్ర యొక్క నిధి సంచయం. ఈ మ్యూజియం ఆర్కియాలజీ, న్యూమిస్మాటిక్స్, జువాలజీ, బొటనీ, మరియు జియాలజీతో సహా బహుళ విభాగాలను కలిగి ఉంది, 40 కంటే ఎక్కువ గ్యాలరీలలో విభిన్న శేషాలను ప్రదర్శిస్తుంది. దాని ప్రసిద్ధ బ్రాంజ్ గ్యాలరీ చోళ కాంస్య విగ్రహాలను, ఐకానిక్ నటరాజ విగ్రహంతో సహా, పురాతన లోహశాస్త్రం యొక్క ఒక మాస్టర్‌పీస్‌ను ప్రదర్శిస్తుంది. సందర్శకులు సాంప్రదాయ మరియు సమకాలీన కళ, పురాతన ఆయుధాలు, శిల్పాలు, మరియు దక్షిణ భారత సంగీత వాయిద్యాలను అన్వేషించవచ్చు. ఈ మ్యూజియం పిల్లల మ్యూజియం మరియు సహజ చరిత్ర విభాగాన్ని కూడా కలిగి ఉంది, ఇంటరాక్టివ్ డిస్‌ప్లేలతో యువ ప్రేక్షకులను ఆనందింపజేస్తుంది. సొగసైన మ్యూజియం థియేటర్, సముదాయంలోని ఒక వలస నిర్మాణం, సాంస్కృతిక ప్రదర్శనలు మరియు ఉపన్యాసాలను నిర్వహిస్తుంది. తాటి ఆకు రాతప్రతులు, నాణేలు, మరియు అమరావతి శిల్పాల యొక్క విస్తృత సేకరణతో, ఇది తమిళనాడు యొక్క వారసత్వాన్ని హైలైట్ చేస్తుంది. చెన్నై యొక్క హృదయంలో ఉన్న ఈ మ్యూజియం, విద్యార్థులు మరియు పరిశోధకులకు ఒక విద్యా కేంద్రంగా ఉపయోగపడుతుంది, శతాబ్దాల నాగరికత ద్వారా ప్రయాణాన్ని అందిస్తుంది. దాని లష్ గ్రీన్ క్యాంపస్ మరియు గొప్ప హాల్స్ చరిత్ర మరియు కళ ఔత్సాహికులకు ఒక లీనమయ్యే అనుభవాన్ని సృష్టిస్తాయి. ప్రభుత్వ మ్యూజియం భారతదేశం యొక్క సాంస్కృతిక వైవిధ్యానికి జీవన సాక్ష్యంగా నిలుస్తుంది, తమిళనాడు యొక్క వారసత్వాన్ని సంరక్షిస్తూ భవిష్యత్ తరాలను ప్రేరేపిస్తుంది.</string>
+    <string name="government_museum_egmore_opening_hours">ఉదయం 9:30</string>
+    <string name="government_museum_egmore_closing_hours">సాయంత్రం 5:00</string>
+    <string name="government_museum_egmore_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది, శుక్రవారాలు మరియు జాతీయ సెలవులు మినహా</string>
+
+    <!-- Parthasarathy Temple -->
+    <string name="parthasarathy_temple_name">పార్థసారథి ఆలయం</string>
+    <string name="parthasarathy_temple_location">త్రిప్లికేన్, చెన్నై</string>
+    <string name="parthasarathy_temple_distance">20 కి.మీ</string>
+    <string name="parthasarathy_temple_description">చెన్నైలోని త్రిప్లికేన్‌లో ఉన్న పార్థసారథి ఆలయం, దక్షిణ భారతదేశంలోని అత్యంత పురాతన మరియు గౌరవనీయ వైష్ణవ ఆలయాలలో ఒకటి, లార్డ్ విష్ణువుకు పార్థసారథిగా, అంటే "అర్జునుడి సారథి"గా అంకితం. 8వ శతాబ్దంలో పల్లవులచే నిర్మించబడి, తరువాత చోళులు మరియు విజయనగర రాజులచే పునరుద్ధరించబడిన ఈ ఆలయం, సంక్లిష్టమైన చెక్కడాలతో అలంకరించబడిన ఎత్తైన గోపురంతో ద్రావిడ నిర్మాణానికి ఉదాహరణ. ఇది భక్తులను చరిత్ర మరియు ఆధ్యాత్మికతతో కూడిన పవిత్ర స్థలంలోకి స్వాగతిస్తుంది. గర్భగుడిలో శంఖం, చక్రం, మరియు గదతో చిత్రీకరించబడిన పార్థసారథి, రుక్మిణి, సత్యకి, మరియు ఇతర దైవిక వ్యక్తులతో కలిసి ఉంటాడు—వైష్ణవ చిహ్నశాస్త్రంలో ఒక అరుదైన సమూహం. 108 దివ్య దేశాలలో ఒకటిగా, ఇది నమ్మాళ్వార్ మరియు తిరుమంగై ఆళ్వార్ వంటి ఆళ్వార్ల గీతాలలో మహిమాన్వితం చేయబడింది. చారిత్రక శాసనాలు రాజ సమర్పణలు మరియు దానాలను వెల్లడిస్తాయి, దాని ప్రాముఖ్యతను నొక్కిచెప్పాయి. వైకుంఠ ఏకాదశి మరియు బ్రహ్మోత్సవం వంటి ఉత్సవాలు వేలాది మందిని ఆకర్షిస్తాయి, ఉత్సాహభరితమైన ఊరేగింపులు మరియు ఆచారాలతో తమిళనాడు యొక్క సాంస్కృతిక వారసత్వాన్ని ప్రదర్శిస్తాయి. ఈ ఆలయం నరసింహ, రామ మొదలైన వివిధ విష్ణు అవతారాలకు అంకితమైన ఐదు గర్భగుడులను కలిగి ఉంది, వైష్ణవ ఆరాధన యొక్క వైవిధ్యాన్ని ప్రతిబింబిస్తుంది. అల్లి కేని అనే పవిత్ర ట్యాంక్ ఔషధ గుణాలను కలిగి ఉన్నట్లు నమ్ముతారు. పార్థసారథి ఆలయాన్ని సందర్శించడం చెన్నై యొక్క ఆధ్యాత్మిక వారసత్వంలో లోతైన అన్వేషణను అందిస్తుంది, భక్తి మరియు కళాత్మకతను శతాబ్దాల సంప్రదాయంతో కూడిన శాంతమైన వాతావరణంలో మిళితం చేస్తుంది.</string>
+    <string name="parthasarathy_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="parthasarathy_temple_closing_hours">రాత్రి 9:00</string>
+    <string name="parthasarathy_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Meenakshi Amman Temple -->
+    <string name="meenakshi_amman_temple_name">మీనాక్షి అమ్మన్ ఆలయం</string>
+    <string name="meenakshi_amman_temple_location">మదురై</string>
+    <string name="meenakshi_amman_temple_distance">20 కి.మీ</string>
+    <string name="meenakshi_amman_temple_description">మదురై హృదయంలో ఉన్న మీనాక్షి అమ్మన్ ఆలయం, దేవత మీనాక్షి (పార్వతి) మరియు ఆమె సహచరుడు లార్డ్ సుందరేశ్వర (శివుడు)కు అంకితమైన ఒక నిర్మాణ అద్భుతం మరియు భారతదేశంలోని అత్యంత ముఖ్యమైన హిందూ ఆలయాలలో ఒకటి. 6వ శతాబ్దంలో పాండ్యులచే మొదట నిర్మించబడినట్లు నమ్ముతారు, ఇది 16వ-17వ శతాబ్దాలలో నాయక రాజులచే విస్తృతంగా విస్తరించబడింది, ద్రావిడ నిర్మాణం యొక్క గొప్పతనాన్ని ప్రదర్శిస్తుంది. 14 ఎకరాల విస్తీర్ణంలో ఉన్న ఈ ఆలయ సముదాయం, 170 అడుగుల ఎత్తైన అత్యంత ఎత్తైన గోపురంతో సహా 14 టవరింగ్ గోపురాలను కలిగి ఉంది, ఇవి వేలాది రంగురంగుల స్టక్కో బొమ్మలతో అలంకరించబడి ఉన్నాయి, ఇవి దేవతలు, పౌరాణిక జీవులు మరియు జంతువులను చిత్రీకరిస్తాయి. వేల స్తంభాల హాల్, ఒక ఇంజనీరింగ్ ఘనత, తాకినప్పుడు సంగీత నోట్స్ ఉత్పత్తి చేసే సంక్లిష్టమైన చెక్కబడిన స్తంభాలను కలిగి ఉంది. ఆలయం యొక్క గర్భగుడి మీనాక్షిని, పచ్చ రంగు ఆభరణాలతో అలంకరించబడి, మరియు సుందరేశ్వరను కలిగి ఉంది, దైవిక సమాగమాన్ని సూచిస్తుంది. ఒక ప్రధాన యాత్రా స్థలంగా, ఇది వార్షిక మీనాక్షి తిరుక్కల్యాణం ఉత్సవం సమయంలో లక్షలాది మందిని ఆకర్షిస్తుంది, దైవిక వివాహాన్ని ఉత్సాహభరితమైన ఊరేగింపులతో జరుపుకుంటుంది. ఆలయం యొక్క చారిత్రక ప్రాముఖ్యత పురాతన తమిళ శాసనాలలో మరియు మదురై యొక్క సాంస్కృతిక కేంద్రంగా దాని పాత్రలో స్పష్టంగా కనిపిస్తుంది. చిత్రించబడిన పైకప్పులతో కూడిన కారిడార్‌లతో చుట్టుముట్టబడిన పోట్రమరై కులం అనే పవిత్ర ట్యాంక్ ఆధ్యాత్మిక వాతావరణాన్ని జోడిస్తుంది. సందర్శకులు ఆలయం యొక్క కళ, భక్తి మరియు చరిత్ర యొక్క మిశ్రమంతో ఆకర్షితులవుతారు, ఇది తమిళనాడు యొక్క గొప్ప వారసత్వానికి సాక్ష్యంగా నిలుస్తుంది.</string>
+    <string name="meenakshi_amman_temple_opening_hours">ఉదయం 5:00</string>
+    <string name="meenakshi_amman_temple_closing_hours">రాత్రి 10:00</string>
+    <string name="meenakshi_amman_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Thirumalai Nayakkar Mahal -->
+    <string name="thirumalai_nayakkar_mahal_name">తిరుమలై నాయక్కర్ మహల్</string>
+    <string name="thirumalai_nayakkar_mahal_location">మదురై</string>
+    <string name="thirumalai_nayakkar_mahal_distance">20 కి.మీ</string>
+    <string name="thirumalai_nayakkar_mahal_description">మదురైలో ఉన్న తిరుమలై నాయక్కర్ మహల్, నాయక రాజవంశం యొక్క అత్యంత ప్రముఖ రాజైన రాజా తిరుమలై నాయక్ ద్వారా 1636లో నిర్మించబడిన 17వ శతాబ్దపు అద్భుతమైన రాజభవనం. ద్రావిడ మరియు ఇండో-సరసెనిక్ శైలులను మిళితం చేసిన ఈ నిర్మాణ రత్నం ఆ యుగం యొక్క గొప్పతనాన్ని ప్రతిబింబిస్తుంది. మొదట దాని ప్రస్తుత పరిమాణంలో నాలుగు రెట్లు ఉండేది, ఈ రాజభవనం కాలక్రమేణ భాగశః నాశనమైంది, కానీ మిగిలినవి దాని మాజీ వైభవానికి సాక్ష్యంగా ఉన్నాయి. ఈ నిర్మాణం దాని భారీ స్తంభాలు, ఆడంబరమైన స్టక్కో పని, మరియు 100 అడుగుల ఎత్తైన స్తంభాలచే ఆధారపడిన గుండ్రని పైకప్పుతో కూడిన స్వర్గ విలాసం (సెలెస్టియల్ పెవిలియన్) అనే విశాలమైన ప్రాంగణంతో ప్రసిద్ధి చెందింది. రాజు దర్బార్ నిర్వహించిన దుర్బార్ హాల్, సంక్లిష్టమైన ఆర్చ్‌లు మరియు వివరణాత్మక ఫ్రెస్కోలతో సందర్శకులను ఆకర్షిస్తుంది. ఈ రాజభవనం ఒకప్పుడు రాజ నివాసాలు, థియేటర్, మరియు తోటలను కలిగి ఉండేది, అయితే ప్రస్తుతం అసలు సముదాయంలో నాలుగవ వంతు మాత్రమే ఉంది. దాని చారిత్రక ప్రాముఖ్యత నాయక ఆడంబరం మరియు మదురై యొక్క సాంస్కృతిక దృశ్యానికి వారి సహకారాలలో ఉంది. రాజభవన చరిత్రను వివరించే సౌండ్ అండ్ లైట్ షో పర్యాటకులను ఆకర్షిస్తుంది, దాని గత వైభవంలో ఒక సంగ్రహాంశాన్ని అందిస్తుంది. తమిళనాడు ప్రభుత్వం ద్వారా పునరుద్ధరించబడిన ఈ మహల్ ఇప్పుడు ఒక మ్యూజియంగా ఉపయోగపడుతుంది, శిల్పాలు మరియు చిత్రాల వంటి శేషాలను ప్రదర్శిస్తుంది. తిరుమలై నాయక్కర్ మహల్ మదురై యొక్క రాజ వారసత్వం యొక్క చిహ్నంగా నిలుస్తుంది, కళ, నిర్మాణం, మరియు చరిత్రను శాంతమైన కానీ ఆకర్షణీయమైన వాతావరణంలో మిళితం చేస్తుంది.</string>
+    <string name="thirumalai_nayakkar_mahal_opening_hours">ఉదయం 9:00</string>
+    <string name="thirumalai_nayakkar_mahal_closing_hours">సాయంత్రం 5:00</string>
+    <string name="thirumalai_nayakkar_mahal_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Koodal Azhagar Temple -->
+    <string name="koodal_azhagar_temple_name">కూడల్ అళగర్ ఆలయం</string>
+    <string name="koodal_azhagar_temple_location">మదురై</string>
+    <string name="koodal_azhagar_temple_distance">20 కి.మీ</string>
+    <string name="koodal_azhagar_temple_description">మదురైలో ఉన్న కూడల్ అళగర్ ఆలయం, లార్డ్ విష్ణువుకు కూడల్ అళగర్‌గా, అంటే "సంగమం యొక్క అందమైనవాడు"గా అంకితమైన ఒక పురాతన మరియు గౌరవనీయ వైష్ణవ ఆలయం. మీనాక్షి ఆలయం కంటే పురాతనమైనదిగా నమ్మబడుతుంది, దాని మూలాలు సంగం కాలం (3వ శతాబ్దం BCE నుండి 3వ శతాబ u2018;3వ శతాబ్దం CE) వరకు విస్తరించబడింది, పాండ్యులు మరియు తరువాత నాయకులచే గణనీయమైన విస్తరణలతో. ఈ ఆలయం ద్రావిడ నిర్మాణానికి ఉదాహరణ, దేవతలు మరియు పౌరాణిక వ్యక్తుల యొక్క వివరణాత్మక చెక్కడాలతో అలంకరించబడిన దాని అద్భుతమైన ఐదు-అంచెల గోపురంతో. 108 దివ్య దేశాలలో ఒకటిగా, ఇది నమ్మాళ్వార్ వంటి ఆళ్వార్ల గీతాలలో మహిమాన్వితం చేయబడింది, దాని పవిత్రతను ప్రశంసించారు. ఈ ఆలయం యొక్క ప్రత్యేకత విష్ణువు మూడు విభిన్న భంగిమలలో—కూర్చున్న (కూడల్ అళగర్‌గా), నిలబడిన (వీర నారాయణగా), మరియు వాలిన (రంగనాథగా)—మూడు గర్భగుడులను కలిగి ఉండటంలో ఉంది, ఇది వైష్ణవ ఆలయాలలో అరుదైన లక్షణం. ఆలయం యొక్క పైకప్పులపై సంక్లిష్టమైన చెక్క చెక్కడాలు మరియు గరుడ సేవై ఊరేగింపు వంటి ఉత్సాహభరితమైన ఉత్సవాలు భక్తులు మరియు పర్యాటకులను ఆకర్షిస్తాయి. పాండ్య రాజులతో దాని సంబంధాన్ని వెల్లడించే చారిత్రక శాసనాలు, మదురైలో, "తూర్పు యొక్క ఏథెన్స్"గా పిలువబడే దాని సాంస్కృతిక మరియు మతపరమైన ప్రాముఖ్యతను నొక్కిచెప్పాయి. హేమ పుష్కరిణి అనే పవిత్ర ట్యాంక్ దాని ఆధ్యాత్మిక ఆకర్షణను జోడిస్తుంది. కూడల్ అళగర్ ఆలయాన్ని సందర్శించడం శాంతమైన అనుభవాన్ని అందిస్తుంది, తమిళనాడు యొక్క గొప్ప ఆధ్యాత్మిక మరియు నిర్మాణ వారసత్వాన్ని ప్రతిబింబిస్తుంది.</string>
+    <string name="koodal_azhagar_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="koodal_azhagar_temple_closing_hours">రాత్రి 8:00</string>
+    <string name="koodal_azhagar_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Vandiyur Mariamman Teppakulam -->
+    <string name="vandiyur_mariamman_teppakulam_name">వండియూర్ మరియమ్మన్ తెప్పకులం</string>
+    <string name="vandiyur_mariamman_teppakulam_location">మీనాక్షి నగర్, మదురై</string>
+    <string name="vandiyur_mariamman_teppakulam_distance">20 కి.మీ</string>
+    <string name="vandiyur_mariamman_teppakulam_description">మదురైలోని మీనాక్షి నగర్‌లో ఉన్న వండియూర్ మరియమ్మన్ తెప్పకులం, మీనాక్షి అమ్మన్ ఆలయం నుండి 5 కి.మీ దూరంలో ఉన్న ఒక విశాలమైన ఆలయ ట్యాంక్ మరియు ప్రసిద్ధ వారసత్వ స్థలం. 1645లో రాజా తిరుమలై నాయక్ ద్వారా నిర్మించబడిన ఈ నిర్మాణ అద్భుతం 16 ఎకరాల విస్తీర్ణంలో ఉంది మరియు దక్షిణ భారతదేశంలో అతిపెద్ద ఆలయ ట్యాంక్‌లలో ఒకటి. భూగర్భ ఛానెల్‌ల ద్వారా వైగై నదితో అనుసంధానించబడిన ఈ ట్యాంక్, తిరుమలై నాయక్కర్ మహల్ నిర్మాణానికి ఇటుకల కోసం మట్టిని సరఫరా చేయడానికి మొదట తవ్వబడింది. ఈ ట్యాంక్ నాలుగు వైపులా గ్రానైట్ మెట్లు మరియు మధ్యలో వినాయక (గణేష్) ఆలయం మరియు చిన్న తోటను కలిగి ఉన్న మైయ్య మండపం అనే మండపాన్ని కలిగి ఉంది. పురాణం ప్రకారం, ప్రస్తుతం మీనాక్షి ఆలయంలో ఉన్న ముకురునీ వినాయక విగ్రహం ఈ తవ్వకం సమయంలో బయటపడింది. ఈ తెప్పకులం రాజా తిరుమలై నాయక్ యొక్క జన్మదినాన్ని జరుపుకోవడానికి జనవరి లేదా ఫిబ్రవరిలో నిర్వహించబడే ఉత్సాహభరితమైన ఫ్లోట్ ఫెస్టివల్ (తెప్పోత్సవం)కు ప్రసిద్ధి చెందింది. ఈ సంఘటన సమయంలో, మీనాక్షి మరియు సుందరేశ్వర దేవతల విగ్రహాలు వెలిగించిన తెప్పలపై ఊరేగించబడతాయి, వేలాది దీపాలతో ట్యాంక్‌ను మిరుమిట్లు గొలిపే దృశ్యంగా మారుస్తాయి. సంవత్సరంలో చాలా వరకు ఎండిపోయినప్పటికీ, వర్షాకాలంలో ఇది నిండుతుంది, దాని శాంతమైన అందాన్ని మెరుగుపరుస్తుంది. వండియూర్ మరియమ్మన్ తెప్పకులం మదురై యొక్క గొప్ప సాంస్కృతిక మరియు చారిత్రక వారసత్వానికి సాక్ష్యంగా నిలుస్తుంది, ఆధ్యాత్మికతను నిర్మాణ వైభవంతో మిళితం చేస్తుంది.</string>
+    <string name="vandiyur_mariamman_teppakulam_opening_hours">ఉదయం 6:00</string>
+    <string name="vandiyur_mariamman_teppakulam_closing_hours">రాత్రి 8:00</string>
+    <string name="vandiyur_mariamman_teppakulam_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Gandhi Memorial Museum -->
+    <string name="gandhi_memorial_museum_name">గాంధీ మెమోరియల్ మ్యూజియం</string>
+    <string name="gandhi_memorial_museum_location">తముక్కం, మదురై</string>
+    <string name="gandhi_memorial_museum_distance">20 కి.మీ</string>
+    <string name="gandhi_memorial_museum_description">మదురైలోని తముక్కంలో ఉన్న గాంధీ మెమోరియల్ మ్యూజియం, రాష్ట్రపిత మహాత్మా గాంధీకి అంకితమైన ఒక ముఖ్యమైన చారిత్రక సంస్థ. 1670లో నాయక రాజవంశం యొక్క రాణి మంగమ్మల్ ద్వారా నిర్మించబడిన సొగసైన తముక్కం ప్యాలెస్‌లో ఉన్న ఈ మ్యూజియం, 1959 ఏప్రిల్ 15న ప్రధానమంత్రి జవహర్‌లాల్ నెహ్రూ ద్వారా ప్రారంభించబడింది. భారతదేశంలోని ఏడు గాంధీ మ్యూజియంలలో ఒకటిగా, ఇది గాంధీ జీవితం మరియు భారత స్వాతంత్ర్య పోరాటం యొక్క వారసత్వాన్ని సంరక్షిస్తుంది. గాంధీ హత్య సమయంలో ధరించిన రక్తం మరకలతో కూడిన ధోతీ, ఫోటోలు, లేఖలు, మరియు అతని కళ్లద్దాలు మరియు చరఖా వంటి వ్యక్తిగత వస్తువులతో సహా విస్తృతమైన శేషాల సేకరణను ఇది ప్రదర్శిస్తుంది. ఈ మ్యూజియం గాంధీ జీవితం, 1921లో లోంగ్‌క్లాత్‌ను స్వీకరించిన మదురై సందర్శనలు, మరియు విస్తృత స్వాతంత్ర్య ఉద్యమాన్ని వివరించే విభాగాలుగా విభజించబడింది. గాంధీయన్ తత్వశాస్త్రంపై 20,000 కంటే ఎక్కువ పుస్తకాలతో కూడిన లైబ్రరీ, గాంధీ జీవితాన్ని చిత్రీకరించే 124 చిత్రాల గ్యాలరీ, మరియు సాంస్కృతిక కార్యక్రమాల కోసం ఓపెన్-ఎయిర్ థియేటర్ సందర్శక అనుభవాన్ని సుసంపన్నం చేస్తాయి. బాగా నిర్వహించబడిన తోటలతో కూడిన శాంతమైన పరిసరాలు గాంధీ యొక్క సరళత మరియు శాంతి ఆదర్శాలను ప్రతిబింబిస్తాయి. ఈ మ్యూజియం అహింస మరియు స్వావలంబనపై ఆలోచనను ప్రేరేపించే విద్యా కేంద్రంగా ఉపయోగపడుతుంది, మదురై యొక్క వారసత్వంలో ఒక ముఖ్య భాగంగా ఉంది.</string>
+    <string name="gandhi_memorial_museum_opening_hours">ఉదయం 10:00</string>
+    <string name="gandhi_memorial_museum_closing_hours">సాయంత్రం 6:00</string>
+    <string name="gandhi_memorial_museum_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది, శుక్రవారాలు మినహా</string>
+
+    <!-- Kazimar Big Mosque -->
+    <string name="kazimar_big_mosque_name">కజిమార్ బిగ్ మసీదు</string>
+    <string name="kazimar_big_mosque_location">కీరత్తురై, మదురై</string>
+    <string name="kazimar_big_mosque_distance">20 కి.మీ</string>
+    <string name="kazimar_big_mosque_description">మదురైలోని కీరత్తురైలో ఉన్న కజిమార్ బిగ్ మసీదు, 1284 CEలో హజ్రత్ కజీ సయ్యద్ తాజుద్దీన్, ప్రవక్త ముహమ్మద్ యొక్క వారసుడైన యెమెన్ నుండి వచ్చినవాడు, ద్వారా స్థాపించబడిన నగరంలో అత్యంత పురాతన ఇస్లామిక్ ఆరాధనా స్థలం. కులశేఖర పాండ్యన్ రాజు ద్వారా భూమిని ఇవ్వబడిన ఈ 13వ శతాబ్దపు మసీదు, ఇస్లామిక్ మరియు ద్రావిడ నిర్మాణ శైలులను మిళితం చేస్తుంది, చెక్కబడిన స్తంభాలు మరియు ఆర్చ్‌లతో కూడిన విశాలమైన ప్రార్థనా హాల్ మరియు శాంతమైన ప్రాంగణాన్ని కలిగి ఉంది. 2,500 మంది ఆరాధకుల సామర్థ్యంతో, ఇది ఒక ఉత్సాహభరితమైన ఆధ్యాత్మిక కేంద్రంగా ఉంది. ఈ మసీదు మీర్ అహ్మద్ ఇబ్రహీం, మీర్ అమ్జద్ ఇబ్రహీం, మరియు సయ్యద్ అబ్దుస్ సలాం ఇబ్రహీం వంటి ప్రముఖ హజ్రత్‌ల దర్గాను కలిగి ఉన్న మదురై మఖ్బరాను కలిగి ఉంది, ఇవి కూడా ప్రవక్త వారసులు, దేశవ్యాప్తంగా యాత్రికులను ఆకర్షిస్తాయి. 700 సంవత్సరాలకు పైగా తాజుద్దీన్ యొక్క వారసులచే, హుఖ్దార్స్ అని పిలువబడే వారిచే నిర్వహించబడుతుంది, ఈ మసీదు యొక్క పరిపాలన అరుదైన కొనసాగింపును ప్రతిబింబిస్తుంది, కజిమార్ స్ట్రీట్‌లో సుమారు 450 కుటుంబ సభ్యులు నివసిస్తున్నారు. రజబ్ నెల 15వ తేదీన నిర్వహించబడే వార్షిక ఫౌండర్స్ డే (ఉరుస్) తాజుద్దీన్ యొక్క వారసత్వాన్ని జరుపుకుంటుంది, ఇతర ఉరుస్ ఉత్సవాలు హజ్రత్‌లను సత్కరిస్తాయి. కజీ సయ్యద్ తాజుద్దీన్ అరబీ మదరసా సముదాయంలో 120 మంది విద్యార్థులకు అరబిక్‌ను బోధిస్తుంది, దాని సాంస్కృతిక పాత్రను సుసంపన్నం చేస్తుంది. పెరియార్ బస్ స్టాండ్ నుండి 500 మీటర్లు మరియు మీనాక్షి ఆలయం నుండి 800 మీటర్ల దూరంలో ఉన్న దాని కేంద్ర స్థానం దాని ప్రాముఖ్యతను మెరుగుపరుస్తుంది. కజిమార్ బిగ్ మసీదు మదురై యొక్క మత సామరస్యం మరియు చారిత్రక లోతుకు సాక్ష్యంగా నిలుస్తుంది, నగరం యొక్క హడావిడి మధ్య శాంతమైన రిట్రీట్‌ను అందిస్తుంది.</string>
+    <string name="kazimar_big_mosque_opening_hours">ఉదయం 5:00</string>
+    <string name="kazimar_big_mosque_closing_hours">రాత్రి 9:00</string>
+    <string name="kazimar_big_mosque_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- St. Mary’s Cathedral -->
+    <string name="st_marys_cathedral_name">సెయింట్ మేరీస్ కేథడ్రల్</string>
+    <string name="st_marys_cathedral_location">మహాలిపట్టి, మదురై</string>
+    <string name="st_marys_cathedral_distance">20 కి.మీ</string>
+    <string name="st_marys_cathedral_description">మదురైలోని మహాలిపట్టిలో ఉన్న సెయింట్ మేరీస్ కేథడ్రల్, ఔర్ లేడీ ఆఫ్ డోలర్స్ చర్చి అని కూడా పిలువబడే ఒక చారిత్రక రోమన్ కాథలిక్ చర్చి, మదురై ఆర్చ్‌డియోసెస్ యొక్క సీట్‌గా ఉపయోగపడుతుంది. 1840లో ఫాదర్ బెర్ట్రాండ్ SJ ద్వారా స్థాపించబడిన ఇది, W. పుదుపట్టి చర్చి నుండి బహిష్కరించబడిన 30 నావిక కుటుంబాలకు సేవ చేయడానికి ఫాదర్ గార్నియర్ ద్వారా 1841లో చిన్న చాపెల్‌గా ప్రారంభమైంది. కాథలిక్ జనాభా పెరగడంతో విస్తరించబడి, ప్రస్తుత గోతిక్ శైలి నిర్మాణం, రోమన్, యూరోపియన్, మరియు కాంటినెంటల్ ప్రభావాలను మిళితం చేస్తూ, 1916లో పూర్తయింది. 1969లో కేథడ్రల్ హోదాకు ఎదిగింది, ఇది 42 మీటర్ల బెల్ టవర్‌లు, అద్భుతమైన తెల్ల-నీలం ముఖభాగం, మరియు లోపలి భాగంలో రంగురంగుల కాంతిని విసరజేసే వర్ణాంకిత గాజు కిటికీలను కలిగి ఉంది. ఎత్తైన వంపు పైకప్పులు మరియు సంక్లిష్టమైన ఆర్చ్‌లు శాంతమైన వాతావరణాన్ని సృష్టిస్తాయి, ఎయిర్ కండిషనింగ్ లేకుండా సహజ గాలులపై ఆధారపడతాయి. సముదాయంలో ఒక ప్రత్యేక బంగారు కొడిమరం (హిందూ ఆలయ జెండా స్తంభం) మదురై యొక్క సాంస్కృతిక సంశ్లేషణను ప్రతిబింబిస్తుంది. ఈ కేథడ్రల్ క్రిస్మస్ మరియు ఈస్టర్ వంటి ఉత్సవాలను నిర్వహిస్తుంది, 1938లో మదురై డియోసెస్ స్థాపనతో దాని గొప్ప చరిత్రతో. ఈస్ట్ వెలి స్ట్రీట్‌లో, మదురై రైల్వే స్టేషన్ నుండి 2 కి.మీ దూరంలో ఉన్న ఇది, నగరం యొక్క హడావిడి మధ్య శాంతమైన రిట్రీట్‌ను అందిస్తూ, మదురై యొక్క వైవిధ్యమైన వారసత్వానికి సాక్ష్యంగా నిలుస్తుంది.</string>
+    <string name="st_marys_cathedral_opening_hours">ఉదయం 6:00</string>
+    <string name="st_marys_cathedral_closing_hours">రాత్రి 8:00</string>
+    <string name="st_marys_cathedral_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Samanar Malai and Jain Beds -->
+    <string name="samanar_malai_and_jain_beds_name">సమనార్ మలై మరియు జైన్ బెడ్స్</string>
+    <string name="samanar_malai_and_jain_beds_location">కీలకుయిల్కుడి, మదురై</string>
+    <string name="samanar_malai_and_jain_beds_distance">20 కి.మీ</string>
+    <string name="samanar_malai_and_jain_beds_description">మదురై నుండి 10 కి.మీ పశ్చిమంలో కీలకుయిల్కుడి గ్రామం సమీపంలో ఉన్న సమనార్ మలై, 3 కి.మీ తూర్పున ముత్తుపట్టి వైపు విస్తరించి ఉన్న ఒక చారిత్రక రాతి కొండ. సమనార్ హిల్స్ లేదా జైన్ హిల్స్ అని పిలువబడే ఇది, తమిళనాడు యొక్క పురాతన జైన వారసత్వానికి సాక్ష్యంగా ఉంది, ఆర్కియాలాజికల్ సర్వే ఆఫ్ ఇండియా ద్వారా రక్షిత స్మారకంగా ప్రకటించబడింది. 2వ శతాబ్దం BCE నుండి 12వ శతాబ్దం CE వరకు ఉన్న ఇది, రాక్-కట్ గుహలు, తమిళ-బ్రాహ్మీ శాసనాలు, మరియు మహావీర, బాహుబలి, మరియు పార్శ్వనాథ వంటి జైన విగ్రహాలను కలిగి ఉంది. "సమనార్" అనే పేరు సంస్కృతంలో "శ్రమణ" నుండి వచ్చింది, అంటే సన్యాసి, ఈ గుహలలో సల్లేఖన (మరణం వరకు ఉపవాసం) ఆచరించిన జైన సన్యాసులతో దాని సంబంధాన్ని ప్రతిబింబిస్తుంది. సెట్టిపొడవు, 10వ శతాబ్దపు గుహలో మహావీర యొక్క చిత్రం, మరియు పెచ్చిపల్లం, 9వ-10వ శతాబ్దాల నుండి ఎనిమిది విగ్రహాలు మరియు వట్టెలుట్టు శాసనాలను ప్రదర్శిస్తాయి. జైన్ బెడ్స్—రాతిలో చెక్కబడిన ఫ్లాట్ రాతి స్లాబ్‌లు—సన్యాసులు విశ్రాంతి తీసుకునే స్థలాలుగా ఉపయోగపడ్డాయి, వారి కఠిన జీవనశైలిని సూచిస్తాయి. కొండ దిగువన ఒక తామర తటాకం మరియు కరుప్పనసామి ఆలయం శాంతమైన వాతావరణాన్ని జోడిస్తాయి. ఆర్కియాలాజికల్ ఆవిష్కరణలు ఒకప్పుడు ఇక్కడ మాదేవి పెరుంపల్లి అనే జైన మఠం ఉండేదని, పాండ్య రాజులు సందర్శించారని సూచిస్తున్నాయి. ఈ కొండలు మదురై యొక్క పరిమిత దృశ్యాలను అందిస్తాయి, సహజ అందం మరియు చారిత్రక ప్రాముఖ్యతను మిళితం చేస్తూ, చరిత్ర ఔత్సాహికులు మరియు ఆధ్యాత్మిక ఆసక్తిగల వారికి ఒక ప్రత్యేక గమ్యస్థానంగా మారాయి.</string>
+    <string name="samanar_malai_and_jain_beds_opening_hours">ఉదయం 6:00</string>
+    <string name="samanar_malai_and_jain_beds_closing_hours">సాయంత్రం 6:00</string>
+    <string name="samanar_malai_and_jain_beds_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Brihadeeswarar Temple -->
+    <string name="brihadeeswarar_temple_name">బృహదీశ్వర ఆలయం</string>
+    <string name="brihadeeswarar_temple_location">బాలగణపతి నగర్, తంజావూర్</string>
+    <string name="brihadeeswarar_temple_distance">20 కి.మీ</string>
+    <string name="brihadeeswarar_temple_description">తమిళనాడులోని తంజావూర్‌లో ఉన్న బృహదీశ్వర ఆలయం, రాజా రాజా చోళ I ద్వారా 1003 మరియు 1010 CE మధ్య నిర్మించబడిన ఒక నిర్మాణ మాస్టర్‌పీస్ మరియు యునెస్కో వరల్డ్ హెరిటేజ్ సైట్, లార్డ్ శివుడికి బృహదీశ్వరగా, అంటే "గొప్ప లార్డ్"గా అంకితం. 11వ శతాబ్దపు ఈ ఆలయం చోళ-యుగ ద్రావిడ నిర్మాణం యొక్క శిఖరాన్ని ఉదాహరిస్తుంది. దాని అత్యంత ఆకర్షణీయమైన లక్షణం 66 మీటర్ల విమానం (టవర్), దాని రకంలో అత్యంత ఎత్తైనది, పురాతన ఇంజనీరింగ్ టెక్నిక్‌లను ఉపయోగించి ఎత్తబడిన 80 టన్నుల మోనోలిథిక్ గ్రానైట్ కపోలాతో అగ్రస్థానంలో ఉంది. 240 మీటర్లు 122 మీటర్ల విస్తీర్ణంలో ఉన్న ఆలయ సముదాయం, భారీ గోడలతో చుట్టబడి ఉంది మరియు ఒకే 13 అడుగుల రాతితో చెక్కబడిన గొప్ప నంది (శివుడి ఎద్దు) విగ్రహాన్ని కలిగి ఉంది. గోడలపై సంక్లిష్టమైన చెక్కడాలు శివుడి కాస్మిక్ డాన్స్, పౌరాణిక కథలు, మరియు చోళ రాజవంశాన్ని చిత్రీకరిస్తాయి, అయితే తమిళ శాసనాలు దాని నిర్మాణం మరియు దానాలను వివరిస్తాయి. గర్భగుడి 3.7 మీటర్ల ఎత్తైన లింగాన్ని కలిగి ఉంది, ఖచ్చితమైన నిర్మాణ డిజైన్ ద్వారా సహజ కాంతిలో స్నానం చేస్తుంది. వైబ్రంట్ చోళ చిత్రాలతో కూడిన ఫ్రెస్కో గ్యాలరీ కళాత్మక వైభవాన్ని జోడిస్తుంది. స్థానికంగా "పెరియ కోవిల్" (బిగ్ టెంపుల్)గా పిలువబడే ఇది, శాస్త్రీయ నృత్యాన్ని జరుపుకునే వార్షిక నట్యాంజలి ఉత్సవాన్ని నిర్వహిస్తుంది. వెయ్యి సంవత్సరాల తర్వాత కూడా గణనీయంగా అక్షుణ్ణంగా ఉన్న ఇది, చోళుల భక్తి, ఇంజనీరింగ్ నైపుణ్యం, మరియు సాంస్కృతిక వారసత్వాన్ని ప్రతిబింబిస్తుంది, తమిళనాడు యొక్క వారసత్వం యొక్క శాశ్వత చిహ్నంగా నిలుస్తుంది.</string>
+    <string name="brihadeeswarar_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="brihadeeswarar_temple_closing_hours">రాత్రి 8:00</string>
+    <string name="brihadeeswarar_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Shore Temple -->
+    <string name="shore_temple_name">షోర్ టెంపుల్</string>
+    <string name="shore_temple_location">మహాబలిపురం, చెంగల్పట్టు</string>
+    <string name="shore_temple_distance">20 కి.మీ</string>
+    <string name="shore_temple_description">బే ఆఫ్ బెంగాల్‌పై ఉన్న షోర్ టెంపుల్, చెంగల్పట్టులోని మహాబలిపురంలో నరసింహవర్మన్ II హయాంలో (700–728 CE) పల్లవ రాజవంశం ద్వారా నిర్మించబడిన 8వ శతాబ్దపు చిహ్నం మరియు యునెస్కో వరల్డ్ హెరిటేజ్ సైట్. లార్డ్ శివుడు మరియు విష్ణువుకు అంకితమైన ఈ తీరప్రాంత అద్భుతం భారతదేశంలో అత్యంత పురాతన నిర్మాణ రాతి ఆలయాలలో ఒకటి, తొలి ద్రావిడ నిర్మాణాన్ని ప్రదర్శిస్తుంది. గ్రానైట్ బ్లాక్‌ల నుండి నిర్మించబడిన ఇది రెండు ప్రధాన గర్భగుడులను కలిగి ఉంది—ఒకటి తూర్పున శివ లింగంతో మరియు మరొకటి పశ్చిమంగా వాలిన విష్ణుతో—సింహ ఆసనంతో దుర్గ గర్భగుడితో పాటు. 18 మీటర్ల ఎత్తున ఉన్న దాని పిరమిడ్ లాంటి విమానాలు, దేవతలు, పౌరాణిక జీవులు, మరియు పుష్ప ఆకృతుల యొక్క సంక్లిష్టమైన చెక్కడాలతో అలంకరించబడి ఉన్నాయి, సముద్ర తీర దృశ్యం వలన ధరించబడినప్పటికీ గంభీరంగా ఉన్నాయి. ఒకప్పుడు హడావిడి నగరంలో భాగమైన దాని తీర స్థానం, అలల వలన క్షీణించడానికి దారితీసింది, కానీ 2004 సునామీతో సహా శతాబ్దాల ద్వారా దాని జీవనం దాని స్థితిస్థాపకతను నొక్కిచెప్పింది. మొదట ఏడు ఆలయాలలో ఒకటిగా (మిగిలినవి నీటిలో మునిగిపోయాయి), ఇది 19వ శతాబ్దంలో తిరిగి కనుగొనబడింది మరియు ఆర్కియాలాజికల్ సర్వే ఆఫ్ ఇండియా ద్వారా పునరుద్ధరించబడింది. చుట్టుముట్టిన లాన్‌లు మరియు నంది ఎద్దులు దాని శాంతమైన వాతావరణాన్ని మెరుగుపరుస్తాయి. వార్షిక మహాబలిపురం డాన్స్ ఫెస్టివల్ దాని సాంస్కృతిక వారసత్వాన్ని జరుపుకుంటుంది. పల్లవ కళాత్మకత యొక్క సూచికగా, షోర్ టెంపుల్ చరిత్ర, ఆధ్యాత్మికత, మరియు సహజ అందాన్ని మిళితం చేస్తూ, సందర్శకులను దాని శాశ్వత ఆకర్షణతో ఆకర్షిస్తుంది.</string>
+    <string name="shore_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="shore_temple_closing_hours">సాయంత్రం 6:00</string>
+    <string name="shore_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Kailasanathar Temple -->
+    <string name="kailasanathar_temple_name">కైలాసనాథ ఆలయం</string>
+    <string name="kailasanathar_temple_location">కరుప్పడితట్టడై, కాంచీపురం</string>
+    <string name="kailasanathar_temple_distance">20 కి.మీ</string>
+    <string name="kailasanathar_temple_description">కాంచీపురంలోని కరుప్పడితట్టడైలో ఉన్న కైలాసనాథ ఆలయం, లార్డ్ శివుడికి అంకితమైన 8వ శతాబ్దపు హిందూ ఆలయం మరియు తమిళనాడులో అత్యంత పురాతన జీవన నిర్మాణ స్మారకాలలో ఒకటి. పల్లవ రాజు నరసింహవర్మన్ II (రాజసింహ) ద్వారా 685–705 CE మధ్య నిర్మించబడిన ఇది, అతని కుమారుడు మహేంద్రవర్మన్ III ద్వారా అదనపు జోడింపులతో, తొలి ద్రావిడ నిర్మాణం యొక్క శిఖరంగా నిలుస్తుంది. వేదవతి నది ఒడ్డున, చెన్నై నుండి 75 కి.మీ దూరంలో ఉన్న ఈ యునెస్కో-నామినేటెడ్ సైట్, గ్రానైట్ బేస్‌పై ఇసుకరాతి సూపర్‌స్ట్రక్చర్‌ను కలిగి ఉంది, దాని ప్రాకార (ప్రాంగణం) గోడల వెంట 58 సబ్-శ్రైన్‌లతో, శివ, విష్ణు, మరియు ఇతర దేవతల యొక్క సంక్లిష్టమైన చెక్కడాలను ప్రదర్శిస్తుంది. గర్భగుడి 16-వైపుల బ్లాక్ గ్రానైట్ లింగాన్ని కలిగి ఉంది, అయితే నాలుగు అంతస్తుల విమానం పిరమిడ్ ఆకారంలో ఎత్తుగా ఉంటుంది, గోపురంతో అగ్రస్థానంలో ఉంది. సింహ-ఆధారిత స్తంభాలు మరియు అజంతా గుహలతో సమానమైన తొలి హిందూ ఫ్రెస్కోలకు ప్రసిద్ధి చెందిన ఈ ఆలయం, ఎపిగ్రాఫికల్ అధ్యయనాలకు కీలకమైన తమిళ శాసనాలను కూడా కలిగి ఉంది. ఇప్పటికీ కనిపించే రహస్య సొరంగం యుద్ధ సమయంలో రాజ సంరక్షణ స్థలంగా దాని పాత్రను సూచిస్తుంది. ఆర్కియాలాజికల్ సర్వే ఆఫ్ ఇండియా ద్వారా నిర్వహించబడే ఇది, మహా శివరాత్రి వంటి ఉత్సవాలను నిర్వహిస్తుంది, భక్తులు మరియు పర్యాటకులను దాని శాంతమైన, చారిత్రక వాతావరణంలోకి ఆకర్షిస్తుంది, పల్లవ కళాత్మకత మరియు కాంచీపురం యొక్క ఆధ్యాత్మిక వారసత్వాన్ని ప్రతిబింబిస్తుంది.</string>
+    <string name="kailasanathar_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="kailasanathar_temple_closing_hours">సాయంత్రం 6:00</string>
+    <string name="kailasanathar_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <string name="thillai_nataraja_temple_name">తిల్లై నటరాజ ఆలయం</string>
+    <string name="thillai_nataraja_temple_location">చిదంబరం, కడలూర్</string>
+    <string name="thillai_nataraja_temple_distance">20 కి.మీ</string>
+    <string name="thillai_nataraja_temple_description">కడలూర్‌లోని చిదంబరంలో ఉన్న తిల్లై నటరాజ ఆలయం, సృష్టి మరియు నాశనాన్ని సూచించే కాస్మిక్ డాన్సర్‌గా లార్డ్ శివుడికి నటరాజగా అంకితమైన ఒక గౌరవనీయ హిందూ ఆలయం. 10వ శతాబ్దంలో చోళ సమర్థనతో ఉన్న ఇది, ఆకాశం (అకాశ) అనే అంశాన్ని సూచించే ఐదు పంచ భూత స్థలాలలో ఒకటి. 40 ఎకరాల విస్తీర్ణంలో ఉన్న ఈ ఆలయం, ప్రతి ఒక్కటి 45 మీటర్ల ఎత్తున ఉన్న నాలుగు టవరింగ్ గోపురాలను కలిగి ఉంది, భరతనాట్యం నుండి 108 కరణాలను (నృత్య భంగిమలు) చిత్రీకరించే చెక్కడాలతో అలంకరించబడి, శాస్త్రీయ నృత్యంతో దాని లోతైన సంబంధాన్ని ప్రతిబింబిస్తుంది. గర్భగుడి ఐకానిక్ నటరాజ విగ్రహాన్ని మరియు చిదంబర రహస్యం, రూపం లేని ఆకాశం యొక్క సంకేత ప్రాతినిధ్యం, అలాగే రోజువారీ ఆరాధించబడే క్రిస్టల్ లింగాన్ని కలిగి ఉంది. కులోత్తుంగ I వంటి చోళ రాజులచే నిర్మించబడి విస్తరించబడిన ఈ ఆలయం, సంక్లిష్టమైన చెక్కడాలు, కాంస్య విగ్రహాలు, మరియు బంగారు-పైకప్పు గల గర్భగుడిని కలిగి ఉంది, ద్రావిడ నిర్మాణాన్ని ప్రదర్శిస్తుంది. 1000 స్తంభాల హాల్ మరియు పవిత్ర శివగంగ ట్యాంక్ దాని గొప్పతనాన్ని మెరుగుపరుస్తాయి. వారసత్వ దీక్షిత పూజారులచే నిర్వహించబడే ఇది, నట్యాంజలి మరియు అరుద్ర దర్శనం వంటి ఉత్సాహభరిత ఉత్సవాలను నిర్వహిస్తుంది, ప్రపంచవ్యాప్తంగా నర్తకులు మరియు భక్తులను ఆకర్షిస్తుంది. పాండిచ్చేరి నుండి 60 కి.మీ దూరంలో ఉన్న ఇది, కళ, భక్తి, మరియు కాస్మిక్ తత్వశాస్త్రాన్ని మిళితం చేస్తూ, తమిళనాడు యొక్క వారసత్వంలో ఆధ్యాత్మిక మరియు సాంస్కృతిక సూచికగా ఉంది.</string>
+    <string name="thillai_nataraja_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="thillai_nataraja_temple_closing_hours">రాత్రి 9:00</string>
+    <string name="thillai_nataraja_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Padmanabhapuram Palace -->
+    <string name="padmanabhapuram_palace_name">పద్మనాభపురం ప్యాలెస్</string>
+    <string name="padmanabhapuram_palace_location">పద్మనాభపురం, కన్యాకుమారి</string>
+    <string name="padmanabhapuram_palace_distance">20 కి.మీ</string>
+    <string name="padmanabhapuram_palace_description">కన్యాకుమారిలోని పద్మనాభపురంలో ఉన్న పద్మనాభపురం ప్యాలెస్, 16వ శతాబ్దంలో ఇరవి వర్మ కులశేఖర పెరుమాళ్ ద్వారా నిర్మించబడిన అద్భుతమైన చెక్క ప్యాలెస్ మరియు త్రావణకోర్ రాజ వారసత్వానికి సాక్ష్యం. వేళి కొండల అడుగున, తిరువనంతపురం నుండి 50 కి.మీ దూరంలో ఉన్న ఈ 6.5 ఎకరాల విస్తృత సముదాయం, 18వ శతాబ్దం వరకు త్రావణకోర్ రాజుల ఆడమినిస్ట్రేటివ్ సీట్‌గా ఉపయోగపడింది. కేరళ శైలి నిర్మాణానికి ప్రసిద్ధి చెందిన ఇది, వాలు పైకప్పులు, సంక్లిష్టమైన రోజ్‌వుడ్ చెక్కడాలు, మరియు పాలిష్ చేయబడిన టేక్ ఇంటీరియర్‌లను కలిగి ఉంది, సౌందర్యం మరియు సరళతను మిళితం చేస్తుంది. ఈ ప్యాలెస్‌లో తాయి కొట్టారం (తల్లి ప్యాలెస్), 1550 నుండి అత్యంత పురాతన నిర్మాణం, నటకశాల (డాన్స్ హాల్) దాని నల్ల గ్రానైట్ నేలతో, మరియు నాలుగు అంతస్తుల ఉప్పిరిక్క మాలిక, రాజ ఖజానాలు మరియు లార్డ్ విష్ణు యొక్క గోడ చిత్రంతో ఉన్నాయి. రాజు సమావేశ గదిలో 300 ఏళ్ల పాత గడియారం ఇప్పటికీ కొడుతోంది, అయితే మంత్రశాల వ్యూహాత్మక పాలనను ప్రతిబింబిస్తుంది. ప్యాలెస్ మ్యూజియం ఆయుధాలు, చిత్రాలు మరియు కళాఖండాలను ప్రదర్శిస్తూ, త్రావణకోర్ గతాన్ని సంగ్రహిస్తుంది. రహస్య మార్గాలు మరియు 64 ఔషధ మొక్కల చెక్కతో చెక్కబడిన ఔషధ పడక దాని చాతుర్యాన్ని హైలైట్ చేస్తాయి. పచ్చని ఆకుపచ్చని పరిసరాలతో చుట్టబడిన ఇది, శాంతమైన వాతావరణం మరియు చారిత్రక లోతుతో సందర్శకులను ఆకర్షిస్తుంది, తమిళనాడులో ఉన్నప్పటికీ కేరళ ప్రభుత్వం ద్వారా నిర్వహించబడుతుంది, ఇది ఒక ప్రత్యేక సాంస్కృతిక సంశ్లేషణను ప్రతిబింబిస్తుంది.</string>
+    <string name="padmanabhapuram_palace_opening_hours">ఉదయం 9:00</string>
+    <string name="padmanabhapuram_palace_closing_hours">సాయంత్రం 5:00</string>
+    <string name="padmanabhapuram_palace_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది, సోమవారాలు మినహా</string>
+
+    <!-- Airavatesvara Temple -->
+    <string name="airavatesvara_temple_name">ధరసురం శ్రీ ఐరావతేశ్వర ఆలయం</string>
+    <string name="airavatesvara_temple_location">ధరసురం, తంజావూర్</string>
+    <string name="airavatesvara_temple_distance">20 కి.మీ</string>
+    <string name="airavatesvara_temple_description">తంజావూర్‌లోని ధరసురంలో ఉన్న శ్రీ ఐరావతేశ్వర ఆలయం, 12వ శతాబ్దంలో చోళ రాజు రాజరాజ II (1146–1173 CE) ద్వారా నిర్మించబడిన నిర్మాణ అద్భుతం మరియు యునెస్కో వరల్డ్ హెరిటేజ్ సైట్. లార్డ్ శివుడికి ఐరావతేశ్వరగా అంకితమైన ఈ ఆలయం, ఇంద్రుడి తెల్ల ఏనుగు ఐరావతం శివుడిచే స్వస్థపరచబడిన దాని నుండి ఈ పేరు పొందింది, ఇది గొప్ప జీవన చోళ ఆలయాల త్రయంలో భాగం. గ్రానైట్‌తో నిర్మించబడిన ఈ ఆలయం, చోళ ద్రావిడ నిర్మాణాన్ని 24 మీటర్ల విమానంతో, తన సమకాలీనుల కంటే చిన్నదైనప్పటికీ అత్యంత సంక్లిష్టమైన వివరాలతో ప్రదర్శిస్తుంది. ముందు మండపం, రాతి చక్రాలు మరియు గుర్రాలతో రథం ఆకారంలో రూపొందించబడి, అసమానమైన కళాత్మకతను ప్రదర్శిస్తుంది, అయితే గోడలు మరియు స్తంభాలపై నర్తకులు, సంగీత విద్వాంసులు, మరియు పౌరాణిక వ్యక్తుల చెక్కడాలు అలంకరించబడి ఉన్నాయి. గర్భగుడిలో పెద్ద శివ లింగం ఉంది, మరియు పెరియ నాయకి దేవత గుడి సముదాయంలో విడిగా ఉంది. తాకినప్పుడు విభిన్న స్వరాలను ఉత్పత్తి చేసే సంగీత స్తంభాలు చోళుల ధ్వని చాతుర్యాన్ని హైలైట్ చేస్తాయి. తమిళ శాసనాలు దాని చరిత్రను, ఐరావతం యొక్క పురాణంతో మరియు చోళ సమర్థనతో అనుసంధానిస్తాయి. 100 స్తంభాల హాల్ మరియు స్నాన మెట్లు దాని గొప్పతనాన్ని జోడిస్తాయి, అయినప్పటికీ 14వ శతాబ్ద ఆక్రమణల నుండి దెబ్బతిన్నది, తరువాత ఆర్కియాలాజికల్ సర్వే ఆఫ్ ఇండియా ద్వారా పునరుద్ధరించబడింది. మహా శివరాత్రి వంటి వార్షిక ఉత్సవాలు భక్తులను ఆకర్షిస్తాయి, అయితే దాని శాంతమైన వాతావరణం వారసత్వ ఔత్సాహికులను ఆకర్షిస్తుంది. కుంభకోణం నుండి 3 కి.మీ దూరంలో ఉన్న ఐరావతేశ్వర ఆలయం, తమిళనాడు యొక్క సాంస్కృతిక మరియు ఆధ్యాత్మిక వారసత్వాన్ని ప్రతిబింబిస్తుంది.</string>
+    <string name="airavatesvara_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="airavatesvara_temple_closing_hours">సాయంత్రం 6:00</string>
+    <string name="airavatesvara_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Rock Fort Temple -->
+    <string name="rock_fort_temple_name">రాక్ ఫోర్ట్ ఆలయం</string>
+    <string name="rock_fort_temple_location">తెప్పాకులం, తిరుచిరాపల్లి</string>
+    <string name="rock_fort_temple_distance">20 కి.మీ</string>
+    <string name="rock_fort_temple_description">తిరుచిరాపల్లిలోని తెప్పాకులంలో 273 అడుగుల రాతి కొండపై ఉన్న రాక్ ఫోర్ట్ ఆలయం, ఒక పురాతన కోట మరియు ఆలయ సముదాయం, ట్రిచీ యొక్క వారసత్వ చిహ్నం. 7వ శతాబ్దంలో పల్లవ మరియు చోళ సహకారాలతో నిర్మించబడిన ఇది, రెండు ప్రధాన ఆలయాలను కలిగి ఉంది: శిఖరంపై లార్డ్ గణేశుడికి అంకితమైన ఉచ్చి పిల్లయార్ ఆలయం మరియు మధ్యలో లార్డ్ శివుడికి అంకితమైన తాయుమానవర్ ఆలయం. భారీ రాతి నిర్మాణంపై నిర్మించబడిన ఈ సముదాయం, 437 రాతి మెట్లను ఎక్కడం అవసరం, నగరం మరియు కావేరీ నది యొక్క విశాల దృశ్యాలను అందిస్తుంది. పల్లవులు దీని నిర్మాణాన్ని ప్రారంభించారు, తరువాత నాయకులు దీనిని బలోపేతం చేశారు, ద్రావిడ నిర్మాణాన్ని సైనిక రూపకల్పనతో మిళితం చేశారు. సంక్లిష్టమైన చెక్కడాలు, 12 అడుగుల శివ లింగం, మరియు స్తంభాల హాల్ దాని ఆధ్యాత్మిక మరియు కళాత్మక ప్రాముఖ్యతను ప్రతిబింబిస్తాయి. గణేశ ఆలయం, విభీషణుడు ట్రిచీకి ఒక విగ్రహాన్ని బహుమతిగా ఇచ్చిన పురాణాన్ని జ్ఞాపకం చేస్తుంది. ఆర్కియాలాజికల్ సర్వే ఆఫ్ ఇండియా ద్వారా నిర్వహించబడే ఇది, చిత్తిరై తిరువిళా వంటి ఉత్సవాలను నిర్వహిస్తుంది, భక్తులు మరియు పర్యాటకులను ఆకర్షిస్తుంది. కేంద్రంగా ఉన్న ఇది, ట్రిచీ యొక్క చారిత్రక మరియు సాంస్కృతిక స్థితిస్థాపకతను సూచిస్తుంది.</string>
+    <string name="rock_fort_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="rock_fort_temple_closing_hours">రాత్రి 8:00</string>
+    <string name="rock_fort_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Gangaikonda Cholapuram Temple -->
+    <string name="gangaikonda_cholapuram_temple_name">గంగైకొండ చోళపురం ఆలయం</string>
+    <string name="gangaikonda_cholapuram_temple_location">జయంకొండం, అరియలూర్</string>
+    <string name="gangaikonda_cholapuram_temple_distance">20 కి.మీ</string>
+    <string name="gangaikonda_cholapuram_temple_description">అరియలూర్‌లోని జయంకొండంలో ఉన్న గంగైకొండ చోళపురం ఆలయం, 11వ శతాబ్దంలో రాజేంద్ర చోళ I (1012–1044 CE) ద్వారా గంగా నదిని జయించిన జ్ఞాపకార్థం నిర్మించబడిన ఒక గొప్ప చోళ స్మారకం మరియు యునెస్కో వరల్డ్ హెరిటేజ్ సైట్. లార్డ్ శివుడికి అంకితమైన ఈ ఆలయం, తంజావూర్‌లోని బృహదీశ్వర ఆలయాన్ని పోలి ఉంటుంది కానీ ప్రత్యేక లక్షణాలను కలిగి ఉంది. 20 ఎకరాల విస్తీర్ణంలో, దాని 55 మీటర్ల విమానం, చిన్నదైనప్పటికీ, శివ, నంది, మరియు ఖగోళ జీవుల స్కల్ప్చర్‌లతో సంక్లిష్టంగా చెక్కబడి, చోళ కళాత్మకతను ప్రదర్శిస్తుంది. గర్భగుడిలో 4 మీటర్ల శివ లింగం, దక్షిణ భారతదేశంలో అతిపెద్ద వాటిలో ఒకటి, మరియు దాని ముందు 9 అడుగుల నంది ఉన్నాయి. ఆలయం యొక్క పేరు, "గంగాను జయించిన చోళ" అని అర్థం, 250 సంవత్సరాల పాటు చోళ సామ్రాజ్య రాజధానిగా దాని చారిత్రక ప్రాముఖ్యతను ప్రతిబింబిస్తుంది. కాంస్య విగ్రహాలు, సింహం తల బావి, మరియు వివరణాత్మక తమిళ శాసనాలు దాని వారసత్వాన్ని సుసంపన్నం చేస్తాయి. ఆర్కియాలాజికల్ సర్వే ఆఫ్ ఇండియా ద్వారా నిర్వహించబడే ఇది, మహా శివరాత్రి వంటి ఉత్సవాలను నిర్వహిస్తుంది, అయినప్పటికీ అసలు నగరం శిథిలావస్థలో ఉంది. తంజావూర్ నుండి 70 కి.మీ దూరంలో ఉన్న ఇది, చోళ ఇంజనీరింగ్ మరియు భక్తికి సాక్ష్యంగా నిలుస్తుంది.</string>
+    <string name="gangaikonda_cholapuram_temple_opening_hours">ఉదయం 6:00</string>
+    <string name="gangaikonda_cholapuram_temple_closing_hours">సాయంత్రం 6:00</string>
+    <string name="gangaikonda_cholapuram_temple_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+    <!-- Vivekananda Rock Memorial -->
+    <string name="vivekananda_rock_memorial_name">స్వామి వివేకానంద రాక్ మెమోరియల్</string>
+    <string name="vivekananda_rock_memorial_location">వివేకానందపురం, కన్యాకుమారి</string>
+    <string name="vivekananda_rock_memorial_distance">20 కి.మీ</string>
+    <string name="vivekananda_rock_memorial_description">కన్యాకుమారిలోని వివేకానందపురం సమీపంలో, అరేబియా సముద్రంలో 500 మీటర్ల దూరంలో రాతిపై ఉన్న స్వామి వివేకానంద రాక్ మెమోరియల్, 1892లో స్వామి వివేకానందుడు ధ్యానం చేసిన స్థలంలో నిర్మించబడిన ఒక ఆకర్షణీయ స్మారకం. 1970లో ఏకనాథ్ రానడే నేతృత్వంలోని వివేకానంద రాక్ మెమోరియల్ కమిటీ ద్వారా నిర్మించబడిన ఇది, అరేబియా సముద్రం, బంగాళాఖాతం, మరియు హిందూ మహాసముద్రం సంగమంలో ధ్యానం సమయంలో ఏకమైన భారతదేశం గురించి వివేకానందుడి దృష్టిని జ్ఞాపకం చేస్తుంది. ఫెర్రీ ద్వారా చేరుకోగల ఈ స్మారకంలో రెండు ప్రధాన నిర్మాణాలు ఉన్నాయి: వివేకానంద మండపం, వివేకానందుడి కాంస్య విగ్రహంతో, మరియు శ్రీపాద మండపం, దేవత కన్యాకుమారి యొక్క పాదముద్రను సూచిస్తుంది. తమిళ మరియు బెంగాలీ నిర్మాణ శైలులను మిళితం చేసిన ఈ శాంతమైన స్థలం, అద్భుతమైన సూర్యోదయం మరియు సూర్యాస్తమయ దృశ్యాలను అందిస్తుంది. ధ్యాన హాల్ సందర్శకులకు వివేకానందుడి ఆధ్యాత్మిక వారసత్వాన్ని ప్రతిబింబిస్తూ నిశ్శబ్దంగా ఆలోచించే అవకాశాన్ని ఇస్తుంది. కన్యాకుమారి పట్టణం నుండి 14 కి.మీ దూరంలో, భారతదేశం యొక్క దక్షిణ భాగంలో ఉన్న ఈ స్మారకం, పర్యాటకులు మరియు యాత్రికులను ఆకర్షిస్తూ, తమిళనాడు యొక్క సాంస్కృతిక దృశ్యంలో ఐక్యత మరియు జ్ఞానోదయాన్ని సూచిస్తుంది.</string>
+    <string name="vivekananda_rock_memorial_opening_hours">ఉదయం 8:00</string>
+    <string name="vivekananda_rock_memorial_closing_hours">సాయంత్రం 4:00</string>
+    <string name="vivekananda_rock_memorial_operating_days">ప్రతి రోజు తెరిచి ఉంటుంది</string>
+
+</resources>
